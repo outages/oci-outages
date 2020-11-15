@@ -1,0 +1,13 @@
+{
+  "page": {
+    "id": "2bsbdh54lcgq",
+    "name": "OCI",
+    "url": "https://ocistatus.oraclecloud.com",
+    "time_zone": "America/Los_Angeles",
+    "updated_at": "2020-11-05T23:23:40.654-08:00"
+  },
+  "status": {
+    "indicator": "none",
+    "description": "All Systems Operational"
+  }
+}

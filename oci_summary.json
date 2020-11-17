@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-11-16T19:43:28.096-08:00"
+    "updated_at": "2020-11-16T20:07:46.348-08:00"
   },
   "components": [
     {
@@ -18017,7 +18017,7 @@
       "name": "Multiple services | South Korea North (Chuncheon) | Network Delays | CN-32874",
       "status": "investigating",
       "created_at": "2020-11-16T19:43:27.964-08:00",
-      "updated_at": "2020-11-16T19:43:28.093-08:00",
+      "updated_at": "2020-11-16T20:07:46.339-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -18026,13 +18026,33 @@
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
         {
+          "id": "62yz6yd7l9tl",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "zppl84cyzqxl",
+          "created_at": "2020-11-16T20:07:46.336-08:00",
+          "updated_at": "2020-11-16T20:07:46.336-08:00",
+          "display_at": "2020-11-16T20:07:46.336-08:00",
+          "affected_components": [
+            {
+              "code": "dvgggzw4w8b7",
+              "name": "Network Infrastructure - South Korea North (Chuncheon)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "vnplcxgryc5x",
           "status": "investigating",
-          "body": "We're investigating an issue with multiple services in the South Korea North (Chuncheon) region.\n\n<b>Customer Impact:</b> Customers may experience delays while accessing or using Oracle Cloud Infrastructure services.\n\n<b>Reference Number:</b> CN-32874",
+          "body": "We're investigating an issue with multiple services in the South Korea North (Chuncheon) region.\n\n<b>Customer Impact:</b> Customers may experience delays while accessing or using Oracle Cloud Infrastructure services.\n\n<b>Start Time:</b> November 17, 2020 02:22 UTC\n\n<b>Next Update by:</b> November 17, 2020 04:43 UTC\n\n<b>Reference Number:</b> CN-32874",
           "incident_id": "zppl84cyzqxl",
           "created_at": "2020-11-16T19:43:28.090-08:00",
-          "updated_at": "2020-11-16T19:43:28.090-08:00",
-          "display_at": "2020-11-16T19:43:28.090-08:00",
+          "updated_at": "2020-11-16T20:04:30.830-08:00",
+          "display_at": "2020-11-16T19:43:28.000-08:00",
           "affected_components": [
             {
               "code": "dvgggzw4w8b7",

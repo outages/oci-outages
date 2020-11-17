@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-11-16T13:23:40.124-08:00"
+    "updated_at": "2020-11-16T19:43:28.096-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "dvgggzw4w8b7",
       "name": "South Korea North (Chuncheon)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-08-31T11:09:05.003-07:00",
-      "updated_at": "2020-08-31T11:09:05.908-07:00",
+      "updated_at": "2020-11-16T19:43:28.003-08:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -7852,7 +7852,7 @@
     {
       "id": "zfhft7y50l92",
       "name": "Network Infrastructure",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-08-31T11:09:05.892-07:00",
       "updated_at": "2020-11-05T23:22:31.398-08:00",
       "position": 10,
@@ -18011,10 +18011,63 @@
       ]
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "zppl84cyzqxl",
+      "name": "Multiple services | South Korea North (Chuncheon) | Network Delays | CN-32874",
+      "status": "investigating",
+      "created_at": "2020-11-16T19:43:27.964-08:00",
+      "updated_at": "2020-11-16T19:43:28.093-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/9v9j2c24vjxf",
+      "started_at": "2020-11-16T19:43:27.943-08:00",
+      "page_id": "2bsbdh54lcgq",
+      "incident_updates": [
+        {
+          "id": "vnplcxgryc5x",
+          "status": "investigating",
+          "body": "We're investigating an issue with multiple services in the South Korea North (Chuncheon) region.\n\n<b>Customer Impact:</b> Customers may experience delays while accessing or using Oracle Cloud Infrastructure services.\n\n<b>Reference Number:</b> CN-32874",
+          "incident_id": "zppl84cyzqxl",
+          "created_at": "2020-11-16T19:43:28.090-08:00",
+          "updated_at": "2020-11-16T19:43:28.090-08:00",
+          "display_at": "2020-11-16T19:43:28.090-08:00",
+          "affected_components": [
+            {
+              "code": "dvgggzw4w8b7",
+              "name": "Network Infrastructure - South Korea North (Chuncheon)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "dvgggzw4w8b7",
+          "name": "South Korea North (Chuncheon)",
+          "status": "degraded_performance",
+          "created_at": "2020-08-31T11:09:05.003-07:00",
+          "updated_at": "2020-11-16T19:43:28.003-08:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-08-31",
+          "group_id": "zfhft7y50l92",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }

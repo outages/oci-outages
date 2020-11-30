@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-11-30T12:04:53.228-08:00"
+    "updated_at": "2020-11-30T12:23:57.195-08:00"
   },
   "components": [
     {
@@ -18017,7 +18017,7 @@
       "name": "Oracle Cloud Infrastructure Console | Multiple Regions | CN-36859",
       "status": "investigating",
       "created_at": "2020-11-30T12:04:52.636-08:00",
-      "updated_at": "2020-11-30T12:04:53.225-08:00",
+      "updated_at": "2020-11-30T12:09:36.678-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -18028,11 +18028,11 @@
         {
           "id": "qbpkb1qb8dvz",
           "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Console. \n\n<b>Customer Impact:</b> Customers may receive a “Failed to fetch” error message when attempting to perform search operations within the Console.\n\n<b>Start Time:</b> November 30, 2020 18:19 UTC\n\n<b>Reference Number:</b> CN-36859",
+          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Console. \n\n<b>Customer Impact:</b> Customers may receive a “Failed to fetch” error message when attempting to perform search operations within the Console.\n\n<b>Start Time:</b> November 30, 2020 18:56 UTC\n\n<b>Reference Number:</b> CN-36859",
           "incident_id": "r27y3jqvl0fz",
           "created_at": "2020-11-30T12:04:53.220-08:00",
-          "updated_at": "2020-11-30T12:04:53.220-08:00",
-          "display_at": "2020-11-30T12:04:53.220-08:00",
+          "updated_at": "2020-11-30T12:09:36.675-08:00",
+          "display_at": "2020-11-30T12:04:53.000-08:00",
           "affected_components": [
             {
               "code": "xx5m67j0x18c",

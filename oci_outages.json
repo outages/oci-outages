@@ -4,10 +4,10 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-12-02T20:23:38.071-08:00"
+    "updated_at": "2020-12-02T20:44:58.421-08:00"
   },
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

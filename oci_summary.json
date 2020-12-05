@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-12-02T22:06:00.380-08:00"
+    "updated_at": "2020-12-04T18:54:46.533-08:00"
   },
   "components": [
     {
@@ -15552,7 +15552,7 @@
     {
       "id": "sr2y42rkwsgk",
       "name": "Identity Cloud Service",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-05-18T13:45:34.523-07:00",
       "updated_at": "2020-11-05T23:22:31.497-08:00",
       "position": 20,
@@ -15800,9 +15800,9 @@
     {
       "id": "sxpdvl47wb8d",
       "name": "US West (Phoenix)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-05-18T13:45:53.556-07:00",
-      "updated_at": "2020-11-05T22:55:32.269-08:00",
+      "updated_at": "2020-12-04T18:51:37.589-08:00",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -18011,10 +18011,63 @@
       ]
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "088d97j6n4dd",
+      "name": "Identity Cloud Service | US West (Phoenix) | CN-38505",
+      "status": "identified",
+      "created_at": "2020-12-04T18:51:37.556-08:00",
+      "updated_at": "2020-12-04T18:54:46.531-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/rp0fkbln7qh4",
+      "started_at": "2020-12-04T18:51:37.000-08:00",
+      "page_id": "2bsbdh54lcgq",
+      "incident_updates": [
+        {
+          "id": "v7wrwn3hbbkb",
+          "status": "identified",
+          "body": "We've identified an issue affecting multi factor authentication in the US West (Phoenix) region. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers using multi factor authentication are not receiving second factor prompts after initial authentication.\n\n<b>Start Time:</b> December 5, 2020 01:15 UTC\n\n<b>Next Update by:</b> December 5, 2020 04:30 UTC\n\n<b>Reference Number:</b> CN-38505",
+          "incident_id": "088d97j6n4dd",
+          "created_at": "2020-12-04T18:51:37.680-08:00",
+          "updated_at": "2020-12-04T18:54:46.471-08:00",
+          "display_at": "2020-12-04T18:51:37.000-08:00",
+          "affected_components": [
+            {
+              "code": "sxpdvl47wb8d",
+              "name": "Identity Cloud Service - US West (Phoenix)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "sxpdvl47wb8d",
+          "name": "US West (Phoenix)",
+          "status": "degraded_performance",
+          "created_at": "2020-05-18T13:45:53.556-07:00",
+          "updated_at": "2020-12-04T18:51:37.589-08:00",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "sr2y42rkwsgk",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-12-04T20:25:22.108-08:00"
+    "updated_at": "2020-12-04T20:25:47.406-08:00"
   },
   "components": [
     {
@@ -18017,7 +18017,7 @@
       "name": "Identity Cloud Service | US West (Phoenix) | CN-38505",
       "status": "monitoring",
       "created_at": "2020-12-04T18:51:37.000-08:00",
-      "updated_at": "2020-12-04T20:25:22.105-08:00",
+      "updated_at": "2020-12-04T20:25:47.399-08:00",
       "monitoring_at": "2020-12-04T20:25:22.084-08:00",
       "resolved_at": null,
       "impact": "minor",
@@ -18048,10 +18048,10 @@
         {
           "id": "v7wrwn3hbbkb",
           "status": "identified",
-          "body": "We've identified an issue affecting multi factor authentication in the US West (Phoenix) region. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers using multi factor authentication are not receiving second factor prompts after initial authentication.\n\n<b>Start Time:</b> December 5, 2020 01:15 UTC\n\n<b>Next Update by:</b> December 5, 2020 04:30 UTC\n\n<b>Reference Number:</b> CN-38505",
+          "body": "We've identified an issue affecting multi factor authentication in the US West (Phoenix) region. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers using multi factor authentication are not receiving second factor prompts after initial authentication.\n\n<b>Start Time:</b> December 5, 2020 01:15 UTC\n\n<b>Next Update by:</b> December 5, 2020 06:30 UTC\n\n<b>Reference Number:</b> CN-38505",
           "incident_id": "088d97j6n4dd",
           "created_at": "2020-12-04T18:51:37.680-08:00",
-          "updated_at": "2020-12-04T18:54:46.471-08:00",
+          "updated_at": "2020-12-04T20:25:47.397-08:00",
           "display_at": "2020-12-04T18:51:37.000-08:00",
           "affected_components": [
             {

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-12-09T08:23:45.229-08:00"
+    "updated_at": "2020-12-09T08:53:06.895-08:00"
   },
   "components": [
     {
@@ -7927,7 +7927,7 @@
     {
       "id": "zfhft7y50l92",
       "name": "Network Infrastructure",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T11:09:05.892-07:00",
       "updated_at": "2020-11-05T23:22:31.398-08:00",
       "position": 10,
@@ -15064,9 +15064,9 @@
     {
       "id": "3syhy84rxqwk",
       "name": "US East (Ashburn)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T11:09:24.852-07:00",
-      "updated_at": "2020-12-09T07:46:04.738-08:00",
+      "updated_at": "2020-12-09T08:53:06.801-08:00",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -16055,9 +16055,9 @@
     {
       "id": "458t1p5br129",
       "name": "US West (Phoenix)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T11:09:25.888-07:00",
-      "updated_at": "2020-12-09T07:46:04.755-08:00",
+      "updated_at": "2020-12-09T08:53:06.813-08:00",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -18011,84 +18011,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "ck9ts3fc05s8",
-      "name": "Oracle Cloud Infrastructure Networking | US West (Phoenix), US East (Ashburn) | NOC-153202",
-      "status": "investigating",
-      "created_at": "2020-12-09T07:46:04.700-08:00",
-      "updated_at": "2020-12-09T07:46:04.841-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/pqny8q6wyz3m",
-      "started_at": "2020-12-09T07:46:04.675-08:00",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "v2sxtnjcp5jb",
-          "status": "investigating",
-          "body": "We’ve identified an issue with Oracle Cloud Infrastructure Networking between the US West (Phoenix) and US East (Ashburn) regions.\n\n<b>Customer Impact:</b> Customers may be experiencing intermittent latency, connectivity, or replication issues with Oracle Cloud Infrastructure services and resources that depend on inter-connectivity between these regions.\n\n<b>Start Time: </b>  December 09, 2020 14:00 UTC\n\n<b>Preliminary Root Cause:</b>  Network infrastructure that facilitates inter-regional connectivity between the US East (Ashburn) and US West (Phoenix) regions is experiencing an unexpected spike in traffic, which may result in network link saturation causing latency and connectivity issues between resources in these regions.\n\n<b>Next Update:</b>  60 mins\n\nRef: NOC-153202",
-          "incident_id": "ck9ts3fc05s8",
-          "created_at": "2020-12-09T07:46:04.839-08:00",
-          "updated_at": "2020-12-09T07:46:04.839-08:00",
-          "display_at": "2020-12-09T07:46:04.839-08:00",
-          "affected_components": [
-            {
-              "code": "3syhy84rxqwk",
-              "name": "Network Infrastructure - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "458t1p5br129",
-              "name": "Network Infrastructure - US West (Phoenix)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "458t1p5br129",
-          "name": "US West (Phoenix)",
-          "status": "degraded_performance",
-          "created_at": "2020-08-31T11:09:25.888-07:00",
-          "updated_at": "2020-12-09T07:46:04.755-08:00",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "zfhft7y50l92",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3syhy84rxqwk",
-          "name": "US East (Ashburn)",
-          "status": "degraded_performance",
-          "created_at": "2020-08-31T11:09:24.852-07:00",
-          "updated_at": "2020-12-09T07:46:04.738-08:00",
-          "position": 19,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "zfhft7y50l92",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

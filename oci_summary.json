@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-12-11T14:23:41.550-08:00"
+    "updated_at": "2020-12-11T14:27:56.257-08:00"
   },
   "components": [
     {
@@ -18017,22 +18017,22 @@
       "name": "Oracle Cloud Infrastructure Console | Multiple Regions | CN-40862",
       "status": "investigating",
       "created_at": "2020-12-11T14:09:55.995-08:00",
-      "updated_at": "2020-12-11T14:09:56.423-08:00",
+      "updated_at": "2020-12-11T14:27:56.247-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/7vmr2365lq76",
-      "started_at": "2020-12-11T14:09:55.949-08:00",
+      "started_at": "2020-12-11T14:09:56.000-08:00",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
         {
           "id": "d4kglhczfdh5",
           "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Console in multiple regions. \n\n<b>Customer Impact:</b> Customers attempting to access Oracle Cloud Infrastructure through cloud.oracle.com or oracle.com may receive the error message \"Error loading page\".\n\n<b>Start Time:</b> December 11, 2020 21:28 UTC\n\n<b>Reference Number:</b> CN-40862",
+          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Console in multiple regions. \n\n<b>Customer Impact:</b> Customers attempting to access Oracle Cloud Infrastructure through cloud.oracle.com or oracle.com may receive the error message \"Error loading page\". Customers already signed in to the Console are not impacted by this issue. \n\nAs a workaround, customers are able to access the Console using a regional URL.\n\n<b>Start Time:</b> December 11, 2020 21:28 UTC\n\n<b>Reference Number:</b> CN-40862",
           "incident_id": "dcd4z8bjvf7l",
           "created_at": "2020-12-11T14:09:56.421-08:00",
-          "updated_at": "2020-12-11T14:09:56.421-08:00",
-          "display_at": "2020-12-11T14:09:56.421-08:00",
+          "updated_at": "2020-12-11T14:27:56.244-08:00",
+          "display_at": "2020-12-11T14:09:56.000-08:00",
           "affected_components": [
             {
               "code": "xx5m67j0x18c",

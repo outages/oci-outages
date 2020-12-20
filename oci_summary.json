@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-20T22:23:34.432Z"
+    "updated_at": "2020-12-20T22:40:28.618Z"
   },
   "components": [
     {
@@ -17726,10 +17726,10 @@
       "name": "Oracle Cloud Infrastructure Console | Multiple Regions | CN-46670",
       "status": "investigating",
       "created_at": "2020-12-20T21:39:01.800Z",
-      "updated_at": "2020-12-20T22:17:04.108Z",
+      "updated_at": "2020-12-20T22:40:28.615Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "major",
+      "impact": "minor",
       "shortlink": "https://stspg.io/zf8qhl0wfbw5",
       "started_at": "2020-12-20T21:39:01.739Z",
       "page_id": "2bsbdh54lcgq",

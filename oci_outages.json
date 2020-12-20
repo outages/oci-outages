@@ -4,10 +4,10 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-20T21:44:54.183Z"
+    "updated_at": "2020-12-20T22:23:34.432Z"
   },
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }

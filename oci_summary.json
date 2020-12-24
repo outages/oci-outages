@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2020-12-24T21:24:07.075Z"
+    "updated_at": "2020-12-24T21:37:04.718Z"
   },
   "components": [
     {
@@ -8023,7 +8023,7 @@
     {
       "id": "f5ppqjqjq0sf",
       "name": "Networking - Virtual Cloud Networks",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-09T19:45:58.359Z",
       "updated_at": "2020-11-06T07:22:31.408Z",
       "position": 11,
@@ -14275,7 +14275,7 @@
     {
       "id": "zqf5v0ykx3lk",
       "name": "Identity",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-09T19:44:24.854Z",
       "updated_at": "2020-11-06T07:22:31.488Z",
       "position": 19,
@@ -14569,9 +14569,9 @@
     {
       "id": "1t8kwz3bvhl5",
       "name": "us-ashburn-1 region",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-08-11T17:17:34.529Z",
-      "updated_at": "2020-12-24T21:13:07.017Z",
+      "updated_at": "2020-12-24T21:37:04.612Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14968,9 +14968,9 @@
     {
       "id": "qkkvb0kx7528",
       "name": "us-ashburn-1 region",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-08-08T15:50:13.701Z",
-      "updated_at": "2020-12-24T21:13:07.032Z",
+      "updated_at": "2020-12-24T21:37:04.627Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -16514,16 +16514,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "zzsx7kp2vnj9",
+      "id": "j81bt3lgrbmb",
       "name": "US West (San Jose)",
       "status": "operational",
-      "created_at": "2020-07-26T23:19:59.766Z",
-      "updated_at": "2020-12-14T23:48:22.331Z",
+      "created_at": "2020-07-26T23:19:35.970Z",
+      "updated_at": "2020-12-14T23:46:49.392Z",
       "position": 22,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "mpknxhzlyvrc",
+      "group_id": "r6jhxgxtxm2h",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -16544,16 +16544,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "j81bt3lgrbmb",
+      "id": "zzsx7kp2vnj9",
       "name": "US West (San Jose)",
       "status": "operational",
-      "created_at": "2020-07-26T23:19:35.970Z",
-      "updated_at": "2020-12-14T23:46:49.392Z",
+      "created_at": "2020-07-26T23:19:59.766Z",
+      "updated_at": "2020-12-14T23:48:22.331Z",
       "position": 22,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "r6jhxgxtxm2h",
+      "group_id": "mpknxhzlyvrc",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -17720,84 +17720,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "7b21qmcwx75v",
-      "name": "Oracle Cloud Infrastructure Identity and Access Management (IAM) | US East (Ashburn) | CN-49820",
-      "status": "identified",
-      "created_at": "2020-12-24T21:13:06.988Z",
-      "updated_at": "2020-12-24T21:13:07.115Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/f470mqjxqm2l",
-      "started_at": "2020-12-24T21:13:06.978Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "m3n7jflxj00l",
-          "status": "identified",
-          "body": "We've identified an issue affecting Oracle Cloud Infrastructure Identity and Access Management (IAM) in the US East (Ashburn) region. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers may experience delays when attempting to access or manage services that rely on calls to the Identity service, including but not limited to viewing VCN Flow Log data.\n\n<b>Start Time:</b> December 24, 2020 21:12 UTC\n\n<b>Reference Number:</b> CN-49820",
-          "incident_id": "7b21qmcwx75v",
-          "created_at": "2020-12-24T21:13:07.113Z",
-          "updated_at": "2020-12-24T21:13:07.113Z",
-          "display_at": "2020-12-24T21:13:07.113Z",
-          "affected_components": [
-            {
-              "code": "qkkvb0kx7528",
-              "name": "Identity - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "1t8kwz3bvhl5",
-              "name": "Networking - Virtual Cloud Networks - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "qkkvb0kx7528",
-          "name": "us-ashburn-1 region",
-          "status": "degraded_performance",
-          "created_at": "2017-08-08T15:50:13.701Z",
-          "updated_at": "2020-12-24T21:13:07.032Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "zqf5v0ykx3lk",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "1t8kwz3bvhl5",
-          "name": "us-ashburn-1 region",
-          "status": "degraded_performance",
-          "created_at": "2017-08-11T17:17:34.529Z",
-          "updated_at": "2020-12-24T21:13:07.017Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "f5ppqjqjq0sf",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

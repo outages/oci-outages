@@ -4,10 +4,10 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-01-16T08:13:17.059Z"
+    "updated_at": "2021-01-18T05:23:34.971Z"
   },
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }

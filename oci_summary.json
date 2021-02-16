@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-02-16T02:46:35.215Z"
+    "updated_at": "2021-02-16T03:40:25.682Z"
   },
   "components": [
     {
@@ -604,9 +604,9 @@
     {
       "id": "qbv92zhrlnlq",
       "name": "South Korea North (Chuncheon)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-06-03T22:05:56.419Z",
-      "updated_at": "2021-02-16T02:46:34.778Z",
+      "updated_at": "2021-02-16T03:39:12.488Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -1474,9 +1474,9 @@
     {
       "id": "glpsc055f5yv",
       "name": "India South (Hyderabad)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-05-11T18:35:09.905Z",
-      "updated_at": "2021-02-16T02:46:34.802Z",
+      "updated_at": "2021-02-16T03:39:12.522Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -2044,9 +2044,9 @@
     {
       "id": "qmdcqffxncjj",
       "name": "Australia Southeast (Melbourne)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-02-01T02:24:34.796Z",
-      "updated_at": "2021-02-16T02:46:34.815Z",
+      "updated_at": "2021-02-16T03:39:12.538Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -2689,9 +2689,9 @@
     {
       "id": "q6hfsf8p35b7",
       "name": "ap-mumbai-1",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-07-26T19:50:40.945Z",
-      "updated_at": "2021-02-16T02:46:34.830Z",
+      "updated_at": "2021-02-16T03:39:12.554Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -3598,9 +3598,9 @@
     {
       "id": "9sxcmzgj1c3h",
       "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-02-01T02:25:36.499Z",
-      "updated_at": "2021-02-16T02:46:34.843Z",
+      "updated_at": "2021-02-16T03:39:12.570Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -4417,9 +4417,9 @@
     {
       "id": "9msccrkp0w0h",
       "name": "ap-seoul-1",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-21T17:25:46.623Z",
-      "updated_at": "2021-02-16T02:46:34.854Z",
+      "updated_at": "2021-02-16T03:39:12.586Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -4462,9 +4462,9 @@
     {
       "id": "fdyb3dcxfdqv",
       "name": "Australia East (Sydney)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-09-18T17:08:46.591Z",
-      "updated_at": "2021-02-16T02:46:34.866Z",
+      "updated_at": "2021-02-16T03:39:12.602Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -5860,9 +5860,9 @@
     {
       "id": "v5mql5zfgtxn",
       "name": "ap-tokyo-1",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-03T16:55:39.316Z",
-      "updated_at": "2021-02-16T02:46:34.879Z",
+      "updated_at": "2021-02-16T03:39:12.618Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -6289,9 +6289,9 @@
     {
       "id": "0vfqnj7wc61m",
       "name": "Canada Southeast (Montreal)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-03-02T19:34:42.638Z",
-      "updated_at": "2021-02-16T02:46:34.891Z",
+      "updated_at": "2021-02-16T03:39:12.635Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -7204,9 +7204,9 @@
     {
       "id": "53xy8nnv6hkn",
       "name": "ca-toronto-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-17T16:28:16.560Z",
-      "updated_at": "2021-02-16T02:46:34.901Z",
+      "updated_at": "2021-02-16T03:39:12.651Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -7498,9 +7498,9 @@
     {
       "id": "fzj60k92c4bt",
       "name": "Netherlands Northwest (Amsterdam)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-02-01T02:26:38.389Z",
-      "updated_at": "2021-02-16T02:46:34.914Z",
+      "updated_at": "2021-02-16T03:39:12.670Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -8836,9 +8836,9 @@
     {
       "id": "sgrslfg8pxgr",
       "name": "eu-frankfurt-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-12-05T21:05:39.917Z",
-      "updated_at": "2021-02-16T02:46:34.925Z",
+      "updated_at": "2021-02-16T03:39:12.685Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -9016,9 +9016,9 @@
     {
       "id": "vkx4l5jmy2k4",
       "name": "eu-zurich-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-08-09T17:55:07.478Z",
-      "updated_at": "2021-02-16T02:46:34.939Z",
+      "updated_at": "2021-02-16T03:39:12.701Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -10015,9 +10015,9 @@
     {
       "id": "31rbxm09xrtz",
       "name": "UAE East (Dubai)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-30T23:13:04.109Z",
-      "updated_at": "2021-02-16T02:46:34.951Z",
+      "updated_at": "2021-02-16T03:39:12.719Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -11248,9 +11248,9 @@
     {
       "id": "5l8n6rlw4tf7",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-02-01T02:27:40.109Z",
-      "updated_at": "2021-02-16T02:46:34.963Z",
+      "updated_at": "2021-02-16T03:39:12.734Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -11848,9 +11848,9 @@
     {
       "id": "83chzfvwjh14",
       "name": "Chile Central (Santiago)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-12-14T23:42:44.431Z",
-      "updated_at": "2021-02-16T02:46:34.976Z",
+      "updated_at": "2021-02-16T03:39:12.749Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -12037,9 +12037,9 @@
     {
       "id": "skr6x8hm1wpb",
       "name": "sa-saopaulo-1",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-08-28T20:00:24.614Z",
-      "updated_at": "2021-02-16T02:46:34.988Z",
+      "updated_at": "2021-02-16T03:39:12.764Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -13495,9 +13495,9 @@
     {
       "id": "jgvhp9sxf6bl",
       "name": "UK West (Cardiff)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T06:42:38.250Z",
-      "updated_at": "2021-02-16T02:46:35.000Z",
+      "updated_at": "2021-02-16T03:39:12.779Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -13675,9 +13675,9 @@
     {
       "id": "rmg8t1mv061l",
       "name": "uk-london-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-04-05T17:50:29.523Z",
-      "updated_at": "2021-02-16T02:46:35.012Z",
+      "updated_at": "2021-02-16T03:39:12.796Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -14644,9 +14644,9 @@
     {
       "id": "fz76q4wdqpny",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-12-05T21:04:41.283Z",
-      "updated_at": "2021-02-16T02:46:35.045Z",
+      "updated_at": "2021-02-16T03:39:12.813Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -15802,9 +15802,9 @@
     {
       "id": "mvmhlt5nxw8s",
       "name": "us-phoenix-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-12-05T21:03:14.605Z",
-      "updated_at": "2021-02-16T02:46:35.057Z",
+      "updated_at": "2021-02-16T03:39:12.830Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -16162,7 +16162,7 @@
     {
       "id": "5hpsy50kv8qp",
       "name": "Edge Services - DNS Zone Management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:18:39.539Z",
       "updated_at": "2020-11-06T07:22:31.515Z",
       "position": 22,
@@ -16516,9 +16516,9 @@
     {
       "id": "wjvzll8xw44d",
       "name": "US West (San Jose)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-07-26T23:19:49.321Z",
-      "updated_at": "2021-02-16T02:46:35.071Z",
+      "updated_at": "2021-02-16T03:39:12.846Z",
       "position": 22,
       "description": null,
       "showcase": false,
@@ -17720,504 +17720,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "tht22kphb4dh",
-      "name": "Oracle Cloud Infrastructure DNS | Multiple Regions | CN-67767",
-      "status": "identified",
-      "created_at": "2021-02-16T02:46:34.709Z",
-      "updated_at": "2021-02-16T02:46:35.212Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/xzw7k5lpk6mq",
-      "started_at": "2021-02-16T02:46:34.653Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "z11pnc5r43y1",
-          "status": "identified",
-          "body": "We've identified an issue affecting Oracle Cloud Infrastructure DNS. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers depending on Health Checks for traffic management may experience DNS connection issues and may be unable to access or use Oracle Cloud Infrastructure DNS features.\n\n<b>Start Time:</b> February 13, 2021 19:36 UTC\n\n<b>Reference Number:</b> CN-67767",
-          "incident_id": "tht22kphb4dh",
-          "created_at": "2021-02-16T02:46:35.209Z",
-          "updated_at": "2021-02-16T02:46:35.209Z",
-          "display_at": "2021-02-16T02:46:35.209Z",
-          "affected_components": [
-            {
-              "code": "qbv92zhrlnlq",
-              "name": "Edge Services - DNS Zone Management - South Korea North (Chuncheon)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "glpsc055f5yv",
-              "name": "Edge Services - DNS Zone Management - India South (Hyderabad)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "qmdcqffxncjj",
-              "name": "Edge Services - DNS Zone Management - Australia Southeast (Melbourne)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "q6hfsf8p35b7",
-              "name": "Edge Services - DNS Zone Management - ap-mumbai-1",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "9sxcmzgj1c3h",
-              "name": "Edge Services - DNS Zone Management - Japan Central (Osaka)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "9msccrkp0w0h",
-              "name": "Edge Services - DNS Zone Management - ap-seoul-1",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "fdyb3dcxfdqv",
-              "name": "Edge Services - DNS Zone Management - Australia East (Sydney)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "v5mql5zfgtxn",
-              "name": "Edge Services - DNS Zone Management - ap-tokyo-1",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "0vfqnj7wc61m",
-              "name": "Edge Services - DNS Zone Management - Canada Southeast (Montreal)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "53xy8nnv6hkn",
-              "name": "Edge Services - DNS Zone Management - ca-toronto-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "fzj60k92c4bt",
-              "name": "Edge Services - DNS Zone Management - Netherlands Northwest (Amsterdam)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "sgrslfg8pxgr",
-              "name": "Edge Services - DNS Zone Management - eu-frankfurt-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "vkx4l5jmy2k4",
-              "name": "Edge Services - DNS Zone Management - eu-zurich-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "31rbxm09xrtz",
-              "name": "Edge Services - DNS Zone Management - UAE East (Dubai)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "5l8n6rlw4tf7",
-              "name": "Edge Services - DNS Zone Management - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "83chzfvwjh14",
-              "name": "Edge Services - DNS Zone Management - Chile Central (Santiago)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "skr6x8hm1wpb",
-              "name": "Edge Services - DNS Zone Management - sa-saopaulo-1",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "jgvhp9sxf6bl",
-              "name": "Edge Services - DNS Zone Management - UK West (Cardiff)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "rmg8t1mv061l",
-              "name": "Edge Services - DNS Zone Management - uk-london-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "fz76q4wdqpny",
-              "name": "Edge Services - DNS Zone Management - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "mvmhlt5nxw8s",
-              "name": "Edge Services - DNS Zone Management - us-phoenix-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "wjvzll8xw44d",
-              "name": "Edge Services - DNS Zone Management - US West (San Jose)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "wjvzll8xw44d",
-          "name": "US West (San Jose)",
-          "status": "partial_outage",
-          "created_at": "2020-07-26T23:19:49.321Z",
-          "updated_at": "2021-02-16T02:46:35.071Z",
-          "position": 22,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "mvmhlt5nxw8s",
-          "name": "us-phoenix-1 region",
-          "status": "partial_outage",
-          "created_at": "2017-12-05T21:03:14.605Z",
-          "updated_at": "2021-02-16T02:46:35.057Z",
-          "position": 21,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fz76q4wdqpny",
-          "name": "us-ashburn-1 region",
-          "status": "partial_outage",
-          "created_at": "2017-12-05T21:04:41.283Z",
-          "updated_at": "2021-02-16T02:46:35.045Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "rmg8t1mv061l",
-          "name": "uk-london-1 region",
-          "status": "partial_outage",
-          "created_at": "2018-04-05T17:50:29.523Z",
-          "updated_at": "2021-02-16T02:46:35.012Z",
-          "position": 19,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jgvhp9sxf6bl",
-          "name": "UK West (Cardiff)",
-          "status": "partial_outage",
-          "created_at": "2020-11-06T06:42:38.250Z",
-          "updated_at": "2021-02-16T02:46:35.000Z",
-          "position": 18,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-11-05",
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "skr6x8hm1wpb",
-          "name": "sa-saopaulo-1",
-          "status": "partial_outage",
-          "created_at": "2019-08-28T20:00:24.614Z",
-          "updated_at": "2021-02-16T02:46:34.988Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "83chzfvwjh14",
-          "name": "Chile Central (Santiago)",
-          "status": "partial_outage",
-          "created_at": "2020-12-14T23:42:44.431Z",
-          "updated_at": "2021-02-16T02:46:34.976Z",
-          "position": 16,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-14",
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "5l8n6rlw4tf7",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "partial_outage",
-          "created_at": "2020-02-01T02:27:40.109Z",
-          "updated_at": "2021-02-16T02:46:34.963Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "31rbxm09xrtz",
-          "name": "UAE East (Dubai)",
-          "status": "partial_outage",
-          "created_at": "2020-09-30T23:13:04.109Z",
-          "updated_at": "2021-02-16T02:46:34.951Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-09-30",
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "vkx4l5jmy2k4",
-          "name": "eu-zurich-1 region",
-          "status": "partial_outage",
-          "created_at": "2019-08-09T17:55:07.478Z",
-          "updated_at": "2021-02-16T02:46:34.939Z",
-          "position": 13,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "sgrslfg8pxgr",
-          "name": "eu-frankfurt-1 region",
-          "status": "partial_outage",
-          "created_at": "2017-12-05T21:05:39.917Z",
-          "updated_at": "2021-02-16T02:46:34.925Z",
-          "position": 12,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fzj60k92c4bt",
-          "name": "Netherlands Northwest (Amsterdam)",
-          "status": "partial_outage",
-          "created_at": "2020-02-01T02:26:38.389Z",
-          "updated_at": "2021-02-16T02:46:34.914Z",
-          "position": 11,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "53xy8nnv6hkn",
-          "name": "ca-toronto-1 region",
-          "status": "partial_outage",
-          "created_at": "2019-01-17T16:28:16.560Z",
-          "updated_at": "2021-02-16T02:46:34.901Z",
-          "position": 10,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0vfqnj7wc61m",
-          "name": "Canada Southeast (Montreal)",
-          "status": "partial_outage",
-          "created_at": "2020-03-02T19:34:42.638Z",
-          "updated_at": "2021-02-16T02:46:34.891Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "v5mql5zfgtxn",
-          "name": "ap-tokyo-1",
-          "status": "partial_outage",
-          "created_at": "2019-05-03T16:55:39.316Z",
-          "updated_at": "2021-02-16T02:46:34.879Z",
-          "position": 8,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "fdyb3dcxfdqv",
-          "name": "Australia East (Sydney)",
-          "status": "partial_outage",
-          "created_at": "2019-09-18T17:08:46.591Z",
-          "updated_at": "2021-02-16T02:46:34.866Z",
-          "position": 7,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "9msccrkp0w0h",
-          "name": "ap-seoul-1",
-          "status": "partial_outage",
-          "created_at": "2019-05-21T17:25:46.623Z",
-          "updated_at": "2021-02-16T02:46:34.854Z",
-          "position": 6,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "9sxcmzgj1c3h",
-          "name": "Japan Central (Osaka)",
-          "status": "partial_outage",
-          "created_at": "2020-02-01T02:25:36.499Z",
-          "updated_at": "2021-02-16T02:46:34.843Z",
-          "position": 5,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "q6hfsf8p35b7",
-          "name": "ap-mumbai-1",
-          "status": "partial_outage",
-          "created_at": "2019-07-26T19:50:40.945Z",
-          "updated_at": "2021-02-16T02:46:34.830Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qmdcqffxncjj",
-          "name": "Australia Southeast (Melbourne)",
-          "status": "partial_outage",
-          "created_at": "2020-02-01T02:24:34.796Z",
-          "updated_at": "2021-02-16T02:46:34.815Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "glpsc055f5yv",
-          "name": "India South (Hyderabad)",
-          "status": "partial_outage",
-          "created_at": "2020-05-11T18:35:09.905Z",
-          "updated_at": "2021-02-16T02:46:34.802Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qbv92zhrlnlq",
-          "name": "South Korea North (Chuncheon)",
-          "status": "partial_outage",
-          "created_at": "2020-06-03T22:05:56.419Z",
-          "updated_at": "2021-02-16T02:46:34.778Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "5hpsy50kv8qp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-02T21:41:38.134Z"
+    "updated_at": "2021-03-02T21:44:14.506Z"
   },
   "components": [
     {
@@ -17726,22 +17726,22 @@
       "name": "Networking | US West (Phoenix) | CN-73347",
       "status": "investigating",
       "created_at": "2021-03-02T20:47:08.214Z",
-      "updated_at": "2021-03-02T20:47:08.320Z",
+      "updated_at": "2021-03-02T21:44:14.503Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/2jlxgwmn8qlv",
-      "started_at": "2021-03-02T20:47:08.198Z",
+      "started_at": "2021-03-02T20:47:08.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
         {
           "id": "k5y1z7fhbrmx",
           "status": "investigating",
-          "body": "We're investigating an issue with Oracle Cloud Infrastructure Networking in the US West (Phoenix) region.\n\n<b>Customer Impact:</b> Customers may be unable to access or use Oracle Cloud Infrastructure Networking features.\n\n<b>Start Time:</b> March 2, 2021 20:00 UTC\n\n<b>Reference Number:</b> CN-73347",
+          "body": "We're investigating an issue with Oracle Cloud Infrastructure Networking in the US West (Phoenix) region.\n\n<b>Customer Impact:</b> Customers may have been unable to access or use Oracle Cloud Infrastructure Networking features.\n\n<b>Start Time:</b> March 2, 2021 20:00 UTC\n\n<b>End Time:</b> March 2, 2021 21:09 UTC\n\n<b>Reference Number:</b> CN-73347",
           "incident_id": "nyy1qjfq0c8z",
           "created_at": "2021-03-02T20:47:08.317Z",
-          "updated_at": "2021-03-02T20:47:08.317Z",
-          "display_at": "2021-03-02T20:47:08.317Z",
+          "updated_at": "2021-03-02T21:44:14.436Z",
+          "display_at": "2021-03-02T20:47:08.000Z",
           "affected_components": [
             {
               "code": "458t1p5br129",

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-13T14:42:32.672Z"
+    "updated_at": "2021-03-13T15:10:40.611Z"
   },
   "components": [
     {
@@ -17720,37 +17720,7 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "fjwph23pybl1",
-      "name": "Oracle Cloud Infrastructure Account Management & Billing | Non-regional Service | CN-75055",
-      "status": "identified",
-      "created_at": "2021-03-13T14:38:11.356Z",
-      "updated_at": "2021-03-13T14:42:32.669Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/vtxll925f98g",
-      "started_at": "2021-03-13T14:38:11.348Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "glry1zrnd044",
-          "status": "identified",
-          "body": "We've identified an issue affecting the sign up process for free or trial tier customers. Our engineering team are aware of the issue and are actively working towards mitigation. An update will be provided as more information becomes available.",
-          "incident_id": "fjwph23pybl1",
-          "created_at": "2021-03-13T14:38:11.443Z",
-          "updated_at": "2021-03-13T14:38:11.443Z",
-          "display_at": "2021-03-13T14:38:11.443Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",

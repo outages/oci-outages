@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-03-16T08:23:36.301Z"
+    "updated_at": "2021-03-16T09:28:34.545Z"
   },
   "components": [
     {
@@ -14893,9 +14893,9 @@
     {
       "id": "z1gy5yjm6bv5",
       "name": "us-ashburn-1 region",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-20T19:56:50.804Z",
-      "updated_at": "2021-03-16T08:18:08.939Z",
+      "updated_at": "2021-03-16T09:28:34.467Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -16942,7 +16942,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2020-11-06T07:22:31.611Z",
       "position": 32,
@@ -17720,63 +17720,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "m19rqx3q5nlm",
-      "name": "Oracle Cloud Infrastructure Console | US East (Ashburn) | CN-75303",
-      "status": "identified",
-      "created_at": "2021-03-16T08:18:08.910Z",
-      "updated_at": "2021-03-16T08:18:09.035Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/j1fmgb9bcq3n",
-      "started_at": "2021-03-16T08:18:08.904Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "vr60pzwgzbsd",
-          "status": "identified",
-          "body": "We've identified an issue affecting Oracle Cloud Infrastructure Console in the US East (Ashburn) region. We are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers may receive intermittent 504 errors when navigating the console in this region.\n\n<b>Start Time:</b> March 16, 2021 04:19 UTC\n\n<b>Reference Number:</b> CN-75303",
-          "incident_id": "m19rqx3q5nlm",
-          "created_at": "2021-03-16T08:18:09.033Z",
-          "updated_at": "2021-03-16T08:18:09.033Z",
-          "display_at": "2021-03-16T08:18:09.033Z",
-          "affected_components": [
-            {
-              "code": "z1gy5yjm6bv5",
-              "name": "Console - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "z1gy5yjm6bv5",
-          "name": "us-ashburn-1 region",
-          "status": "degraded_performance",
-          "created_at": "2019-02-20T19:56:50.804Z",
-          "updated_at": "2021-03-16T08:18:08.939Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-05T18:23:41.612Z"
+    "updated_at": "2021-04-05T19:20:41.466Z"
   },
   "components": [
     {
@@ -17720,37 +17720,7 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "msldbm8zvlzq",
-      "name": "Oracle Cloud Infrastructure Database | Switzerland North (Zurich) | CN-78087",
-      "status": "investigating",
-      "created_at": "2021-04-05T17:57:40.325Z",
-      "updated_at": "2021-04-05T17:58:03.310Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/xmlt919l9yq4",
-      "started_at": "2021-04-05T17:57:40.319Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "32c2fj8n3klh",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Database in the Switzerland North (Zurich) region.\n\nCustomer Impact: Customers may be unable to perform database service management operations.",
-          "incident_id": "msldbm8zvlzq",
-          "created_at": "2021-04-05T17:57:40.412Z",
-          "updated_at": "2021-04-05T17:57:40.412Z",
-          "display_at": "2021-04-05T17:57:40.412Z",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": []
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",

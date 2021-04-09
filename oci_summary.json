@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-09T21:23:45.654Z"
+    "updated_at": "2021-04-09T21:55:00.422Z"
   },
   "components": [
     {
@@ -14329,9 +14329,9 @@
     {
       "id": "z1gy5yjm6bv5",
       "name": "us-ashburn-1 region",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2019-02-20T19:56:50.804Z",
-      "updated_at": "2021-04-09T21:14:31.184Z",
+      "updated_at": "2021-04-09T21:55:00.337Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -16942,7 +16942,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2020-11-06T07:22:31.611Z",
       "position": 32,
@@ -17726,7 +17726,7 @@
       "name": "Console | US East (Ashburn) | CN-79048",
       "status": "investigating",
       "created_at": "2021-04-09T21:14:31.144Z",
-      "updated_at": "2021-04-09T21:18:04.892Z",
+      "updated_at": "2021-04-09T21:55:00.415Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -17734,6 +17734,26 @@
       "started_at": "2021-04-09T21:14:31.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "stnhs16qd0t8",
+          "status": "investigating",
+          "body": "Engineers are continuing to investigate the root cause of this issue. Users may work around the issue by retrying access to the console or utilizing an alternate endpoint.\n\n<b>Customer Impact:</b> Users may experience intermittent timeout errors when attempting to authenticate and load the Oracle Cloud Infrastructure Console.\n\n<b>Start Time:</b> April 9, 2021 20:35 UTC\n\n<b>Reference Number:</b> CN-79048",
+          "incident_id": "fp76r5r0ssdp",
+          "created_at": "2021-04-09T21:55:00.412Z",
+          "updated_at": "2021-04-09T21:55:00.412Z",
+          "display_at": "2021-04-09T21:55:00.412Z",
+          "affected_components": [
+            {
+              "code": "z1gy5yjm6bv5",
+              "name": "Console - us-ashburn-1 region",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "20kctf8p98x9",
           "status": "investigating",
@@ -17759,9 +17779,9 @@
         {
           "id": "z1gy5yjm6bv5",
           "name": "us-ashburn-1 region",
-          "status": "major_outage",
+          "status": "partial_outage",
           "created_at": "2019-02-20T19:56:50.804Z",
-          "updated_at": "2021-04-09T21:14:31.184Z",
+          "updated_at": "2021-04-09T21:55:00.337Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17776,7 +17796,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-28T03:59:52.225Z"
+    "updated_at": "2021-04-28T04:23:26.713Z"
   },
   "components": [
     {
@@ -14893,9 +14893,9 @@
     {
       "id": "plwgpp9t87kl",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-21T22:20:09.141Z",
-      "updated_at": "2021-04-28T03:09:04.524Z",
+      "updated_at": "2021-04-28T04:23:26.633Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -15013,9 +15013,9 @@
     {
       "id": "h2tqbt6p7nk2",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-21T22:03:18.084Z",
-      "updated_at": "2021-04-28T03:07:53.332Z",
+      "updated_at": "2021-04-28T04:23:26.595Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -17059,7 +17059,7 @@
     {
       "id": "xcnwmf7ck4ff",
       "name": "Notifications",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-21T21:59:18.366Z",
       "updated_at": "2020-11-06T07:22:31.641Z",
       "position": 35,
@@ -17098,7 +17098,7 @@
     {
       "id": "cl1tm8pr1mcr",
       "name": "Streaming",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-21T22:17:11.213Z",
       "updated_at": "2020-11-06T07:22:31.651Z",
       "position": 36,
@@ -17720,136 +17720,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "yzfszxj0h7b4",
-      "name": "Multiple Services | US East (Ashburn) | CN-82430",
-      "status": "identified",
-      "created_at": "2021-04-28T03:07:53.302Z",
-      "updated_at": "2021-04-28T03:59:52.217Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/4k2ktnvvtvqc",
-      "started_at": "2021-04-28T03:07:53.000Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "xhxrkvvm75ct",
-          "status": "identified",
-          "body": "Update: Engineers have identified a potential root cause and are have begun deploying a mitigation for the impact.\n\nCustomer Impact: Customers may experience errors or timeouts when attempting to use multiple services in the region, including the Event Service, Streaming, Oracle Notification Service, and VCN Flow Logs.",
-          "incident_id": "yzfszxj0h7b4",
-          "created_at": "2021-04-28T03:59:52.214Z",
-          "updated_at": "2021-04-28T03:59:52.214Z",
-          "display_at": "2021-04-28T03:59:52.214Z",
-          "affected_components": [
-            {
-              "code": "h2tqbt6p7nk2",
-              "name": "Notifications - us-ashburn-1 region",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "plwgpp9t87kl",
-              "name": "Streaming - us-ashburn-1 region",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "ssp2k0rts17f",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "yzfszxj0h7b4",
-          "created_at": "2021-04-28T03:09:04.598Z",
-          "updated_at": "2021-04-28T03:09:04.598Z",
-          "display_at": "2021-04-28T03:09:04.598Z",
-          "affected_components": [
-            {
-              "code": "h2tqbt6p7nk2",
-              "name": "Notifications - us-ashburn-1 region",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "plwgpp9t87kl",
-              "name": "Streaming - us-ashburn-1 region",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "xvy48tf8lpb2",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Streaming Infrastructure. \n\n<b>Customer Impact:</b> Customers may experience delayed delivery of streaming events, failed event notifications or 500 errors when attempting to manage these services.\n\n<b>Reference Number:</b> CN-84230",
-          "incident_id": "yzfszxj0h7b4",
-          "created_at": "2021-04-28T03:07:53.418Z",
-          "updated_at": "2021-04-28T03:44:56.172Z",
-          "display_at": "2021-04-28T03:07:53.000Z",
-          "affected_components": [
-            {
-              "code": "h2tqbt6p7nk2",
-              "name": "Notifications - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "plwgpp9t87kl",
-              "name": "Streaming - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "plwgpp9t87kl",
-          "name": "us-ashburn-1 region",
-          "status": "partial_outage",
-          "created_at": "2019-05-21T22:20:09.141Z",
-          "updated_at": "2021-04-28T03:09:04.524Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "cl1tm8pr1mcr",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "h2tqbt6p7nk2",
-          "name": "us-ashburn-1 region",
-          "status": "partial_outage",
-          "created_at": "2019-05-21T22:03:18.084Z",
-          "updated_at": "2021-04-28T03:07:53.332Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "xcnwmf7ck4ff",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

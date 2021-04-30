@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-04-30T20:23:49.156Z"
+    "updated_at": "2021-04-30T20:30:29.577Z"
   },
   "components": [
     {
@@ -15517,9 +15517,9 @@
     {
       "id": "0prwth0fg4v2",
       "name": "us-phoenix-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-20T19:57:58.109Z",
-      "updated_at": "2021-04-30T19:52:18.851Z",
+      "updated_at": "2021-04-30T20:30:29.494Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -16942,7 +16942,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2020-11-06T07:22:31.611Z",
       "position": 32,
@@ -17720,63 +17720,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "0f6zthy7bgts",
-      "name": "Console | US West (Phoenix) | CN-82841",
-      "status": "identified",
-      "created_at": "2021-04-30T19:52:18.819Z",
-      "updated_at": "2021-04-30T20:09:54.603Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/z38tny2k8j5x",
-      "started_at": "2021-04-30T19:52:18.000Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "62q6s2vlxfd3",
-          "status": "identified",
-          "body": "We've identified an issue with Oracle Cloud Infrastructure Console in the US West (Phoenix) region. Engineers are actively working to mitigate the issue.  \n\n<b>Customer Impact:</b> Customers may be unable to manage or view Classic PaaS services using the Console. Additionally, customers may also be unable to create service requests via the Console.\n\nAs a workaround, users can update their regional endpoint to any region other than US West (Phoenix) to submit service requests. If users are able to log in using My Services, they should still be able to access and manage the Classic PaaS services. \n\nFor more information about managing regions, see: https://docs.oracle.com/en-us/iaas/Content/Identity/Tasks/managingregions.htm#Managing_Regions\n\n<b>Start Time:</b> April 30, 2021 17:31 UTC\n\n<b>Reference Number:</b> CN-82841",
-          "incident_id": "0f6zthy7bgts",
-          "created_at": "2021-04-30T19:52:18.997Z",
-          "updated_at": "2021-04-30T20:09:54.601Z",
-          "display_at": "2021-04-30T19:52:18.000Z",
-          "affected_components": [
-            {
-              "code": "0prwth0fg4v2",
-              "name": "Console - us-phoenix-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "0prwth0fg4v2",
-          "name": "us-phoenix-1 region",
-          "status": "partial_outage",
-          "created_at": "2019-02-20T19:57:58.109Z",
-          "updated_at": "2021-04-30T19:52:18.851Z",
-          "position": 21,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

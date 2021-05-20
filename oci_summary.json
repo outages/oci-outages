@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-05-19T23:48:39.534Z"
+    "updated_at": "2021-05-20T00:33:22.901Z"
   },
   "components": [
     {
@@ -130,9 +130,9 @@
     {
       "id": "xx5m67j0x18c",
       "name": "South Korea North (Chuncheon)",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-06-03T22:06:11.530Z",
-      "updated_at": "2021-05-19T23:18:20.111Z",
+      "updated_at": "2021-05-20T00:31:13.334Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -874,9 +874,9 @@
     {
       "id": "f7t75vcy5yf5",
       "name": "India South (Hyderabad)",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-05-11T18:35:24.988Z",
-      "updated_at": "2021-05-19T23:18:20.138Z",
+      "updated_at": "2021-05-20T00:31:13.367Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -10058,21 +10058,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "79ymppstyd7n",
-      "name": "UAE East (Dubai)",
-      "status": "major_outage",
-      "created_at": "2020-09-30T23:13:20.002Z",
-      "updated_at": "2021-05-19T23:22:47.502Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-09-30",
-      "group_id": "x0247zm62lgz",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "c0bf58lfggr6",
       "name": "UAE East (Dubai)",
       "status": "operational",
@@ -10083,6 +10068,21 @@
       "showcase": false,
       "start_date": "2020-09-30",
       "group_id": "kqp62nwbfgk5",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "vqbc938v4kw9",
+      "name": "UAE East (Dubai)",
+      "status": "operational",
+      "created_at": "2020-09-30T23:13:02.487Z",
+      "updated_at": "2020-09-30T23:25:53.997Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-09-30",
+      "group_id": "fldz5lpp5mxs",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10133,21 +10133,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vqbc938v4kw9",
-      "name": "UAE East (Dubai)",
-      "status": "operational",
-      "created_at": "2020-09-30T23:13:02.487Z",
-      "updated_at": "2020-09-30T23:25:53.997Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-09-30",
-      "group_id": "fldz5lpp5mxs",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "t4z5nm7w9sl6",
       "name": "UAE East (Dubai)",
       "status": "operational",
@@ -10193,6 +10178,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "4bgvmjt1y2bg",
+      "name": "UAE East (Dubai)",
+      "status": "operational",
+      "created_at": "2020-09-30T23:12:57.840Z",
+      "updated_at": "2020-09-30T23:25:15.301Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-09-30",
+      "group_id": "6gj9ydqydntb",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "hgmcp5wc171d",
       "name": "UAE East (Dubai)",
       "status": "operational",
@@ -10223,16 +10223,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "4bgvmjt1y2bg",
+      "id": "mrm8nl0r3nqx",
       "name": "UAE East (Dubai)",
       "status": "operational",
-      "created_at": "2020-09-30T23:12:57.840Z",
-      "updated_at": "2020-09-30T23:25:15.301Z",
+      "created_at": "2020-09-30T23:12:42.338Z",
+      "updated_at": "2021-04-13T00:08:49.017Z",
       "position": 14,
       "description": null,
       "showcase": false,
       "start_date": "2020-09-30",
-      "group_id": "6gj9ydqydntb",
+      "group_id": "w4rxy5n6jngd",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10268,16 +10268,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mrm8nl0r3nqx",
+      "id": "bs61xc8h3zqg",
       "name": "UAE East (Dubai)",
       "status": "operational",
-      "created_at": "2020-09-30T23:12:42.338Z",
-      "updated_at": "2021-04-13T00:08:49.017Z",
+      "created_at": "2020-09-30T23:12:56.269Z",
+      "updated_at": "2020-09-30T23:24:55.013Z",
       "position": 14,
       "description": null,
       "showcase": false,
       "start_date": "2020-09-30",
-      "group_id": "w4rxy5n6jngd",
+      "group_id": "bztnw6ncdd5p",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10320,21 +10320,6 @@
         "5sgzwpx22052",
         "qp2lrcwxzm6l"
       ]
-    },
-    {
-      "id": "bs61xc8h3zqg",
-      "name": "UAE East (Dubai)",
-      "status": "operational",
-      "created_at": "2020-09-30T23:12:56.269Z",
-      "updated_at": "2020-09-30T23:24:55.013Z",
-      "position": 14,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-09-30",
-      "group_id": "bztnw6ncdd5p",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "526f8yymc7l9",
@@ -10442,6 +10427,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "p0hrfvqq1w6s",
+      "name": "UAE East (Dubai)",
+      "status": "operational",
+      "created_at": "2020-09-30T23:13:48.715Z",
+      "updated_at": "2020-09-30T23:47:52.363Z",
+      "position": 14,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-09-30",
+      "group_id": "cpyvw7lr6743",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "pw3z46g4wxxv",
       "name": "UAE East (Dubai)",
       "status": "operational",
@@ -10457,16 +10457,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "p0hrfvqq1w6s",
+      "id": "wnggsn1fchg1",
       "name": "UAE East (Dubai)",
       "status": "operational",
-      "created_at": "2020-09-30T23:13:48.715Z",
-      "updated_at": "2020-09-30T23:47:52.363Z",
+      "created_at": "2020-09-30T23:13:42.716Z",
+      "updated_at": "2020-09-30T23:31:28.522Z",
       "position": 14,
       "description": null,
       "showcase": false,
       "start_date": "2020-09-30",
-      "group_id": "cpyvw7lr6743",
+      "group_id": "px9x18fcq6hm",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10502,16 +10502,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "wnggsn1fchg1",
+      "id": "79ymppstyd7n",
       "name": "UAE East (Dubai)",
       "status": "operational",
-      "created_at": "2020-09-30T23:13:42.716Z",
-      "updated_at": "2020-09-30T23:31:28.522Z",
+      "created_at": "2020-09-30T23:13:20.002Z",
+      "updated_at": "2021-05-20T00:31:13.401Z",
       "position": 14,
       "description": null,
       "showcase": false,
       "start_date": "2020-09-30",
-      "group_id": "px9x18fcq6hm",
+      "group_id": "x0247zm62lgz",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11306,36 +11306,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "kbfmttszd9vk",
-      "name": "Chile Central (Santiago)",
-      "status": "operational",
-      "created_at": "2020-12-14T23:42:45.932Z",
-      "updated_at": "2020-12-14T23:47:54.366Z",
-      "position": 16,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-12-14",
-      "group_id": "kqp62nwbfgk5",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "fhvhz9jbwj5z",
-      "name": "Chile Central (Santiago)",
-      "status": "operational",
-      "created_at": "2020-12-14T23:43:05.489Z",
-      "updated_at": "2020-12-14T23:49:15.840Z",
-      "position": 16,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-12-14",
-      "group_id": "cl1tm8pr1mcr",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "lvz8k5t44q3s",
       "name": "Chile Central (Santiago)",
       "status": "operational",
@@ -11381,16 +11351,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6k5261bkjysv",
+      "id": "n0gml8s0dlx7",
       "name": "Chile Central (Santiago)",
       "status": "operational",
-      "created_at": "2020-12-14T23:42:53.492Z",
-      "updated_at": "2020-12-14T23:48:16.099Z",
+      "created_at": "2020-12-14T23:43:01.158Z",
+      "updated_at": "2020-12-14T23:48:54.537Z",
       "position": 16,
       "description": null,
       "showcase": false,
       "start_date": "2020-12-14",
-      "group_id": "1m8dh0nx0l77",
+      "group_id": "p8p24rzkkvdr",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11411,16 +11381,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "n0gml8s0dlx7",
+      "id": "6k5261bkjysv",
       "name": "Chile Central (Santiago)",
       "status": "operational",
-      "created_at": "2020-12-14T23:43:01.158Z",
-      "updated_at": "2020-12-14T23:48:54.537Z",
+      "created_at": "2020-12-14T23:42:53.492Z",
+      "updated_at": "2020-12-14T23:48:16.099Z",
       "position": 16,
       "description": null,
       "showcase": false,
       "start_date": "2020-12-14",
-      "group_id": "p8p24rzkkvdr",
+      "group_id": "1m8dh0nx0l77",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11436,6 +11406,36 @@
       "showcase": false,
       "start_date": "2020-12-14",
       "group_id": "fldz5lpp5mxs",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "5f24ddrnqfw5",
+      "name": "Chile Central (Santiago)",
+      "status": "operational",
+      "created_at": "2020-12-14T23:42:41.427Z",
+      "updated_at": "2020-12-14T23:47:39.365Z",
+      "position": 16,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-12-14",
+      "group_id": "sr2y42rkwsgk",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "6bl86v175r9c",
+      "name": "Chile Central (Santiago)",
+      "status": "operational",
+      "created_at": "2020-12-14T23:42:47.463Z",
+      "updated_at": "2020-12-14T23:47:57.022Z",
+      "position": 16,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-12-14",
+      "group_id": "j534vmnnt3j4",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11471,36 +11471,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6bl86v175r9c",
-      "name": "Chile Central (Santiago)",
-      "status": "operational",
-      "created_at": "2020-12-14T23:42:47.463Z",
-      "updated_at": "2020-12-14T23:47:57.022Z",
-      "position": 16,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-12-14",
-      "group_id": "j534vmnnt3j4",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "5f24ddrnqfw5",
-      "name": "Chile Central (Santiago)",
-      "status": "operational",
-      "created_at": "2020-12-14T23:42:41.427Z",
-      "updated_at": "2020-12-14T23:47:39.365Z",
-      "position": 16,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-12-14",
-      "group_id": "sr2y42rkwsgk",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "yyswyb11p8p2",
       "name": "Chile Central (Santiago)",
       "status": "operational",
@@ -11511,6 +11481,36 @@
       "showcase": false,
       "start_date": "2020-12-14",
       "group_id": "mpknxhzlyvrc",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7gpn4rz6r6sy",
+      "name": "Chile Central (Santiago)",
+      "status": "operational",
+      "created_at": "2020-12-14T23:42:59.486Z",
+      "updated_at": "2021-05-20T00:31:13.417Z",
+      "position": 16,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-12-14",
+      "group_id": "x0247zm62lgz",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "s6x7j7c70pm3",
+      "name": "Chile Central (Santiago)",
+      "status": "operational",
+      "created_at": "2020-12-14T23:42:48.967Z",
+      "updated_at": "2020-12-14T23:47:59.379Z",
+      "position": 16,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-12-14",
+      "group_id": "hs1yzcysy1cc",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11561,16 +11561,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "s6x7j7c70pm3",
+      "id": "j0x86b7gznl4",
       "name": "Chile Central (Santiago)",
       "status": "operational",
-      "created_at": "2020-12-14T23:42:48.967Z",
-      "updated_at": "2020-12-14T23:47:59.379Z",
+      "created_at": "2020-12-14T23:42:56.472Z",
+      "updated_at": "2020-12-14T23:48:25.313Z",
       "position": 16,
       "description": null,
       "showcase": false,
       "start_date": "2020-12-14",
-      "group_id": "hs1yzcysy1cc",
+      "group_id": "pn36dvh1q81j",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11591,16 +11591,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "j0x86b7gznl4",
+      "id": "83chzfvwjh14",
       "name": "Chile Central (Santiago)",
       "status": "operational",
-      "created_at": "2020-12-14T23:42:56.472Z",
-      "updated_at": "2020-12-14T23:48:25.313Z",
+      "created_at": "2020-12-14T23:42:44.431Z",
+      "updated_at": "2021-02-16T03:39:12.749Z",
       "position": 16,
       "description": null,
       "showcase": false,
       "start_date": "2020-12-14",
-      "group_id": "pn36dvh1q81j",
+      "group_id": "5hpsy50kv8qp",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11855,16 +11855,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7gpn4rz6r6sy",
+      "id": "nwbygmdy1n5k",
       "name": "Chile Central (Santiago)",
-      "status": "major_outage",
-      "created_at": "2020-12-14T23:42:59.486Z",
-      "updated_at": "2021-05-19T23:32:15.531Z",
+      "status": "operational",
+      "created_at": "2020-12-14T23:43:26.722Z",
+      "updated_at": "2020-12-14T23:50:36.823Z",
       "position": 16,
       "description": null,
       "showcase": false,
       "start_date": "2020-12-14",
-      "group_id": "x0247zm62lgz",
+      "group_id": "24p7vp53p76c",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11885,31 +11885,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "83chzfvwjh14",
+      "id": "vpdmr7fgsrzb",
       "name": "Chile Central (Santiago)",
       "status": "operational",
-      "created_at": "2020-12-14T23:42:44.431Z",
-      "updated_at": "2021-02-16T03:39:12.749Z",
+      "created_at": "2020-12-14T23:43:10.012Z",
+      "updated_at": "2020-12-14T23:49:26.322Z",
       "position": 16,
       "description": null,
       "showcase": false,
       "start_date": "2020-12-14",
-      "group_id": "5hpsy50kv8qp",
+      "group_id": "6x9tq37fxgms",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "nwbygmdy1n5k",
+      "id": "8p5k4vw550kl",
       "name": "Chile Central (Santiago)",
       "status": "operational",
-      "created_at": "2020-12-14T23:43:26.722Z",
-      "updated_at": "2020-12-14T23:50:36.823Z",
+      "created_at": "2020-12-14T23:43:28.060Z",
+      "updated_at": "2020-12-14T23:45:38.430Z",
       "position": 16,
       "description": null,
       "showcase": false,
       "start_date": "2020-12-14",
-      "group_id": "24p7vp53p76c",
+      "group_id": "cpyvw7lr6743",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11990,31 +11990,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vpdmr7fgsrzb",
+      "id": "fhvhz9jbwj5z",
       "name": "Chile Central (Santiago)",
       "status": "operational",
-      "created_at": "2020-12-14T23:43:10.012Z",
-      "updated_at": "2020-12-14T23:49:26.322Z",
+      "created_at": "2020-12-14T23:43:05.489Z",
+      "updated_at": "2020-12-14T23:49:15.840Z",
       "position": 16,
       "description": null,
       "showcase": false,
       "start_date": "2020-12-14",
-      "group_id": "6x9tq37fxgms",
+      "group_id": "cl1tm8pr1mcr",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "8p5k4vw550kl",
+      "id": "kbfmttszd9vk",
       "name": "Chile Central (Santiago)",
       "status": "operational",
-      "created_at": "2020-12-14T23:43:28.060Z",
-      "updated_at": "2020-12-14T23:45:38.430Z",
+      "created_at": "2020-12-14T23:42:45.932Z",
+      "updated_at": "2020-12-14T23:47:54.366Z",
       "position": 16,
       "description": null,
       "showcase": false,
       "start_date": "2020-12-14",
-      "group_id": "cpyvw7lr6743",
+      "group_id": "kqp62nwbfgk5",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13450,9 +13450,9 @@
     {
       "id": "sgh01n2p25gp",
       "name": "UK West (Cardiff)",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-11-06T06:42:53.225Z",
-      "updated_at": "2021-05-19T23:18:20.166Z",
+      "updated_at": "2021-05-20T00:31:13.434Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -15650,21 +15650,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7r53wzrqr5yb",
-      "name": "us-phoenix-1 region",
-      "status": "operational",
-      "created_at": "2017-06-02T15:51:43.306Z",
-      "updated_at": "2021-05-18T23:01:35.479Z",
-      "position": 21,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "r2cf8l0py1sg",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d27ks57396k3",
       "name": "us-phoenix-1 region",
       "status": "operational",
@@ -15675,6 +15660,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "g83y71zgyqp2",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "7r53wzrqr5yb",
+      "name": "us-phoenix-1 region",
+      "status": "operational",
+      "created_at": "2017-06-02T15:51:43.306Z",
+      "updated_at": "2021-05-18T23:01:35.479Z",
+      "position": 21,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "r2cf8l0py1sg",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -16942,7 +16942,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2020-11-06T07:22:31.611Z",
       "position": 32,
@@ -17720,261 +17720,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "bldjyp9jhbjk",
-      "name": "Oracle Cloud Infrastructure Console | Multiple Regions | CN-85730",
-      "status": "identified",
-      "created_at": "2021-05-19T23:18:20.065Z",
-      "updated_at": "2021-05-19T23:48:39.532Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/lnxxm9l98xt0",
-      "started_at": "2021-05-19T23:18:20.052Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "6v74mm6mjr8b",
-          "status": "identified",
-          "body": "We've identified the issue affecting Oracle Cloud Infrastructure Console. Our engineers are actively working to mitigate the issue.",
-          "incident_id": "bldjyp9jhbjk",
-          "created_at": "2021-05-19T23:41:09.869Z",
-          "updated_at": "2021-05-19T23:41:09.869Z",
-          "display_at": "2021-05-19T23:41:09.869Z",
-          "affected_components": [
-            {
-              "code": "xx5m67j0x18c",
-              "name": "Console - South Korea North (Chuncheon)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "f7t75vcy5yf5",
-              "name": "Console - India South (Hyderabad)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "79ymppstyd7n",
-              "name": "Console - UAE East (Dubai)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "7gpn4rz6r6sy",
-              "name": "Console - Chile Central (Santiago)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "sgh01n2p25gp",
-              "name": "Console - UK West (Cardiff)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b2l5fl7f6z5v",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "bldjyp9jhbjk",
-          "created_at": "2021-05-19T23:32:15.606Z",
-          "updated_at": "2021-05-19T23:32:15.606Z",
-          "display_at": "2021-05-19T23:32:15.606Z",
-          "affected_components": [
-            {
-              "code": "xx5m67j0x18c",
-              "name": "Console - South Korea North (Chuncheon)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "f7t75vcy5yf5",
-              "name": "Console - India South (Hyderabad)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "79ymppstyd7n",
-              "name": "Console - UAE East (Dubai)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "7gpn4rz6r6sy",
-              "name": "Console - Chile Central (Santiago)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "sgh01n2p25gp",
-              "name": "Console - UK West (Cardiff)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bmph4xc27njc",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "bldjyp9jhbjk",
-          "created_at": "2021-05-19T23:22:47.585Z",
-          "updated_at": "2021-05-19T23:22:47.585Z",
-          "display_at": "2021-05-19T23:22:47.585Z",
-          "affected_components": [
-            {
-              "code": "xx5m67j0x18c",
-              "name": "Console - South Korea North (Chuncheon)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "f7t75vcy5yf5",
-              "name": "Console - India South (Hyderabad)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "79ymppstyd7n",
-              "name": "Console - UAE East (Dubai)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "sgh01n2p25gp",
-              "name": "Console - UK West (Cardiff)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wmx6wx1mk15z",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Console.\n\n<b>Customer Impact:</b> Customers may be unable to access or use Oracle Cloud Infrastructure Console service.\n\n<b>Start Time:</b> May 19, 2021 22:45 UTC\n\n<b>Reference Number:</b> CN-85730",
-          "incident_id": "bldjyp9jhbjk",
-          "created_at": "2021-05-19T23:18:20.269Z",
-          "updated_at": "2021-05-19T23:18:20.269Z",
-          "display_at": "2021-05-19T23:18:20.269Z",
-          "affected_components": [
-            {
-              "code": "xx5m67j0x18c",
-              "name": "Console - South Korea North (Chuncheon)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "f7t75vcy5yf5",
-              "name": "Console - India South (Hyderabad)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "sgh01n2p25gp",
-              "name": "Console - UK West (Cardiff)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7gpn4rz6r6sy",
-          "name": "Chile Central (Santiago)",
-          "status": "major_outage",
-          "created_at": "2020-12-14T23:42:59.486Z",
-          "updated_at": "2021-05-19T23:32:15.531Z",
-          "position": 16,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-14",
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "79ymppstyd7n",
-          "name": "UAE East (Dubai)",
-          "status": "major_outage",
-          "created_at": "2020-09-30T23:13:20.002Z",
-          "updated_at": "2021-05-19T23:22:47.502Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-09-30",
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "sgh01n2p25gp",
-          "name": "UK West (Cardiff)",
-          "status": "major_outage",
-          "created_at": "2020-11-06T06:42:53.225Z",
-          "updated_at": "2021-05-19T23:18:20.166Z",
-          "position": 18,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-11-05",
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "f7t75vcy5yf5",
-          "name": "India South (Hyderabad)",
-          "status": "major_outage",
-          "created_at": "2020-05-11T18:35:24.988Z",
-          "updated_at": "2021-05-19T23:18:20.138Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xx5m67j0x18c",
-          "name": "South Korea North (Chuncheon)",
-          "status": "major_outage",
-          "created_at": "2020-06-03T22:06:11.530Z",
-          "updated_at": "2021-05-19T23:18:20.111Z",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

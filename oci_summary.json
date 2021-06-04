@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-04T21:07:02.549Z"
+    "updated_at": "2021-06-04T22:03:55.776Z"
   },
   "components": [
     {
@@ -685,7 +685,7 @@
     {
       "id": "sx4xcbk5vby9",
       "name": "Compute - Instances",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:03:40.697Z",
       "updated_at": "2020-03-23T19:23:21.303Z",
       "position": 1,
@@ -5866,7 +5866,7 @@
     {
       "id": "w4rxy5n6jngd",
       "name": "Object Storage",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:10:31.646Z",
       "updated_at": "2020-11-06T07:22:31.380Z",
       "position": 8,
@@ -6370,7 +6370,7 @@
     {
       "id": "93h2kff76f72",
       "name": "File Storage",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:11:47.759Z",
       "updated_at": "2020-11-06T07:22:31.389Z",
       "position": 9,
@@ -7603,7 +7603,7 @@
     {
       "id": "f5ppqjqjq0sf",
       "name": "Networking - Virtual Cloud Networks",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:45:58.359Z",
       "updated_at": "2020-11-06T07:22:31.408Z",
       "position": 11,
@@ -9151,7 +9151,7 @@
     {
       "id": "w6bwq65xjlh4",
       "name": "Networking - Load Balancing",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:47:23.450Z",
       "updated_at": "2020-11-06T07:22:31.429Z",
       "position": 13,
@@ -10547,16 +10547,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y5f3s06fy590",
+      "id": "r7k2l315kjt3",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
-      "created_at": "2020-02-01T02:28:05.800Z",
-      "updated_at": "2021-06-04T21:07:02.390Z",
+      "status": "operational",
+      "created_at": "2020-02-01T02:28:01.176Z",
+      "updated_at": "2021-06-04T22:03:55.658Z",
       "position": 15,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6x9tq37fxgms",
+      "group_id": "cl1tm8pr1mcr",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10577,16 +10577,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "r7k2l315kjt3",
+      "id": "ypzgqkcjbgyk",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
-      "created_at": "2020-02-01T02:28:01.176Z",
-      "updated_at": "2021-06-04T21:07:02.376Z",
+      "status": "operational",
+      "created_at": "2020-02-01T02:27:55.179Z",
+      "updated_at": "2021-06-04T22:03:55.645Z",
       "position": 15,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "cl1tm8pr1mcr",
+      "group_id": "x0247zm62lgz",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10594,9 +10594,9 @@
     {
       "id": "6wh4nz7ghgym",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-02-01T02:27:38.563Z",
-      "updated_at": "2021-06-04T21:07:02.364Z",
+      "updated_at": "2021-06-04T22:03:55.630Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -10652,16 +10652,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ypzgqkcjbgyk",
+      "id": "t46mmpj9p6cq",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
-      "created_at": "2020-02-01T02:27:55.179Z",
-      "updated_at": "2021-06-04T19:52:55.533Z",
+      "status": "operational",
+      "created_at": "2020-02-09T04:16:34.249Z",
+      "updated_at": "2021-06-04T22:03:55.530Z",
       "position": 15,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "x0247zm62lgz",
+      "group_id": "x7526fhpytvm",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10684,9 +10684,9 @@
     {
       "id": "hlkf43psbwrm",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-02-01T02:27:37.066Z",
-      "updated_at": "2021-06-04T21:07:02.351Z",
+      "updated_at": "2021-06-04T22:03:55.618Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -10759,9 +10759,9 @@
     {
       "id": "8r13p1vx94zb",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-02-01T02:27:29.588Z",
-      "updated_at": "2021-06-04T21:07:02.338Z",
+      "updated_at": "2021-06-04T22:03:55.605Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -10774,9 +10774,9 @@
     {
       "id": "bzkqr8p3sjjn",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-02-01T02:27:22.356Z",
-      "updated_at": "2021-06-04T21:07:02.462Z",
+      "updated_at": "2021-06-04T22:03:55.695Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -10862,31 +10862,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6cdy8cds66g8",
+      "id": "ycxy30kzhxhv",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
-      "created_at": "2020-02-01T02:27:26.537Z",
-      "updated_at": "2021-06-04T21:07:02.326Z",
+      "status": "operational",
+      "created_at": "2020-02-01T02:27:06.940Z",
+      "updated_at": "2021-06-04T22:03:55.593Z",
       "position": 15,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "f5ppqjqjq0sf",
+      "group_id": "sx4xcbk5vby9",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "lr88952vlc8p",
+      "id": "hnr8yhf6qdgd",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
-      "created_at": "2020-02-01T02:27:24.988Z",
-      "updated_at": "2021-06-04T21:07:02.312Z",
+      "status": "operational",
+      "created_at": "2020-02-11T21:50:24.805Z",
+      "updated_at": "2021-06-04T22:03:55.580Z",
       "position": 15,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "93h2kff76f72",
+      "group_id": "kgb3x2451pb6",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10907,16 +10907,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "hnr8yhf6qdgd",
+      "id": "y5f3s06fy590",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
-      "created_at": "2020-02-11T21:50:24.805Z",
-      "updated_at": "2021-06-04T21:07:02.435Z",
+      "status": "operational",
+      "created_at": "2020-02-01T02:28:05.800Z",
+      "updated_at": "2021-06-04T22:03:55.671Z",
       "position": 15,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "kgb3x2451pb6",
+      "group_id": "6x9tq37fxgms",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10937,16 +10937,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ycxy30kzhxhv",
+      "id": "6cdy8cds66g8",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "partial_outage",
-      "created_at": "2020-02-01T02:27:06.940Z",
-      "updated_at": "2021-06-04T21:07:02.289Z",
+      "status": "operational",
+      "created_at": "2020-02-01T02:27:26.537Z",
+      "updated_at": "2021-06-04T22:03:55.568Z",
       "position": 15,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "sx4xcbk5vby9",
+      "group_id": "f5ppqjqjq0sf",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -10967,16 +10967,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "scwqcs8wqlw5",
+      "id": "lr88952vlc8p",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
-      "created_at": "2020-02-11T21:51:12.857Z",
-      "updated_at": "2021-06-04T21:07:02.273Z",
+      "status": "operational",
+      "created_at": "2020-02-01T02:27:24.988Z",
+      "updated_at": "2021-06-04T22:03:55.556Z",
       "position": 15,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "99h2c5hxp4dp",
+      "group_id": "93h2kff76f72",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11143,9 +11143,9 @@
     {
       "id": "53pkjdzh7dxf",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-08-31T17:06:59.801Z",
-      "updated_at": "2021-06-04T21:07:02.448Z",
+      "updated_at": "2021-06-04T22:03:55.683Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -11261,16 +11261,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "t46mmpj9p6cq",
+      "id": "scwqcs8wqlw5",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "major_outage",
-      "created_at": "2020-02-09T04:16:34.249Z",
-      "updated_at": "2021-06-04T21:07:02.241Z",
+      "status": "operational",
+      "created_at": "2020-02-11T21:51:12.857Z",
+      "updated_at": "2021-06-04T22:03:55.543Z",
       "position": 15,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "x7526fhpytvm",
+      "group_id": "99h2c5hxp4dp",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -14095,7 +14095,7 @@
     {
       "id": "zqf5v0ykx3lk",
       "name": "Identity",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:44:24.854Z",
       "updated_at": "2020-11-06T07:22:31.488Z",
       "position": 19,
@@ -15553,7 +15553,7 @@
     {
       "id": "fldz5lpp5mxs",
       "name": "Email Delivery",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:29:37.454Z",
       "updated_at": "2020-11-06T07:22:31.506Z",
       "position": 21,
@@ -16942,7 +16942,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2020-11-06T07:22:31.611Z",
       "position": 32,
@@ -17098,7 +17098,7 @@
     {
       "id": "cl1tm8pr1mcr",
       "name": "Streaming",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-05-21T22:17:11.213Z",
       "updated_at": "2020-11-06T07:22:31.651Z",
       "position": 36,
@@ -17215,7 +17215,7 @@
     {
       "id": "6x9tq37fxgms",
       "name": "Functions",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2019-09-25T17:20:33.701Z",
       "updated_at": "2020-11-06T07:22:31.682Z",
       "position": 39,
@@ -17293,7 +17293,7 @@
     {
       "id": "x7526fhpytvm",
       "name": "Data Flow",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-02-09T04:16:22.354Z",
       "updated_at": "2020-11-06T07:22:31.702Z",
       "position": 41,
@@ -17371,7 +17371,7 @@
     {
       "id": "kgb3x2451pb6",
       "name": "Cloud Shell",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-02-11T21:50:12.436Z",
       "updated_at": "2020-11-06T07:22:31.721Z",
       "position": 43,
@@ -17449,7 +17449,7 @@
     {
       "id": "99h2c5hxp4dp",
       "name": "Data Science",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-02-11T21:51:00.601Z",
       "updated_at": "2020-11-06T07:22:31.740Z",
       "position": 45,
@@ -17683,7 +17683,7 @@
     {
       "id": "cpyvw7lr6743",
       "name": "Cloud Guard",
-      "status": "major_outage",
+      "status": "operational",
       "created_at": "2020-08-31T17:06:43.905Z",
       "updated_at": "2020-11-06T07:22:31.796Z",
       "position": 51,
@@ -17720,359 +17720,7 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "m61nrtsrcrq8",
-      "name": "Multiple Services | Saudi Arabia West (Jeddah) | CN-88931",
-      "status": "identified",
-      "created_at": "2021-06-04T19:52:55.444Z",
-      "updated_at": "2021-06-04T21:07:02.541Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "critical",
-      "shortlink": "https://stspg.io/qbjmtvq5wgbs",
-      "started_at": "2021-06-04T19:52:55.431Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "pjd9r72gzc2y",
-          "status": "identified",
-          "body": "We've identified an issue affecting multiple Oracle Cloud Infrastructure services in the Saudi Arabia West (Jeddah) region. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers may experience timeouts and 500-type errors when authenticating to services and resources within the region. This impact includes the ability to access to the Console and perform service management activities. Sessions which were already established prior to the impact start time are not affected.\n\n<b>Start Time:</b> June 4, 2021 19:19 UTC\n\n<b>Reference Number:</b> CN-88931",
-          "incident_id": "m61nrtsrcrq8",
-          "created_at": "2021-06-04T21:07:02.539Z",
-          "updated_at": "2021-06-04T21:07:02.539Z",
-          "display_at": "2021-06-04T21:07:02.539Z",
-          "affected_components": [
-            {
-              "code": "ycxy30kzhxhv",
-              "name": "Compute - Instances - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "hlkf43psbwrm",
-              "name": "Identity - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "6cdy8cds66g8",
-              "name": "Networking - Virtual Cloud Networks - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "bzkqr8p3sjjn",
-              "name": "Object Storage - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "lr88952vlc8p",
-              "name": "File Storage - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "6wh4nz7ghgym",
-              "name": "Email Delivery - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "8r13p1vx94zb",
-              "name": "Networking - Load Balancing - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "ypzgqkcjbgyk",
-              "name": "Console - Saudi Arabia West (Jeddah)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "r7k2l315kjt3",
-              "name": "Streaming - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "y5f3s06fy590",
-              "name": "Functions - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "t46mmpj9p6cq",
-              "name": "Data Flow - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "hnr8yhf6qdgd",
-              "name": "Cloud Shell - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "scwqcs8wqlw5",
-              "name": "Data Science - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "53pkjdzh7dxf",
-              "name": "Cloud Guard - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dhkvs4rngzk6",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with multiple Oracle Cloud Infrastructure services in the Saudi Arabia West (Jeddah) region. \n\n<b>Customer Impact:</b> Customers may be unable to access or use multiple Oracle Cloud Infrastructure services or resources.\n\n<b>Start Time:</b> June 4, 2021 19:19 UTC\n\n<b>Reference Number:</b> CN-88931",
-          "incident_id": "m61nrtsrcrq8",
-          "created_at": "2021-06-04T19:52:55.631Z",
-          "updated_at": "2021-06-04T19:52:55.631Z",
-          "display_at": "2021-06-04T19:52:55.631Z",
-          "affected_components": [
-            {
-              "code": "ypzgqkcjbgyk",
-              "name": "Console - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "9kmtjt11mzxg",
-              "name": "Identity Cloud Service - Saudi Arabia West (Jeddah)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "bzkqr8p3sjjn",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-01T02:27:22.356Z",
-          "updated_at": "2021-06-04T21:07:02.462Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "w4rxy5n6jngd",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "53pkjdzh7dxf",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-08-31T17:06:59.801Z",
-          "updated_at": "2021-06-04T21:07:02.448Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "cpyvw7lr6743",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hnr8yhf6qdgd",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-11T21:50:24.805Z",
-          "updated_at": "2021-06-04T21:07:02.435Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kgb3x2451pb6",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "y5f3s06fy590",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-01T02:28:05.800Z",
-          "updated_at": "2021-06-04T21:07:02.390Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6x9tq37fxgms",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "r7k2l315kjt3",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-01T02:28:01.176Z",
-          "updated_at": "2021-06-04T21:07:02.376Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "cl1tm8pr1mcr",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "6wh4nz7ghgym",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-01T02:27:38.563Z",
-          "updated_at": "2021-06-04T21:07:02.364Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "fldz5lpp5mxs",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "hlkf43psbwrm",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-01T02:27:37.066Z",
-          "updated_at": "2021-06-04T21:07:02.351Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "zqf5v0ykx3lk",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "8r13p1vx94zb",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-01T02:27:29.588Z",
-          "updated_at": "2021-06-04T21:07:02.338Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "w6bwq65xjlh4",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "6cdy8cds66g8",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-01T02:27:26.537Z",
-          "updated_at": "2021-06-04T21:07:02.326Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "f5ppqjqjq0sf",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "lr88952vlc8p",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-01T02:27:24.988Z",
-          "updated_at": "2021-06-04T21:07:02.312Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "93h2kff76f72",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "ycxy30kzhxhv",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "partial_outage",
-          "created_at": "2020-02-01T02:27:06.940Z",
-          "updated_at": "2021-06-04T21:07:02.289Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "sx4xcbk5vby9",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "scwqcs8wqlw5",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-11T21:51:12.857Z",
-          "updated_at": "2021-06-04T21:07:02.273Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "99h2c5hxp4dp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "t46mmpj9p6cq",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-09T04:16:34.249Z",
-          "updated_at": "2021-06-04T21:07:02.241Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x7526fhpytvm",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "ypzgqkcjbgyk",
-          "name": "Saudi Arabia West (Jeddah)",
-          "status": "major_outage",
-          "created_at": "2020-02-01T02:27:55.179Z",
-          "updated_at": "2021-06-04T19:52:55.533Z",
-          "position": 15,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "major",

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-04T13:36:02.275Z"
+    "updated_at": "2021-06-04T14:23:41.650Z"
   },
   "components": [
     {
@@ -2464,9 +2464,9 @@
     {
       "id": "qslbzlb9zlw5",
       "name": "India West (Mumbai)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:11.802Z",
-      "updated_at": "2021-06-04T13:36:02.159Z",
+      "updated_at": "2021-06-04T14:02:05.128Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -2704,9 +2704,9 @@
     {
       "id": "f5s25chnqsp2",
       "name": "India West (Mumbai)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T05:18:13.793Z",
-      "updated_at": "2021-06-04T13:36:02.143Z",
+      "updated_at": "2021-06-04T14:02:05.115Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -2824,9 +2824,9 @@
     {
       "id": "x6wpwhpy2x25",
       "name": "India West (Mumbai)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-02-11T21:49:50.815Z",
-      "updated_at": "2021-06-04T13:36:02.178Z",
+      "updated_at": "2021-06-04T14:02:05.147Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -2884,9 +2884,9 @@
     {
       "id": "b4fpt1kcq1zl",
       "name": "India West (Mumbai)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T17:06:48.524Z",
-      "updated_at": "2021-06-04T13:36:02.119Z",
+      "updated_at": "2021-06-04T14:02:05.100Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -10654,7 +10654,7 @@
     {
       "id": "pbrqh15302sw",
       "name": "Autonomous Database",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:07.510Z",
       "updated_at": "2020-11-06T07:22:31.450Z",
       "position": 15,
@@ -17332,7 +17332,7 @@
     {
       "id": "w74ty0wkn3l4",
       "name": "Data Catalog",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-02-11T21:49:48.842Z",
       "updated_at": "2020-11-06T07:22:31.712Z",
       "position": 42,
@@ -17644,7 +17644,7 @@
     {
       "id": "24p7vp53p76c",
       "name": "Oracle Content and Experience",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T05:18:09.585Z",
       "updated_at": "2020-11-06T07:22:31.787Z",
       "position": 50,
@@ -17683,7 +17683,7 @@
     {
       "id": "cpyvw7lr6743",
       "name": "Cloud Guard",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T17:06:43.905Z",
       "updated_at": "2020-11-06T07:22:31.796Z",
       "position": 51,
@@ -17720,126 +17720,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "18k3yctvy8gh",
-      "name": "Oracle Cloud Infrastructure Autonomous Database-Shared | India West (Mumbai) | CN-88645",
-      "status": "investigating",
-      "created_at": "2021-06-04T13:36:02.079Z",
-      "updated_at": "2021-06-04T13:36:02.272Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/tnywnqyxl4fn",
-      "started_at": "2021-06-04T13:36:02.061Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "kn26v0bnlh7n",
-          "status": "investigating",
-          "body": "We're investigating an issue with Oracle Cloud Infrastructure Autonomous Database-Shared in the India West (Mumbai) region.\n\n<b>Customer Impact:</b> Customers may be unable to access/use Oracle Cloud Infrastructure Autonomous Database-Shared instances. Additional services with dependancies on ADB-S , including Cloud Guard, Metering, Data Catalog and Content and Experience may experience downstream impact as as result.\n\n<b>Start Time:</b> June 4, 2021 12:05 UTC\n\n<b>Next Update by:</b> June 4, 2021 14:30 UTC\n\n<b>Reference Number:</b> CN-88645",
-          "incident_id": "18k3yctvy8gh",
-          "created_at": "2021-06-04T13:36:02.269Z",
-          "updated_at": "2021-06-04T13:36:02.269Z",
-          "display_at": "2021-06-04T13:36:02.269Z",
-          "affected_components": [
-            {
-              "code": "x6wpwhpy2x25",
-              "name": "Data Catalog - India West (Mumbai)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "f5s25chnqsp2",
-              "name": "Oracle Content and Experience - India West (Mumbai)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "b4fpt1kcq1zl",
-              "name": "Cloud Guard - India West (Mumbai)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "qslbzlb9zlw5",
-              "name": "Autonomous Database - India West (Mumbai)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "x6wpwhpy2x25",
-          "name": "India West (Mumbai)",
-          "status": "degraded_performance",
-          "created_at": "2020-02-11T21:49:50.815Z",
-          "updated_at": "2021-06-04T13:36:02.178Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "w74ty0wkn3l4",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qslbzlb9zlw5",
-          "name": "India West (Mumbai)",
-          "status": "degraded_performance",
-          "created_at": "2020-11-06T07:19:11.802Z",
-          "updated_at": "2021-06-04T13:36:02.159Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-11-05",
-          "group_id": "pbrqh15302sw",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "f5s25chnqsp2",
-          "name": "India West (Mumbai)",
-          "status": "degraded_performance",
-          "created_at": "2020-08-31T05:18:13.793Z",
-          "updated_at": "2021-06-04T13:36:02.143Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "24p7vp53p76c",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "b4fpt1kcq1zl",
-          "name": "India West (Mumbai)",
-          "status": "degraded_performance",
-          "created_at": "2020-08-31T17:06:48.524Z",
-          "updated_at": "2021-06-04T13:36:02.119Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "cpyvw7lr6743",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

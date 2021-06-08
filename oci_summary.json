@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-07T23:52:28.507Z"
+    "updated_at": "2021-06-08T02:00:47.165Z"
   },
   "components": [
     {
@@ -17724,10 +17724,10 @@
     {
       "id": "ldz134xqx4yg",
       "name": "Oracle Identity Cloud Service | US West (Phoenix) | CN-89592",
-      "status": "investigating",
-      "created_at": "2021-06-07T23:39:42.640Z",
-      "updated_at": "2021-06-07T23:52:28.501Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2021-06-07T23:39:42.000Z",
+      "updated_at": "2021-06-08T02:00:47.163Z",
+      "monitoring_at": "2021-06-08T02:00:47.149Z",
       "resolved_at": null,
       "impact": "critical",
       "shortlink": "https://stspg.io/r9bcf9n94mgs",
@@ -17735,12 +17735,38 @@
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
         {
+          "id": "7h9l0kzzl3wj",
+          "status": "monitoring",
+          "body": "We identified an issue with Oracle Cloud Infrastructure Identity Cloud Service (IDCS) in the US West (Phoenix) region, and we’ve confirmed that service has been restored. We are continuing to actively monitor the issue to ensure that the issue will not reoccur.\n\n<b>Customer Impact:</b> Customers attempting to access services and resources using IDCS authentication in the US West (Phoenix) region experienced failures when attempting to reach authentication infrastructure. Customers may have experienced this behavior when accessing resources in other regions if their authentication region was homed in US West (Phoenix).\n\n<b>Start Time:</b> June 7, 2021 22:50 UTC\n\n<b>End Time:</b> June 8, 2021 01:35 UTC\n\n<b>Reference Number:</b> CN-89592",
+          "incident_id": "ldz134xqx4yg",
+          "created_at": "2021-06-08T02:00:47.149Z",
+          "updated_at": "2021-06-08T02:00:47.149Z",
+          "display_at": "2021-06-08T02:00:47.149Z",
+          "affected_components": [
+            {
+              "code": "v15kk4lwm6ql",
+              "name": "Identity - us-phoenix-1 region",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "sxpdvl47wb8d",
+              "name": "Identity Cloud Service - US West (Phoenix)",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "pm1kv8tl72r3",
           "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Identity Cloud Service.\n\n<b>Customer Impact:</b> Customers may be unable to access or use Identity Cloud Service (IDCS). Services that rely on IDCS US West (Phoenix) region for authentication may also experience disruptions to their service.\n\n<b>Start Time:</b> June 7, 2021 22:50 UTC\n\n<b>Reference Number:</b> CN-89592",
+          "body": "We're investigating a potential issue with Oracle Identity Cloud Service.\n\n<b>Customer Impact:</b> Customers may be unable to access or use Identity Cloud Service (IDCS). Services that rely on IDCS US West (Phoenix) region for authentication may also experience disruptions to their service.\n\nFurther updates will be provided as events warrant.\n\n<b>Start Time:</b> June 7, 2021 22:50 UTC\n\n<b>Reference Number:</b> CN-89592",
           "incident_id": "ldz134xqx4yg",
           "created_at": "2021-06-07T23:39:42.767Z",
-          "updated_at": "2021-06-07T23:52:28.498Z",
+          "updated_at": "2021-06-08T00:33:33.630Z",
           "display_at": "2021-06-07T23:39:42.000Z",
           "affected_components": [
             {

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-08T04:02:19.519Z"
+    "updated_at": "2021-06-08T04:35:24.901Z"
   },
   "components": [
     {
@@ -13975,7 +13975,7 @@
     {
       "id": "zqf5v0ykx3lk",
       "name": "Identity",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:44:24.854Z",
       "updated_at": "2020-11-06T07:22:31.488Z",
       "position": 19,
@@ -14989,7 +14989,7 @@
     {
       "id": "sr2y42rkwsgk",
       "name": "Identity Cloud Service",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-05-18T20:45:34.523Z",
       "updated_at": "2020-11-06T07:22:31.497Z",
       "position": 20,
@@ -15298,9 +15298,9 @@
     {
       "id": "sxpdvl47wb8d",
       "name": "US West (Phoenix)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-05-18T20:45:53.556Z",
-      "updated_at": "2021-06-08T04:02:19.409Z",
+      "updated_at": "2021-06-08T04:35:24.741Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -15817,9 +15817,9 @@
     {
       "id": "v15kk4lwm6ql",
       "name": "us-phoenix-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-09T18:23:07.355Z",
-      "updated_at": "2021-06-08T04:02:19.427Z",
+      "updated_at": "2021-06-08T04:35:24.796Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -17720,136 +17720,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "ldz134xqx4yg",
-      "name": "Oracle Identity Cloud Service | US West (Phoenix) | CN-89592",
-      "status": "monitoring",
-      "created_at": "2021-06-07T23:39:42.000Z",
-      "updated_at": "2021-06-08T04:02:19.513Z",
-      "monitoring_at": "2021-06-08T02:00:47.149Z",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/r9bcf9n94mgs",
-      "started_at": "2021-06-07T23:39:42.000Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "q82kfyv9wflk",
-          "status": "monitoring",
-          "body": "We are continuing to monitor service health, and have identified that a small number of customers may still experience issues with authentication. Engineers are in the process of deploying a mitigation for any remaining impact.",
-          "incident_id": "ldz134xqx4yg",
-          "created_at": "2021-06-08T04:02:19.511Z",
-          "updated_at": "2021-06-08T04:02:19.511Z",
-          "display_at": "2021-06-08T04:02:19.511Z",
-          "affected_components": [
-            {
-              "code": "v15kk4lwm6ql",
-              "name": "Identity - us-phoenix-1 region",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "sxpdvl47wb8d",
-              "name": "Identity Cloud Service - US West (Phoenix)",
-              "old_status": "major_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "7h9l0kzzl3wj",
-          "status": "monitoring",
-          "body": "We identified an issue with Oracle Cloud Infrastructure Identity Cloud Service (IDCS) in the US West (Phoenix) region, and we’ve confirmed that service has been restored. We are continuing to actively monitor the issue to ensure that the issue will not reoccur.\n\n<b>Customer Impact:</b> Customers attempting to access services and resources using IDCS authentication in the US West (Phoenix) region experienced failures when attempting to reach authentication infrastructure. Customers may have experienced this behavior when accessing resources in other regions if their authentication region was homed in US West (Phoenix).\n\n<b>Start Time:</b> June 7, 2021 22:50 UTC\n\n<b>End Time:</b> June 8, 2021 01:35 UTC\n\n<b>Reference Number:</b> CN-89592",
-          "incident_id": "ldz134xqx4yg",
-          "created_at": "2021-06-08T02:00:47.149Z",
-          "updated_at": "2021-06-08T02:00:47.149Z",
-          "display_at": "2021-06-08T02:00:47.149Z",
-          "affected_components": [
-            {
-              "code": "v15kk4lwm6ql",
-              "name": "Identity - us-phoenix-1 region",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "sxpdvl47wb8d",
-              "name": "Identity Cloud Service - US West (Phoenix)",
-              "old_status": "major_outage",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "pm1kv8tl72r3",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Identity Cloud Service.\n\n<b>Customer Impact:</b> Customers may be unable to access or use Identity Cloud Service (IDCS). Services that rely on IDCS US West (Phoenix) region for authentication may also experience disruptions to their service.\n\nFurther updates will be provided as events warrant.\n\n<b>Start Time:</b> June 7, 2021 22:50 UTC\n\n<b>Reference Number:</b> CN-89592",
-          "incident_id": "ldz134xqx4yg",
-          "created_at": "2021-06-07T23:39:42.767Z",
-          "updated_at": "2021-06-08T00:33:33.630Z",
-          "display_at": "2021-06-07T23:39:42.000Z",
-          "affected_components": [
-            {
-              "code": "v15kk4lwm6ql",
-              "name": "Identity - us-phoenix-1 region",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            },
-            {
-              "code": "sxpdvl47wb8d",
-              "name": "Identity Cloud Service - US West (Phoenix)",
-              "old_status": "operational",
-              "new_status": "major_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "v15kk4lwm6ql",
-          "name": "us-phoenix-1 region",
-          "status": "partial_outage",
-          "created_at": "2017-08-09T18:23:07.355Z",
-          "updated_at": "2021-06-08T04:02:19.427Z",
-          "position": 21,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "zqf5v0ykx3lk",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "sxpdvl47wb8d",
-          "name": "US West (Phoenix)",
-          "status": "partial_outage",
-          "created_at": "2020-05-18T20:45:53.556Z",
-          "updated_at": "2021-06-08T04:02:19.409Z",
-          "position": 21,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "sr2y42rkwsgk",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

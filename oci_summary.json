@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-06-22T17:07:30.434Z"
+    "updated_at": "2021-06-22T17:35:31.991Z"
   },
   "components": [
     {
@@ -415,7 +415,7 @@
     {
       "id": "sx4xcbk5vby9",
       "name": "Compute",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-09T19:03:40.697Z",
       "updated_at": "2021-06-11T18:22:48.268Z",
       "position": 1,
@@ -13681,9 +13681,9 @@
     {
       "id": "9c7ckly20b88",
       "name": "US East (Ashburn)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-06-07T16:57:05.217Z",
-      "updated_at": "2021-06-22T16:17:03.859Z",
+      "updated_at": "2021-06-22T17:35:31.903Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -16613,83 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "t4fs3np3cyty",
-      "name": "Oracle Cloud Infrastructure Compute | US East (Ashburn) | CN-92954",
-      "status": "identified",
-      "created_at": "2021-06-22T16:17:03.833Z",
-      "updated_at": "2021-06-22T17:07:30.422Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/9k5jt4jbrb28",
-      "started_at": "2021-06-22T16:17:03.827Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "gy9jc8xgkgw5",
-          "status": "identified",
-          "body": "We've identified an issue affecting Oracle Cloud Infrastructure Compute in the US East (Ashburn) region. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers may be unable to launch new Bare Metal Instances in this region. Existing instances are not impacted by this issue.\n\n<b>Start Time:</b> June 22, 2021 13:40 UTC\n\n<b>Next Update by:</b> June 22, 2021 18:10 UTC\n\n<b>Reference Number:</b> CN-92954",
-          "incident_id": "t4fs3np3cyty",
-          "created_at": "2021-06-22T17:07:30.420Z",
-          "updated_at": "2021-06-22T17:07:30.420Z",
-          "display_at": "2021-06-22T17:07:30.420Z",
-          "affected_components": [
-            {
-              "code": "9c7ckly20b88",
-              "name": "Compute - US East (Ashburn)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "wtzf5jfmr88t",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Compute in the US East (Ashburn) region.\n\n<b>Customer Impact:</b> Customers may be unable to launch new Bare Metal Instances in this region. Existing instances are not impacted by this issue.\n\n<b>Start Time:</b> June 22, 2021 13:40 UTC\n\n<b>Next Update by:</b> June 22, 2021 17:10 UTC\n\n<b>Reference Number:</b> CN-92954",
-          "incident_id": "t4fs3np3cyty",
-          "created_at": "2021-06-22T16:17:03.967Z",
-          "updated_at": "2021-06-22T16:17:03.967Z",
-          "display_at": "2021-06-22T16:17:03.967Z",
-          "affected_components": [
-            {
-              "code": "9c7ckly20b88",
-              "name": "Compute - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "9c7ckly20b88",
-          "name": "US East (Ashburn)",
-          "status": "degraded_performance",
-          "created_at": "2017-06-07T16:57:05.217Z",
-          "updated_at": "2021-06-22T16:17:03.859Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "sx4xcbk5vby9",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

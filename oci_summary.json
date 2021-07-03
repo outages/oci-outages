@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-03T10:36:26.371Z"
+    "updated_at": "2021-07-03T11:28:00.808Z"
   },
   "components": [
     {
@@ -5293,7 +5293,7 @@
     {
       "id": "w4rxy5n6jngd",
       "name": "Object Storage",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-16T22:10:31.646Z",
       "updated_at": "2020-11-06T07:22:31.380Z",
       "position": 8,
@@ -14290,7 +14290,7 @@
     {
       "id": "fldz5lpp5mxs",
       "name": "Email Delivery",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-16T22:29:37.454Z",
       "updated_at": "2020-11-06T07:22:31.506Z",
       "position": 21,
@@ -14432,16 +14432,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "16xf8z4rvqqc",
+      "id": "nc2f54blmwhb",
       "name": "us-phoenix-1 region",
-      "status": "degraded_performance",
-      "created_at": "2018-08-21T19:10:07.410Z",
-      "updated_at": "2021-07-03T10:36:26.254Z",
+      "status": "operational",
+      "created_at": "2018-08-16T22:29:52.504Z",
+      "updated_at": "2021-07-03T11:28:00.715Z",
       "position": 21,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "j534vmnnt3j4",
+      "group_id": "fldz5lpp5mxs",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -14612,16 +14612,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nc2f54blmwhb",
+      "id": "sd1qf8kg3n0r",
       "name": "us-phoenix-1 region",
-      "status": "degraded_performance",
-      "created_at": "2018-08-16T22:29:52.504Z",
-      "updated_at": "2021-07-03T10:36:26.282Z",
+      "status": "operational",
+      "created_at": "2017-08-09T15:03:30.091Z",
+      "updated_at": "2021-07-03T11:28:00.728Z",
       "position": 21,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "fldz5lpp5mxs",
+      "group_id": "w4rxy5n6jngd",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -14792,16 +14792,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "sd1qf8kg3n0r",
+      "id": "16xf8z4rvqqc",
       "name": "us-phoenix-1 region",
-      "status": "degraded_performance",
-      "created_at": "2017-08-09T15:03:30.091Z",
-      "updated_at": "2021-07-03T09:23:54.856Z",
+      "status": "operational",
+      "created_at": "2018-08-21T19:10:07.410Z",
+      "updated_at": "2021-07-03T11:28:00.702Z",
       "position": 21,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "w4rxy5n6jngd",
+      "group_id": "j534vmnnt3j4",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -15523,7 +15523,7 @@
     {
       "id": "j534vmnnt3j4",
       "name": "Developer Services - Container Clusters (OKE)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-21T19:09:53.437Z",
       "updated_at": "2020-11-06T07:22:31.533Z",
       "position": 24,
@@ -16613,125 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "v0qvf3xpfmg1",
-      "name": "Oracle Cloud Infrastructure Object Storage | US West (Phoenix) | CN-94495",
-      "status": "identified",
-      "created_at": "2021-07-03T09:23:54.822Z",
-      "updated_at": "2021-07-03T10:36:26.364Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/fksyw2bn4wlh",
-      "started_at": "2021-07-03T09:23:54.815Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "rtzn0h1dzxjw",
-          "status": "identified",
-          "body": "We have identified an issue affecting the Oracle Cloud Infrastructure Object Storage service in the US West (Phoenix) region.\n\n<b>Customer Impact:</b> Some customers may be unable to perform service management operations. In addition, the following downstream services may also experience some unintended impact as a result; Developer Services - Container Clusters (OKE), Events, API Gateway and Email Delivery. \n\nFurther updates will be provided as events warrant.",
-          "incident_id": "v0qvf3xpfmg1",
-          "created_at": "2021-07-03T10:36:26.361Z",
-          "updated_at": "2021-07-03T10:36:26.361Z",
-          "display_at": "2021-07-03T10:36:26.361Z",
-          "affected_components": [
-            {
-              "code": "sd1qf8kg3n0r",
-              "name": "Object Storage - us-phoenix-1 region",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "nc2f54blmwhb",
-              "name": "Email Delivery - us-phoenix-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "16xf8z4rvqqc",
-              "name": "Developer Services - Container Clusters (OKE) - us-phoenix-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "f3ltm38g39m7",
-          "status": "investigating",
-          "body": "We are investigating a potential issue affecting the Oracle Cloud Infrastructure Object Storage service in the US West (Phoenix) region.\n\n<b>Customer Impact:</b> Some customers may be unable to perform service management operations. In addition, some downstream services may experience unintended impact as a result.\n\nFurther updates will be provided as events warrant.\n\n<b>Start Time </b>: July 03, 2021 08:29 UTC\n\n<b>Reference Number:</b> CN-94495",
-          "incident_id": "v0qvf3xpfmg1",
-          "created_at": "2021-07-03T09:23:54.938Z",
-          "updated_at": "2021-07-03T09:23:54.938Z",
-          "display_at": "2021-07-03T09:23:54.938Z",
-          "affected_components": [
-            {
-              "code": "sd1qf8kg3n0r",
-              "name": "Object Storage - us-phoenix-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "nc2f54blmwhb",
-          "name": "us-phoenix-1 region",
-          "status": "degraded_performance",
-          "created_at": "2018-08-16T22:29:52.504Z",
-          "updated_at": "2021-07-03T10:36:26.282Z",
-          "position": 21,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "fldz5lpp5mxs",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "16xf8z4rvqqc",
-          "name": "us-phoenix-1 region",
-          "status": "degraded_performance",
-          "created_at": "2018-08-21T19:10:07.410Z",
-          "updated_at": "2021-07-03T10:36:26.254Z",
-          "position": 21,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "j534vmnnt3j4",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "sd1qf8kg3n0r",
-          "name": "us-phoenix-1 region",
-          "status": "degraded_performance",
-          "created_at": "2017-08-09T15:03:30.091Z",
-          "updated_at": "2021-07-03T09:23:54.856Z",
-          "position": 21,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "w4rxy5n6jngd",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

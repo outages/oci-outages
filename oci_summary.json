@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-07T18:18:48.087Z"
+    "updated_at": "2021-07-07T18:39:25.906Z"
   },
   "components": [
     {
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure Multiple Services | US East (Ashburn) | CN-94815",
       "status": "investigating",
       "created_at": "2021-07-07T15:46:20.000Z",
-      "updated_at": "2021-07-07T18:18:48.080Z",
+      "updated_at": "2021-07-07T18:39:25.898Z",
       "monitoring_at": "2021-07-07T15:46:20.000Z",
       "resolved_at": null,
       "impact": "major",
@@ -16884,10 +16884,10 @@
         {
           "id": "dvlxslzxc4zl",
           "status": "monitoring",
-          "body": "We are investigating a potential issue affecting the Oracle Cloud infrastructure Network Infrastructure service in the US East (Ashburn) Region.\n\n<b>Customer Impact:</b> Some customers may be experiencing interruptions to the Oracle Cloud Infrastructure Network Infrastructure service as well as downstream services including Oracle Cloud Infrastructure Identity, Compute, MySQL Database, Container Engine for Kubernetes and Service Gateway. \n\nImpacted services appear to be recovering and we are continuing to monitor the situation while we work to identify the root-cause.  \n\nFurther updates will be provided as events warrant.\n\n<b>Start Time:</b> July 07, 2021 15:05 UTC\n\n<b>Reference Number:</b>CN-94815",
+          "body": "We are investigating a potential issue affecting the Oracle Cloud infrastructure Network Infrastructure service in the US East (Ashburn) Region.\n\n<b>Customer Impact:</b> Some customers may be experiencing interruptions to the Oracle Cloud Infrastructure Network Infrastructure service as well as downstream services including Oracle Cloud Infrastructure Identity, Compute, MySQL Database, Container Engine for Kubernetes and Service Gateway. \n\nImpacted services appear to be recovering and we are continuing to monitor the situation while we work to identify the root-cause.  \n\nFurther updates will be provided as events warrant.\n\n<b>Start Time:</b> July 07, 2021 15:05 UTC\n\n<b>Reference Number:</b> CN-94815",
           "incident_id": "m14w9c46dnrx",
           "created_at": "2021-07-07T15:46:20.824Z",
-          "updated_at": "2021-07-07T16:10:12.450Z",
+          "updated_at": "2021-07-07T18:39:25.895Z",
           "display_at": "2021-07-07T15:46:20.000Z",
           "affected_components": [
             {

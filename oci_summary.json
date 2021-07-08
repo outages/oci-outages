@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-08T06:23:37.529Z"
+    "updated_at": "2021-07-08T07:34:26.589Z"
   },
   "components": [
     {
@@ -16619,7 +16619,7 @@
       "name": "Multiple services | US East (Ashburn) | CN-94932",
       "status": "identified",
       "created_at": "2021-07-08T05:27:01.785Z",
-      "updated_at": "2021-07-08T06:20:46.808Z",
+      "updated_at": "2021-07-08T07:34:26.581Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -16627,6 +16627,68 @@
       "started_at": "2021-07-08T05:27:01.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "bh69wbqc82c9",
+          "status": "identified",
+          "body": "Engineers have identified the issue impacting a subset of Autonomous Database customers and are working to perform mitigations.",
+          "incident_id": "35429r557hkm",
+          "created_at": "2021-07-08T07:34:26.578Z",
+          "updated_at": "2021-07-08T07:34:26.578Z",
+          "display_at": "2021-07-08T07:34:26.578Z",
+          "affected_components": [
+            {
+              "code": "284wd3dj9tww",
+              "name": "Database - Autonomous Data Warehouse - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "gjnq5pq0gybf",
+              "name": "Database - Autonomous Transaction Processing - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "gvhv212l7st0",
+              "name": "Data Safe - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kmkt5lnhg63r",
+              "name": "Data Catalog - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "2zvzmdqsl6tw",
+              "name": "Data Integration - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "121xg4vgxclw",
+              "name": "Oracle Content and Experience - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "w5yc0tf8vp6y",
+              "name": "Cloud Guard - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pvpycwv0bcpl",
+              "name": "Autonomous Database - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dqgcs2x7ght7",
           "status": "identified",

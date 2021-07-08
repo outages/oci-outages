@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-08T05:27:01.891Z"
+    "updated_at": "2021-07-08T05:39:32.641Z"
   },
   "components": [
     {
@@ -16619,22 +16619,22 @@
       "name": "Multiple services | US East (Ashburn) | CN-94932",
       "status": "investigating",
       "created_at": "2021-07-08T05:27:01.785Z",
-      "updated_at": "2021-07-08T05:27:01.888Z",
+      "updated_at": "2021-07-08T05:39:32.638Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "none",
       "shortlink": "https://stspg.io/tmvmrwzml9vh",
-      "started_at": "2021-07-08T05:27:01.756Z",
+      "started_at": "2021-07-08T05:27:01.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
         {
           "id": "q816dxfndfkj",
           "status": "investigating",
-          "body": "We're investigating a potential issue with multiple services in the US East (Ashburn) region.\n\n<b>Customer Impact:</b> Customers may experience delays while accessing or using the multiple services service.\n\n<b>Start Time:</b> July 7, 2021 15:05 UTC\n\n<b>Reference Number:</b>CN-94932",
+          "body": "We're investigating a potential issue with multiple services in the US East (Ashburn) region.\n\n<b>Customer Impact:</b> Customers may experience issues accessing multiple services including Autonomous Database, Autonomous Data Warehouse, Autonomous Transaction Processing and Cloud Guard.\n\n<b>Start Time:</b> July 7, 2021 15:05 UTC\n\n<b>Reference Number:</b>CN-94932",
           "incident_id": "35429r557hkm",
           "created_at": "2021-07-08T05:27:01.885Z",
-          "updated_at": "2021-07-08T05:27:01.885Z",
-          "display_at": "2021-07-08T05:27:01.885Z",
+          "updated_at": "2021-07-08T05:39:32.574Z",
+          "display_at": "2021-07-08T05:27:01.000Z",
           "affected_components": [
             {
               "code": "284wd3dj9tww",

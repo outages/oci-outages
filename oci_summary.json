@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-08T07:34:26.589Z"
+    "updated_at": "2021-07-08T08:41:53.730Z"
   },
   "components": [
     {
@@ -11419,7 +11419,7 @@
     {
       "id": "bztnw6ncdd5p",
       "name": "Database - Autonomous Data Warehouse",
-      "status": "degraded_performance",
+      "status": "partial_outage",
       "created_at": "2018-08-15T17:15:21.418Z",
       "updated_at": "2020-11-06T07:22:31.469Z",
       "position": 17,
@@ -13394,16 +13394,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "gvhv212l7st0",
+      "id": "pvpycwv0bcpl",
       "name": "US East (Ashburn)",
       "status": "partial_outage",
-      "created_at": "2019-09-12T22:52:52.244Z",
-      "updated_at": "2021-07-08T06:20:46.702Z",
+      "created_at": "2020-11-06T07:19:28.627Z",
+      "updated_at": "2021-07-08T06:20:46.718Z",
       "position": 20,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "c4vvw2mlz92y",
+      "start_date": "2020-11-05",
+      "group_id": "pbrqh15302sw",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13913,16 +13913,16 @@
       ]
     },
     {
-      "id": "284wd3dj9tww",
+      "id": "gjnq5pq0gybf",
       "name": "us-ashburn-1 region",
-      "status": "degraded_performance",
-      "created_at": "2018-08-15T17:16:48.975Z",
-      "updated_at": "2021-07-08T06:20:46.610Z",
+      "status": "partial_outage",
+      "created_at": "2018-08-21T18:39:44.566Z",
+      "updated_at": "2021-07-08T06:20:46.659Z",
       "position": 20,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "bztnw6ncdd5p",
+      "group_id": "6gj9ydqydntb",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13943,16 +13943,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "gjnq5pq0gybf",
-      "name": "us-ashburn-1 region",
+      "id": "w5yc0tf8vp6y",
+      "name": "US East (Ashburn)",
       "status": "partial_outage",
-      "created_at": "2018-08-21T18:39:44.566Z",
-      "updated_at": "2021-07-08T06:20:46.659Z",
+      "created_at": "2020-08-31T17:07:04.089Z",
+      "updated_at": "2021-07-08T06:20:46.675Z",
       "position": 20,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "6gj9ydqydntb",
+      "start_date": "2020-08-31",
+      "group_id": "cpyvw7lr6743",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -14003,16 +14003,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "w5yc0tf8vp6y",
+      "id": "2zvzmdqsl6tw",
       "name": "US East (Ashburn)",
       "status": "partial_outage",
-      "created_at": "2020-08-31T17:07:04.089Z",
-      "updated_at": "2021-07-08T06:20:46.675Z",
+      "created_at": "2020-08-31T05:17:44.711Z",
+      "updated_at": "2021-07-08T06:20:46.690Z",
       "position": 20,
       "description": null,
       "showcase": false,
-      "start_date": "2020-08-31",
-      "group_id": "cpyvw7lr6743",
+      "start_date": null,
+      "group_id": "97q4nsgcx28y",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -14063,31 +14063,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "pvpycwv0bcpl",
-      "name": "US East (Ashburn)",
+      "id": "284wd3dj9tww",
+      "name": "us-ashburn-1 region",
       "status": "partial_outage",
-      "created_at": "2020-11-06T07:19:28.627Z",
-      "updated_at": "2021-07-08T06:20:46.718Z",
+      "created_at": "2018-08-15T17:16:48.975Z",
+      "updated_at": "2021-07-08T08:41:53.620Z",
       "position": 20,
       "description": null,
       "showcase": false,
-      "start_date": "2020-11-05",
-      "group_id": "pbrqh15302sw",
+      "start_date": null,
+      "group_id": "bztnw6ncdd5p",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "2zvzmdqsl6tw",
+      "id": "gvhv212l7st0",
       "name": "US East (Ashburn)",
       "status": "partial_outage",
-      "created_at": "2020-08-31T05:17:44.711Z",
-      "updated_at": "2021-07-08T06:20:46.690Z",
+      "created_at": "2019-09-12T22:52:52.244Z",
+      "updated_at": "2021-07-08T06:20:46.702Z",
       "position": 20,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "97q4nsgcx28y",
+      "group_id": "c4vvw2mlz92y",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -16619,14 +16619,76 @@
       "name": "Multiple services | US East (Ashburn) | CN-94932",
       "status": "identified",
       "created_at": "2021-07-08T05:27:01.785Z",
-      "updated_at": "2021-07-08T07:34:26.581Z",
+      "updated_at": "2021-07-08T08:41:53.720Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "minor",
+      "impact": "major",
       "shortlink": "https://stspg.io/tmvmrwzml9vh",
       "started_at": "2021-07-08T05:27:01.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "8ddmh6pj53x2",
+          "status": "identified",
+          "body": "We are continuing to explore potential mitigation paths for the issue identified in the region.",
+          "incident_id": "35429r557hkm",
+          "created_at": "2021-07-08T08:41:53.716Z",
+          "updated_at": "2021-07-08T08:41:53.716Z",
+          "display_at": "2021-07-08T08:41:53.716Z",
+          "affected_components": [
+            {
+              "code": "284wd3dj9tww",
+              "name": "Database - Autonomous Data Warehouse - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "gjnq5pq0gybf",
+              "name": "Database - Autonomous Transaction Processing - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "gvhv212l7st0",
+              "name": "Data Safe - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "kmkt5lnhg63r",
+              "name": "Data Catalog - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "2zvzmdqsl6tw",
+              "name": "Data Integration - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "121xg4vgxclw",
+              "name": "Oracle Content and Experience - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "w5yc0tf8vp6y",
+              "name": "Cloud Guard - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pvpycwv0bcpl",
+              "name": "Autonomous Database - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "bh69wbqc82c9",
           "status": "identified",
@@ -16893,9 +16955,9 @@
         {
           "id": "284wd3dj9tww",
           "name": "us-ashburn-1 region",
-          "status": "degraded_performance",
+          "status": "partial_outage",
           "created_at": "2018-08-15T17:16:48.975Z",
-          "updated_at": "2021-07-08T06:20:46.610Z",
+          "updated_at": "2021-07-08T08:41:53.620Z",
           "position": 20,
           "description": null,
           "showcase": false,

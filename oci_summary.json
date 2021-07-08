@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-08T08:55:38.020Z"
+    "updated_at": "2021-07-08T09:43:51.858Z"
   },
   "components": [
     {
@@ -9961,7 +9961,7 @@
     {
       "id": "pbrqh15302sw",
       "name": "Autonomous Database",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:07.510Z",
       "updated_at": "2020-11-06T07:22:31.450Z",
       "position": 15,
@@ -11419,7 +11419,7 @@
     {
       "id": "bztnw6ncdd5p",
       "name": "Database - Autonomous Data Warehouse",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-15T17:15:21.418Z",
       "updated_at": "2020-11-06T07:22:31.469Z",
       "position": 17,
@@ -11983,7 +11983,7 @@
     {
       "id": "6gj9ydqydntb",
       "name": "Database - Autonomous Transaction Processing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-21T18:39:06.417Z",
       "updated_at": "2020-11-06T07:22:31.478Z",
       "position": 18,
@@ -13396,9 +13396,9 @@
     {
       "id": "pvpycwv0bcpl",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:28.627Z",
-      "updated_at": "2021-07-08T06:20:46.718Z",
+      "updated_at": "2021-07-08T09:43:51.750Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13769,16 +13769,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "kmkt5lnhg63r",
+      "id": "121xg4vgxclw",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
-      "created_at": "2020-02-11T21:50:04.808Z",
-      "updated_at": "2021-07-08T06:20:46.582Z",
+      "status": "operational",
+      "created_at": "2020-08-31T05:18:28.410Z",
+      "updated_at": "2021-07-08T09:43:51.652Z",
       "position": 20,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "w74ty0wkn3l4",
+      "group_id": "24p7vp53p76c",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13799,16 +13799,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "121xg4vgxclw",
-      "name": "US East (Ashburn)",
-      "status": "partial_outage",
-      "created_at": "2020-08-31T05:18:28.410Z",
-      "updated_at": "2021-07-08T06:20:46.597Z",
+      "id": "gjnq5pq0gybf",
+      "name": "us-ashburn-1 region",
+      "status": "operational",
+      "created_at": "2018-08-21T18:39:44.566Z",
+      "updated_at": "2021-07-08T09:43:51.669Z",
       "position": 20,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "24p7vp53p76c",
+      "group_id": "6gj9ydqydntb",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13913,16 +13913,16 @@
       ]
     },
     {
-      "id": "gjnq5pq0gybf",
-      "name": "us-ashburn-1 region",
-      "status": "partial_outage",
-      "created_at": "2018-08-21T18:39:44.566Z",
-      "updated_at": "2021-07-08T06:20:46.659Z",
+      "id": "w5yc0tf8vp6y",
+      "name": "US East (Ashburn)",
+      "status": "operational",
+      "created_at": "2020-08-31T17:07:04.089Z",
+      "updated_at": "2021-07-08T09:43:51.687Z",
       "position": 20,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "6gj9ydqydntb",
+      "start_date": "2020-08-31",
+      "group_id": "cpyvw7lr6743",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13943,16 +13943,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "w5yc0tf8vp6y",
+      "id": "2zvzmdqsl6tw",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
-      "created_at": "2020-08-31T17:07:04.089Z",
-      "updated_at": "2021-07-08T06:20:46.675Z",
+      "status": "operational",
+      "created_at": "2020-08-31T05:17:44.711Z",
+      "updated_at": "2021-07-08T09:43:51.703Z",
       "position": 20,
       "description": null,
       "showcase": false,
-      "start_date": "2020-08-31",
-      "group_id": "cpyvw7lr6743",
+      "start_date": null,
+      "group_id": "97q4nsgcx28y",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -14003,16 +14003,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "2zvzmdqsl6tw",
+      "id": "gvhv212l7st0",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
-      "created_at": "2020-08-31T05:17:44.711Z",
-      "updated_at": "2021-07-08T06:20:46.690Z",
+      "status": "operational",
+      "created_at": "2019-09-12T22:52:52.244Z",
+      "updated_at": "2021-07-08T09:43:51.718Z",
       "position": 20,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "97q4nsgcx28y",
+      "group_id": "c4vvw2mlz92y",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -14065,9 +14065,9 @@
     {
       "id": "284wd3dj9tww",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-15T17:16:48.975Z",
-      "updated_at": "2021-07-08T08:41:53.620Z",
+      "updated_at": "2021-07-08T09:43:51.766Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14078,16 +14078,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "gvhv212l7st0",
+      "id": "kmkt5lnhg63r",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
-      "created_at": "2019-09-12T22:52:52.244Z",
-      "updated_at": "2021-07-08T06:20:46.702Z",
+      "status": "operational",
+      "created_at": "2020-02-11T21:50:04.808Z",
+      "updated_at": "2021-07-08T09:43:51.734Z",
       "position": 20,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "c4vvw2mlz92y",
+      "group_id": "w74ty0wkn3l4",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -16069,7 +16069,7 @@
     {
       "id": "c4vvw2mlz92y",
       "name": "Data Safe",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-09-12T22:42:48.977Z",
       "updated_at": "2020-11-06T07:22:31.673Z",
       "position": 38,
@@ -16225,7 +16225,7 @@
     {
       "id": "w74ty0wkn3l4",
       "name": "Data Catalog",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-02-11T21:49:48.842Z",
       "updated_at": "2020-11-06T07:22:31.712Z",
       "position": 42,
@@ -16459,7 +16459,7 @@
     {
       "id": "97q4nsgcx28y",
       "name": "Data Integration",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T05:17:26.141Z",
       "updated_at": "2020-11-06T07:22:31.769Z",
       "position": 48,
@@ -16537,7 +16537,7 @@
     {
       "id": "24p7vp53p76c",
       "name": "Oracle Content and Experience",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T05:18:09.585Z",
       "updated_at": "2020-11-06T07:22:31.787Z",
       "position": 50,
@@ -16576,7 +16576,7 @@
     {
       "id": "cpyvw7lr6743",
       "name": "Cloud Guard",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T17:06:43.905Z",
       "updated_at": "2020-11-06T07:22:31.796Z",
       "position": 51,
@@ -16613,396 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "35429r557hkm",
-      "name": "Oracle Cloud Infrastructure Multiple services | US East (Ashburn) | CN-94932",
-      "status": "identified",
-      "created_at": "2021-07-08T05:27:01.785Z",
-      "updated_at": "2021-07-08T08:55:38.018Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/tmvmrwzml9vh",
-      "started_at": "2021-07-08T05:27:01.000Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "8ddmh6pj53x2",
-          "status": "identified",
-          "body": "We are continuing to explore potential mitigation paths for the issue identified in the region.",
-          "incident_id": "35429r557hkm",
-          "created_at": "2021-07-08T08:41:53.716Z",
-          "updated_at": "2021-07-08T08:41:53.716Z",
-          "display_at": "2021-07-08T08:41:53.716Z",
-          "affected_components": [
-            {
-              "code": "284wd3dj9tww",
-              "name": "Database - Autonomous Data Warehouse - us-ashburn-1 region",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "gjnq5pq0gybf",
-              "name": "Database - Autonomous Transaction Processing - us-ashburn-1 region",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "gvhv212l7st0",
-              "name": "Data Safe - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "kmkt5lnhg63r",
-              "name": "Data Catalog - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "2zvzmdqsl6tw",
-              "name": "Data Integration - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "121xg4vgxclw",
-              "name": "Oracle Content and Experience - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "w5yc0tf8vp6y",
-              "name": "Cloud Guard - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "pvpycwv0bcpl",
-              "name": "Autonomous Database - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bh69wbqc82c9",
-          "status": "identified",
-          "body": "Engineers have identified the issue impacting a subset of Autonomous Database customers and are working to perform mitigations.",
-          "incident_id": "35429r557hkm",
-          "created_at": "2021-07-08T07:34:26.578Z",
-          "updated_at": "2021-07-08T07:34:26.578Z",
-          "display_at": "2021-07-08T07:34:26.578Z",
-          "affected_components": [
-            {
-              "code": "284wd3dj9tww",
-              "name": "Database - Autonomous Data Warehouse - us-ashburn-1 region",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "gjnq5pq0gybf",
-              "name": "Database - Autonomous Transaction Processing - us-ashburn-1 region",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "gvhv212l7st0",
-              "name": "Data Safe - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "kmkt5lnhg63r",
-              "name": "Data Catalog - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "2zvzmdqsl6tw",
-              "name": "Data Integration - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "121xg4vgxclw",
-              "name": "Oracle Content and Experience - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "w5yc0tf8vp6y",
-              "name": "Cloud Guard - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "pvpycwv0bcpl",
-              "name": "Autonomous Database - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dqgcs2x7ght7",
-          "status": "identified",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "35429r557hkm",
-          "created_at": "2021-07-08T06:20:46.805Z",
-          "updated_at": "2021-07-08T06:20:46.805Z",
-          "display_at": "2021-07-08T06:20:46.805Z",
-          "affected_components": [
-            {
-              "code": "284wd3dj9tww",
-              "name": "Database - Autonomous Data Warehouse - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "gjnq5pq0gybf",
-              "name": "Database - Autonomous Transaction Processing - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "gvhv212l7st0",
-              "name": "Data Safe - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "kmkt5lnhg63r",
-              "name": "Data Catalog - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "2zvzmdqsl6tw",
-              "name": "Data Integration - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "121xg4vgxclw",
-              "name": "Oracle Content and Experience - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "w5yc0tf8vp6y",
-              "name": "Cloud Guard - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "pvpycwv0bcpl",
-              "name": "Autonomous Database - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "q816dxfndfkj",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with multiple services in the US East (Ashburn) region.\n\n<b>Customer Impact:</b> Customers may experience issues accessing multiple services including Autonomous Database, Autonomous Data Warehouse, Autonomous Transaction Processing and Cloud Guard.\n\n<b>Start Time:</b> July 7, 2021 15:05 UTC\n\n<b>Reference Number:</b>CN-94932",
-          "incident_id": "35429r557hkm",
-          "created_at": "2021-07-08T05:27:01.885Z",
-          "updated_at": "2021-07-08T05:39:32.574Z",
-          "display_at": "2021-07-08T05:27:01.000Z",
-          "affected_components": [
-            {
-              "code": "284wd3dj9tww",
-              "name": "Database - Autonomous Data Warehouse - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "gjnq5pq0gybf",
-              "name": "Database - Autonomous Transaction Processing - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "gvhv212l7st0",
-              "name": "Data Safe - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "kmkt5lnhg63r",
-              "name": "Data Catalog - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "2zvzmdqsl6tw",
-              "name": "Data Integration - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "121xg4vgxclw",
-              "name": "Oracle Content and Experience - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "w5yc0tf8vp6y",
-              "name": "Cloud Guard - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "pvpycwv0bcpl",
-              "name": "Autonomous Database - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "pvpycwv0bcpl",
-          "name": "US East (Ashburn)",
-          "status": "partial_outage",
-          "created_at": "2020-11-06T07:19:28.627Z",
-          "updated_at": "2021-07-08T06:20:46.718Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-11-05",
-          "group_id": "pbrqh15302sw",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "gvhv212l7st0",
-          "name": "US East (Ashburn)",
-          "status": "partial_outage",
-          "created_at": "2019-09-12T22:52:52.244Z",
-          "updated_at": "2021-07-08T06:20:46.702Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "c4vvw2mlz92y",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "2zvzmdqsl6tw",
-          "name": "US East (Ashburn)",
-          "status": "partial_outage",
-          "created_at": "2020-08-31T05:17:44.711Z",
-          "updated_at": "2021-07-08T06:20:46.690Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "97q4nsgcx28y",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "w5yc0tf8vp6y",
-          "name": "US East (Ashburn)",
-          "status": "partial_outage",
-          "created_at": "2020-08-31T17:07:04.089Z",
-          "updated_at": "2021-07-08T06:20:46.675Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "cpyvw7lr6743",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "gjnq5pq0gybf",
-          "name": "us-ashburn-1 region",
-          "status": "partial_outage",
-          "created_at": "2018-08-21T18:39:44.566Z",
-          "updated_at": "2021-07-08T06:20:46.659Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6gj9ydqydntb",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "284wd3dj9tww",
-          "name": "us-ashburn-1 region",
-          "status": "partial_outage",
-          "created_at": "2018-08-15T17:16:48.975Z",
-          "updated_at": "2021-07-08T08:41:53.620Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "bztnw6ncdd5p",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "121xg4vgxclw",
-          "name": "US East (Ashburn)",
-          "status": "partial_outage",
-          "created_at": "2020-08-31T05:18:28.410Z",
-          "updated_at": "2021-07-08T06:20:46.597Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "24p7vp53p76c",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "kmkt5lnhg63r",
-          "name": "US East (Ashburn)",
-          "status": "partial_outage",
-          "created_at": "2020-02-11T21:50:04.808Z",
-          "updated_at": "2021-07-08T06:20:46.582Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "w74ty0wkn3l4",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

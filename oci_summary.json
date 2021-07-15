@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-15T18:26:13.289Z"
+    "updated_at": "2021-07-15T19:13:28.317Z"
   },
   "components": [
     {
@@ -10984,9 +10984,9 @@
     {
       "id": "5x8lphcbd0tt",
       "name": "Chile Central (Santiago)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-14T23:43:13.018Z",
-      "updated_at": "2021-07-15T18:13:39.043Z",
+      "updated_at": "2021-07-15T19:13:28.234Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -16186,7 +16186,7 @@
     {
       "id": "x7526fhpytvm",
       "name": "Data Flow",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-02-09T04:16:22.354Z",
       "updated_at": "2020-11-06T07:22:31.702Z",
       "position": 41,
@@ -16613,63 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "5k09cszv9rz9",
-      "name": "Oracle Cloud Infrastructure Data Flow | Chile Central (Santiago) | CN-95935",
-      "status": "investigating",
-      "created_at": "2021-07-15T18:13:39.004Z",
-      "updated_at": "2021-07-15T18:13:39.136Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/0jkb9g9zrj9p",
-      "started_at": "2021-07-15T18:13:38.995Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "gh6nhc4ffjd1",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Data Flow in the Chile Central (Santiago) region.\n\n<b>Customer Impact:</b> Customers may experience job failures within Oracle Cloud Infrastructure Data Flow service.\n\n<b>Start Time:</b> July 15, 2021 16:36 UTC\n\n<b>Reference Number:</b> CN-95935",
-          "incident_id": "5k09cszv9rz9",
-          "created_at": "2021-07-15T18:13:39.133Z",
-          "updated_at": "2021-07-15T18:13:39.133Z",
-          "display_at": "2021-07-15T18:13:39.133Z",
-          "affected_components": [
-            {
-              "code": "5x8lphcbd0tt",
-              "name": "Data Flow - Chile Central (Santiago)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "5x8lphcbd0tt",
-          "name": "Chile Central (Santiago)",
-          "status": "degraded_performance",
-          "created_at": "2020-12-14T23:43:13.018Z",
-          "updated_at": "2021-07-15T18:13:39.043Z",
-          "position": 16,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-14",
-          "group_id": "x7526fhpytvm",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

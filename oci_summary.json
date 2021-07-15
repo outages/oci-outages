@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-15T16:51:09.183Z"
+    "updated_at": "2021-07-15T17:29:26.787Z"
   },
   "components": [
     {
@@ -5233,7 +5233,7 @@
     {
       "id": "w4rxy5n6jngd",
       "name": "Object Storage",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:10:31.646Z",
       "updated_at": "2020-11-06T07:22:31.380Z",
       "position": 8,
@@ -9511,9 +9511,9 @@
     {
       "id": "mrm8nl0r3nqx",
       "name": "UAE East (Dubai)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-30T23:12:42.338Z",
-      "updated_at": "2021-07-15T16:51:09.051Z",
+      "updated_at": "2021-07-15T17:29:26.673Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -16613,63 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "4vztxmmmbx4g",
-      "name": "Oracle Cloud Infrastructure Object Storage | UAE East (Dubai) | CN-95917",
-      "status": "investigating",
-      "created_at": "2021-07-15T16:51:09.011Z",
-      "updated_at": "2021-07-15T16:51:09.150Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/jz1s6nxq1tjx",
-      "started_at": "2021-07-15T16:51:09.002Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "g8890hj75s2x",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Object Storage in the UAE East (Dubai) region.\n\n<b>Customer Impact:</b> Customers may be unable to access or use the Oracle Cloud Infrastructure Object Storage service. Services that rely on Object Storage may also experience issues.\n\n<b>Start Time:</b> July 15, 2021 16:20 UTC\n\n<b>Reference Number:</b> CN-95917",
-          "incident_id": "4vztxmmmbx4g",
-          "created_at": "2021-07-15T16:51:09.146Z",
-          "updated_at": "2021-07-15T16:51:09.146Z",
-          "display_at": "2021-07-15T16:51:09.146Z",
-          "affected_components": [
-            {
-              "code": "mrm8nl0r3nqx",
-              "name": "Object Storage - UAE East (Dubai)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "mrm8nl0r3nqx",
-          "name": "UAE East (Dubai)",
-          "status": "partial_outage",
-          "created_at": "2020-09-30T23:12:42.338Z",
-          "updated_at": "2021-07-15T16:51:09.051Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-09-30",
-          "group_id": "w4rxy5n6jngd",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-22T15:22:12.579Z"
+    "updated_at": "2021-07-22T15:30:23.069Z"
   },
   "components": [
     {
@@ -16619,22 +16619,22 @@
       "name": "Oracle Cloud Infrastructure Compute - Bare Metal | CN-100768",
       "status": "investigating",
       "created_at": "2021-07-22T15:22:12.354Z",
-      "updated_at": "2021-07-22T15:22:12.575Z",
+      "updated_at": "2021-07-22T15:30:23.065Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/7z9p3dh8fvbz",
-      "started_at": "2021-07-22T15:22:12.343Z",
+      "started_at": "2021-07-22T15:22:12.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
         {
           "id": "rsyfnk635bwj",
           "status": "investigating",
-          "body": "We are investigating an issue affecting the Oracle Cloud Infrastructure Compute - Bare Metal service.\n\n<b>Customer Impact:</b> Some customers may be experience failures when attempting to create new Bare Metal instances. Additionally, stop and start requests for existing instances may also fail. \n\nActive instances were not impacted by this issue.\n\nFurther updates will be provided as events warrant.\n\n<b>Reference Number:</b> CN-100768",
+          "body": "We are investigating an issue affecting the Oracle Cloud Infrastructure Compute - Bare Metal service.\n\n<b>Customer Impact:</b> Some customers may experience failures when attempting to create new Bare Metal instances. Additionally, stop and start requests for existing instances may also fail. \n\nActive instances are not impacted by this issue.\n\nFurther updates will be provided as events warrant.\n\n<b>Reference Number:</b> CN-100768",
           "incident_id": "p3w2x51lq7yx",
           "created_at": "2021-07-22T15:22:12.572Z",
-          "updated_at": "2021-07-22T15:22:12.572Z",
-          "display_at": "2021-07-22T15:22:12.572Z",
+          "updated_at": "2021-07-22T15:30:22.930Z",
+          "display_at": "2021-07-22T15:22:12.000Z",
           "affected_components": [
             {
               "code": "rby16l9f40pp",

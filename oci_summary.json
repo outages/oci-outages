@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-07-23T03:23:44.113Z"
+    "updated_at": "2021-07-23T04:08:42.476Z"
   },
   "components": [
     {
@@ -2911,7 +2911,7 @@
     {
       "id": "zfhft7y50l92",
       "name": "Network Infrastructure",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:05.892Z",
       "updated_at": "2021-07-17T04:59:21.141Z",
       "position": 5,
@@ -13756,9 +13756,9 @@
     {
       "id": "3syhy84rxqwk",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:24.852Z",
-      "updated_at": "2021-07-23T03:13:45.505Z",
+      "updated_at": "2021-07-23T04:08:42.375Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -16613,83 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "b0w0s347h07g",
-      "name": "Oracle Cloud Infrastructure VPN Connect | US East (Ashburn) | CN-100906",
-      "status": "identified",
-      "created_at": "2021-07-23T03:13:45.466Z",
-      "updated_at": "2021-07-23T03:17:04.953Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/y9860502fkc2",
-      "started_at": "2021-07-23T03:13:45.457Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "k9v34vhzpy33",
-          "status": "identified",
-          "body": "We are continuing to work on a fix for this issue.",
-          "incident_id": "b0w0s347h07g",
-          "created_at": "2021-07-23T03:17:04.949Z",
-          "updated_at": "2021-07-23T03:17:04.949Z",
-          "display_at": "2021-07-23T03:17:04.949Z",
-          "affected_components": [
-            {
-              "code": "3syhy84rxqwk",
-              "name": "Network Infrastructure - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "h7d37g14znw5",
-          "status": "identified",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure VPN Connect in the US East (Ashburn) region.\n\n<b>Customer Impact:</b> Customers might be unable to access resources through VPN.\n\n<b>Reference Number:</b>CN-100906",
-          "incident_id": "b0w0s347h07g",
-          "created_at": "2021-07-23T03:13:45.593Z",
-          "updated_at": "2021-07-23T03:13:45.593Z",
-          "display_at": "2021-07-23T03:13:45.593Z",
-          "affected_components": [
-            {
-              "code": "3syhy84rxqwk",
-              "name": "Network Infrastructure - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "3syhy84rxqwk",
-          "name": "US East (Ashburn)",
-          "status": "partial_outage",
-          "created_at": "2020-08-31T18:09:24.852Z",
-          "updated_at": "2021-07-23T03:13:45.505Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "zfhft7y50l92",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

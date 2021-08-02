@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-02T11:22:45.776Z"
+    "updated_at": "2021-08-02T12:02:40.286Z"
   },
   "components": [
     {
@@ -919,7 +919,7 @@
     {
       "id": "3znl9gpnkdp9",
       "name": "Block Storage",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-21T18:27:37.975Z",
       "updated_at": "2021-07-17T04:59:21.112Z",
       "position": 2,
@@ -2632,7 +2632,7 @@
     {
       "id": "93h2kff76f72",
       "name": "File Storage",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:11:47.759Z",
       "updated_at": "2021-07-17T04:59:21.132Z",
       "position": 4,
@@ -11968,9 +11968,9 @@
     {
       "id": "dgwvcyd8tsc4",
       "name": "sa-saopaulo-1",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-08-28T19:59:05.666Z",
-      "updated_at": "2021-08-02T06:39:35.671Z",
+      "updated_at": "2021-08-02T12:02:40.119Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -12041,16 +12041,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xm377hpx7vlh",
+      "id": "jzrmwxywrjsl",
       "name": "sa-saopaulo-1",
-      "status": "partial_outage",
-      "created_at": "2019-08-28T19:59:21.796Z",
-      "updated_at": "2021-08-02T06:39:35.686Z",
+      "status": "operational",
+      "created_at": "2019-08-28T20:00:42.782Z",
+      "updated_at": "2021-08-02T12:02:40.142Z",
       "position": 17,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "93h2kff76f72",
+      "group_id": "j534vmnnt3j4",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12116,16 +12116,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jzrmwxywrjsl",
+      "id": "xm377hpx7vlh",
       "name": "sa-saopaulo-1",
-      "status": "partial_outage",
-      "created_at": "2019-08-28T20:00:42.782Z",
-      "updated_at": "2021-08-02T09:05:02.820Z",
+      "status": "operational",
+      "created_at": "2019-08-28T19:59:21.796Z",
+      "updated_at": "2021-08-02T12:02:40.164Z",
       "position": 17,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "j534vmnnt3j4",
+      "group_id": "93h2kff76f72",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12133,9 +12133,9 @@
     {
       "id": "xnz1yv9cspk8",
       "name": "Brazil East (Sao Paulo)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-03-17T18:58:58.234Z",
-      "updated_at": "2021-08-02T10:14:45.456Z",
+      "updated_at": "2021-08-02T12:02:40.184Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -12808,7 +12808,7 @@
     {
       "id": "j534vmnnt3j4",
       "name": "Developer Services - Container Clusters (OKE)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-21T19:09:53.437Z",
       "updated_at": "2021-07-17T04:59:21.268Z",
       "position": 18,
@@ -16420,7 +16420,7 @@
     {
       "id": "k0tcpxgc753t",
       "name": "MySQL Database Service",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-03-17T18:58:43.875Z",
       "updated_at": "2021-07-17T04:59:21.497Z",
       "position": 41,
@@ -16613,254 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "l4bjsvy3nl2p",
-      "name": "Multiple services | Brazil East (Sao Paulo) |CN-102565",
-      "status": "monitoring",
-      "created_at": "2021-08-02T06:39:35.638Z",
-      "updated_at": "2021-08-02T11:22:45.773Z",
-      "monitoring_at": "2021-08-02T11:22:45.757Z",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/rff19t0qdbkn",
-      "started_at": "2021-08-02T06:39:35.627Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "0rzt6d8l97yh",
-          "status": "monitoring",
-          "body": "We are seeing recovery for some services and engineers are continuing to troubleshoot the dependent services which were affected by this issue. \n\n<b>Next Update by:</b> August 2, 2021 12:00 UTC",
-          "incident_id": "l4bjsvy3nl2p",
-          "created_at": "2021-08-02T11:22:45.757Z",
-          "updated_at": "2021-08-02T11:22:45.757Z",
-          "display_at": "2021-08-02T11:22:45.757Z",
-          "affected_components": [
-            {
-              "code": "xm377hpx7vlh",
-              "name": "File Storage - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "dgwvcyd8tsc4",
-              "name": "Block Storage - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "jzrmwxywrjsl",
-              "name": "Developer Services - Container Clusters (OKE) - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "xnz1yv9cspk8",
-              "name": "MySQL Database Service - Brazil East (Sao Paulo)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "gtwmdqg8bq87",
-          "status": "identified",
-          "body": "We're applying a fix to mitigate the issue affecting Oracle Cloud Infrastructure Block Volumes in the Brazil East (Sao Paulo) region.\n\n<b>Next Update by:</b> August 2, 2021 11:00 UTC",
-          "incident_id": "l4bjsvy3nl2p",
-          "created_at": "2021-08-02T10:14:45.589Z",
-          "updated_at": "2021-08-02T10:14:45.589Z",
-          "display_at": "2021-08-02T10:14:45.589Z",
-          "affected_components": [
-            {
-              "code": "xm377hpx7vlh",
-              "name": "File Storage - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "dgwvcyd8tsc4",
-              "name": "Block Storage - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "jzrmwxywrjsl",
-              "name": "Developer Services - Container Clusters (OKE) - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "xnz1yv9cspk8",
-              "name": "MySQL Database Service - Brazil East (Sao Paulo)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dlldbqyvzf7d",
-          "status": "identified",
-          "body": "Our engineers are continuing their work to mitigate the issue affecting Oracle Cloud Infrastructure Block Volumes in the Brazil East (Sao Paulo) region.\n\n<b>Next Update by:</b> August 2, 2021 10:00 UTC",
-          "incident_id": "l4bjsvy3nl2p",
-          "created_at": "2021-08-02T09:05:02.947Z",
-          "updated_at": "2021-08-02T09:05:02.947Z",
-          "display_at": "2021-08-02T09:05:02.947Z",
-          "affected_components": [
-            {
-              "code": "xm377hpx7vlh",
-              "name": "File Storage - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "dgwvcyd8tsc4",
-              "name": "Block Storage - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "jzrmwxywrjsl",
-              "name": "Developer Services - Container Clusters (OKE) - sa-saopaulo-1",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "c5qs4ppms4k4",
-          "status": "investigating",
-          "body": "We're continuing to investigate an issue with multiple services in the Brazil East (Sao Paulo) region.\n\n<b>Customer Impact:</b> Customers may be unable to access their Block Volumes hosted in the region. Reliant services such as File Storage and OKE may be impacted as well.\n\n<b>Start Time:</b> August 2, 2021 05:25 UTC\n\n<b>Next Update by:</b> August 2, 2021 08:30 UTC\n\n<b>Reference Number:</b> CN-102565",
-          "incident_id": "l4bjsvy3nl2p",
-          "created_at": "2021-08-02T07:36:20.427Z",
-          "updated_at": "2021-08-02T07:36:20.427Z",
-          "display_at": "2021-08-02T07:36:20.427Z",
-          "affected_components": [
-            {
-              "code": "xm377hpx7vlh",
-              "name": "File Storage - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "dgwvcyd8tsc4",
-              "name": "Block Storage - sa-saopaulo-1",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "jzrmwxywrjsl",
-              "name": "Developer Services - Container Clusters (OKE) - sa-saopaulo-1",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "57lfxc186frf",
-          "status": "investigating",
-          "body": "We're investigating an issue with multiple services in the Brazil East (Sao Paulo).\n\n<b>Customer Impact:</b>Customers may experience issues accessing multiple services including File storage service and Block Volumes.\n\n<b>Start Time:</b> August 2, 2021 05:25 UTC\n\n<b>Reference Number:</b> CN-102565",
-          "incident_id": "l4bjsvy3nl2p",
-          "created_at": "2021-08-02T06:39:35.764Z",
-          "updated_at": "2021-08-02T06:39:35.764Z",
-          "display_at": "2021-08-02T06:39:35.764Z",
-          "affected_components": [
-            {
-              "code": "xm377hpx7vlh",
-              "name": "File Storage - sa-saopaulo-1",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "dgwvcyd8tsc4",
-              "name": "Block Storage - sa-saopaulo-1",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "xnz1yv9cspk8",
-          "name": "Brazil East (Sao Paulo)",
-          "status": "degraded_performance",
-          "created_at": "2020-03-17T18:58:58.234Z",
-          "updated_at": "2021-08-02T10:14:45.456Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "k0tcpxgc753t",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jzrmwxywrjsl",
-          "name": "sa-saopaulo-1",
-          "status": "partial_outage",
-          "created_at": "2019-08-28T20:00:42.782Z",
-          "updated_at": "2021-08-02T09:05:02.820Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "j534vmnnt3j4",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xm377hpx7vlh",
-          "name": "sa-saopaulo-1",
-          "status": "partial_outage",
-          "created_at": "2019-08-28T19:59:21.796Z",
-          "updated_at": "2021-08-02T06:39:35.686Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "93h2kff76f72",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "dgwvcyd8tsc4",
-          "name": "sa-saopaulo-1",
-          "status": "partial_outage",
-          "created_at": "2019-08-28T19:59:05.666Z",
-          "updated_at": "2021-08-02T06:39:35.671Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "3znl9gpnkdp9",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

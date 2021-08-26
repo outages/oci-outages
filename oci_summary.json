@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-26T23:39:12.449Z"
+    "updated_at": "2021-08-26T23:46:27.127Z"
   },
   "components": [
     {
@@ -10291,9 +10291,9 @@
     {
       "id": "9kmtjt11mzxg",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-05-18T20:45:49.019Z",
-      "updated_at": "2021-08-26T23:39:12.353Z",
+      "updated_at": "2021-08-26T23:44:54.574Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -16619,7 +16619,7 @@
       "name": "Oracle Identity Cloud Service | UAE East (Dubai) and Saudi Arabia West (Jeddah) | CN-116527",
       "status": "identified",
       "created_at": "2021-08-26T22:29:35.510Z",
-      "updated_at": "2021-08-26T23:39:12.440Z",
+      "updated_at": "2021-08-26T23:46:27.119Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -16628,13 +16628,39 @@
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
         {
+          "id": "17cc2y0z7yv6",
+          "status": "identified",
+          "body": "We've mitigated the issue affecting Oracle Identity Cloud Service in the Saudi Arabia West (Jeddah) region on August 26, 2021 23:31 UTC. Our engineers are continuing to mitigate the issue in the UAE East (Dubai) region.",
+          "incident_id": "d9mkfzgqq4dx",
+          "created_at": "2021-08-26T23:44:54.678Z",
+          "updated_at": "2021-08-26T23:44:54.678Z",
+          "display_at": "2021-08-26T23:44:54.678Z",
+          "affected_components": [
+            {
+              "code": "2kf3z05c7b7f",
+              "name": "Identity Cloud Service - UAE East (Dubai)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9kmtjt11mzxg",
+              "name": "Identity Cloud Service - Saudi Arabia West (Jeddah)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "yjgdx4vyrtcw",
           "status": "identified",
-          "body": "We are seeing additional reports of impact in the Saudi Arabia West (Jeddah) region. Our engineers are actively working to mitigate the issue.",
+          "body": "We are seeing additional reports of impact in the Saudi Arabia West (Jeddah) region. Our engineers are actively working to mitigate the issue.\n\n<b>Start Time:</b> August 26, 2021 23:35 UTC",
           "incident_id": "d9mkfzgqq4dx",
           "created_at": "2021-08-26T23:39:12.437Z",
-          "updated_at": "2021-08-26T23:39:12.437Z",
-          "display_at": "2021-08-26T23:39:12.437Z",
+          "updated_at": "2021-08-26T23:46:27.116Z",
+          "display_at": "2021-08-26T23:39:12.000Z",
           "affected_components": [
             {
               "code": "2kf3z05c7b7f",
@@ -16718,9 +16744,9 @@
         {
           "id": "9kmtjt11mzxg",
           "name": "Saudi Arabia West (Jeddah)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-05-18T20:45:49.019Z",
-          "updated_at": "2021-08-26T23:39:12.353Z",
+          "updated_at": "2021-08-26T23:44:54.574Z",
           "position": 15,
           "description": null,
           "showcase": false,

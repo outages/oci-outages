@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-26T22:34:23.730Z"
+    "updated_at": "2021-08-26T23:19:46.241Z"
   },
   "components": [
     {
@@ -9646,9 +9646,9 @@
     {
       "id": "2kf3z05c7b7f",
       "name": "UAE East (Dubai)",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2020-09-30T23:13:01.011Z",
-      "updated_at": "2021-08-26T22:29:35.565Z",
+      "updated_at": "2021-08-26T23:15:52.935Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -10336,7 +10336,7 @@
     {
       "id": "sr2y42rkwsgk",
       "name": "Identity Cloud Service",
-      "status": "major_outage",
+      "status": "partial_outage",
       "created_at": "2020-05-18T20:45:34.523Z",
       "updated_at": "2021-07-17T04:59:21.238Z",
       "position": 15,
@@ -16617,16 +16617,56 @@
     {
       "id": "d9mkfzgqq4dx",
       "name": "Oracle Identity Cloud Service | UAE East (Dubai) | CN-116527",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-08-26T22:29:35.510Z",
-      "updated_at": "2021-08-26T22:34:23.724Z",
+      "updated_at": "2021-08-26T23:19:46.231Z",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "critical",
+      "impact": "major",
       "shortlink": "https://stspg.io/h88z0zq453hb",
       "started_at": "2021-08-26T22:29:35.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "gx0wlxzvd5s6",
+          "status": "identified",
+          "body": "We are now seeing partial recovery, and some requests are being processed successfully. We will provide an update once we have one available.",
+          "incident_id": "d9mkfzgqq4dx",
+          "created_at": "2021-08-26T23:15:53.056Z",
+          "updated_at": "2021-08-26T23:19:46.223Z",
+          "display_at": "2021-08-26T23:15:53.000Z",
+          "affected_components": [
+            {
+              "code": "2kf3z05c7b7f",
+              "name": "Identity Cloud Service - UAE East (Dubai)",
+              "old_status": "major_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9smyg59dyvl9",
+          "status": "identified",
+          "body": "Our engineers are continuing their work to mitigate the issue affecting Oracle Identity Cloud Service in UAE East (Dubai) region.",
+          "incident_id": "d9mkfzgqq4dx",
+          "created_at": "2021-08-26T23:14:32.445Z",
+          "updated_at": "2021-08-26T23:19:27.988Z",
+          "display_at": "2021-08-26T23:14:32.000Z",
+          "affected_components": [
+            {
+              "code": "2kf3z05c7b7f",
+              "name": "Identity Cloud Service - UAE East (Dubai)",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xwyd6tfjlj81",
           "status": "investigating",
@@ -16652,9 +16692,9 @@
         {
           "id": "2kf3z05c7b7f",
           "name": "UAE East (Dubai)",
-          "status": "major_outage",
+          "status": "partial_outage",
           "created_at": "2020-09-30T23:13:01.011Z",
-          "updated_at": "2021-08-26T22:29:35.565Z",
+          "updated_at": "2021-08-26T23:15:52.935Z",
           "position": 14,
           "description": null,
           "showcase": false,
@@ -16669,7 +16709,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "major",
-    "description": "Partial System Outage"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }

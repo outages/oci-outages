@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-27T16:23:41.026Z"
+    "updated_at": "2021-08-27T17:01:40.539Z"
   },
   "components": [
     {
@@ -1198,9 +1198,9 @@
     {
       "id": "p1t7xsl4xz1x",
       "name": "India South (Hyderabad)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:08.201Z",
-      "updated_at": "2021-08-27T15:51:45.441Z",
+      "updated_at": "2021-08-27T17:01:40.370Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -1543,9 +1543,9 @@
     {
       "id": "0s45t4j8pvrq",
       "name": "Australia Southeast (Melbourne)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:09.044Z",
-      "updated_at": "2021-08-27T15:51:45.463Z",
+      "updated_at": "2021-08-27T17:01:40.392Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -2167,9 +2167,9 @@
     {
       "id": "0q2dl49wqh81",
       "name": "India West (Mumbai)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:10.169Z",
-      "updated_at": "2021-08-27T15:51:45.479Z",
+      "updated_at": "2021-08-27T17:01:40.405Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -3091,7 +3091,7 @@
     {
       "id": "zfhft7y50l92",
       "name": "Network Infrastructure",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:05.892Z",
       "updated_at": "2021-07-17T04:59:21.141Z",
       "position": 5,
@@ -9646,9 +9646,9 @@
     {
       "id": "jjn2kkl1mmy2",
       "name": "UAE East (Dubai)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-09-30T23:12:46.887Z",
-      "updated_at": "2021-08-27T15:51:45.495Z",
+      "updated_at": "2021-08-27T17:01:40.418Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -16613,126 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "9hbtk4lkvv0s",
-      "name": "Oracle Cloud Infrastructure DNS | CN-117037",
-      "status": "investigating",
-      "created_at": "2021-08-27T15:51:45.398Z",
-      "updated_at": "2021-08-27T15:51:45.596Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/g5tr1f1s6cbh",
-      "started_at": "2021-08-27T15:51:45.385Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "ttz2snxwtlxh",
-          "status": "investigating",
-          "body": "We are investigating a potential issue affecting the Oracle Cloud infrastructure DNS service in the India South (Hyderabad), Australia Southeast (Melbourne), UAE East (Dubai) and India West (Mumbai) Regions.\n\n<b>Customer Impact:</b> Some customers may experience 500-level errors and timeouts when attempting service management operations for their Public DNS resources hosted in these regions.\n\nFurther updates will be provided as events warrant.\n\n<b>Start Time:</b> Aug 27, 2021 15:07 UTC\n\n<b>Reference Number:</b> CN-117037",
-          "incident_id": "9hbtk4lkvv0s",
-          "created_at": "2021-08-27T15:51:45.593Z",
-          "updated_at": "2021-08-27T15:51:45.593Z",
-          "display_at": "2021-08-27T15:51:45.593Z",
-          "affected_components": [
-            {
-              "code": "p1t7xsl4xz1x",
-              "name": "Network Infrastructure - India South (Hyderabad)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0s45t4j8pvrq",
-              "name": "Network Infrastructure - Australia Southeast (Melbourne)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0q2dl49wqh81",
-              "name": "Network Infrastructure - India West (Mumbai)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jjn2kkl1mmy2",
-              "name": "Network Infrastructure - UAE East (Dubai)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "jjn2kkl1mmy2",
-          "name": "UAE East (Dubai)",
-          "status": "degraded_performance",
-          "created_at": "2020-09-30T23:12:46.887Z",
-          "updated_at": "2021-08-27T15:51:45.495Z",
-          "position": 14,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-09-30",
-          "group_id": "zfhft7y50l92",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0q2dl49wqh81",
-          "name": "India West (Mumbai)",
-          "status": "degraded_performance",
-          "created_at": "2020-08-31T18:09:10.169Z",
-          "updated_at": "2021-08-27T15:51:45.479Z",
-          "position": 4,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "zfhft7y50l92",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0s45t4j8pvrq",
-          "name": "Australia Southeast (Melbourne)",
-          "status": "degraded_performance",
-          "created_at": "2020-08-31T18:09:09.044Z",
-          "updated_at": "2021-08-27T15:51:45.463Z",
-          "position": 3,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "zfhft7y50l92",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "p1t7xsl4xz1x",
-          "name": "India South (Hyderabad)",
-          "status": "degraded_performance",
-          "created_at": "2020-08-31T18:09:08.201Z",
-          "updated_at": "2021-08-27T15:51:45.441Z",
-          "position": 2,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "zfhft7y50l92",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

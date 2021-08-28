@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-08-28T06:23:47.282Z"
+    "updated_at": "2021-08-28T07:22:59.941Z"
   },
   "components": [
     {
@@ -640,7 +640,7 @@
     {
       "id": "sx4xcbk5vby9",
       "name": "Compute",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:03:40.697Z",
       "updated_at": "2021-06-11T18:22:48.268Z",
       "position": 1,
@@ -814,7 +814,7 @@
     {
       "id": "3znl9gpnkdp9",
       "name": "Block Storage",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-21T18:27:37.975Z",
       "updated_at": "2021-07-17T04:59:21.112Z",
       "position": 2,
@@ -1603,7 +1603,7 @@
     {
       "id": "w4rxy5n6jngd",
       "name": "Object Storage",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:10:31.646Z",
       "updated_at": "2021-07-17T04:59:21.122Z",
       "position": 3,
@@ -3391,7 +3391,7 @@
     {
       "id": "zfhft7y50l92",
       "name": "Network Infrastructure",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:05.892Z",
       "updated_at": "2021-07-17T04:59:21.141Z",
       "position": 5,
@@ -3850,7 +3850,7 @@
     {
       "id": "f5ppqjqjq0sf",
       "name": "Networking - Virtual Cloud Networks",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:45:58.359Z",
       "updated_at": "2021-07-17T04:59:21.151Z",
       "position": 6,
@@ -4864,7 +4864,7 @@
     {
       "id": "r6jhxgxtxm2h",
       "name": "Networking - Dynamic Routing Gateways",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:45:46.155Z",
       "updated_at": "2021-07-17T04:59:21.160Z",
       "position": 7,
@@ -4933,9 +4933,9 @@
     {
       "id": "sv5g0kcj566y",
       "name": "Japan East (Tokyo)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:14.841Z",
-      "updated_at": "2021-08-28T05:34:47.418Z",
+      "updated_at": "2021-08-28T07:22:59.653Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -5051,31 +5051,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "39l4t3hx9110",
+      "id": "kpkfgf0ysptx",
       "name": "ap-tokyo-1",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:55:30.834Z",
-      "updated_at": "2021-08-28T05:54:30.649Z",
+      "status": "operational",
+      "created_at": "2019-05-03T16:55:41.016Z",
+      "updated_at": "2021-08-28T07:22:59.775Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "r6jhxgxtxm2h",
+      "group_id": "j534vmnnt3j4",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "nb4y0hm8b4dv",
-      "name": "ap-tokyo-1",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:55:53.390Z",
-      "updated_at": "2021-08-28T05:54:30.667Z",
+      "id": "vl5ch2qwm2f2",
+      "name": "ap-tokyo-1 region",
+      "status": "operational",
+      "created_at": "2019-05-21T22:20:11.108Z",
+      "updated_at": "2021-08-28T07:22:59.793Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "1m8dh0nx0l77",
+      "group_id": "cl1tm8pr1mcr",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5111,31 +5111,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vl5ch2qwm2f2",
-      "name": "ap-tokyo-1 region",
-      "status": "partial_outage",
-      "created_at": "2019-05-21T22:20:11.108Z",
-      "updated_at": "2021-08-28T05:54:30.782Z",
+      "id": "m733m84fccz8",
+      "name": "ap-tokyo-1",
+      "status": "operational",
+      "created_at": "2019-05-03T16:55:33.222Z",
+      "updated_at": "2021-08-28T07:22:59.859Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "cl1tm8pr1mcr",
+      "group_id": "grgr5sf16chm",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "kpkfgf0ysptx",
+      "id": "s37w50x0kkkr",
       "name": "ap-tokyo-1",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:55:41.016Z",
-      "updated_at": "2021-08-28T05:54:30.743Z",
+      "status": "operational",
+      "created_at": "2019-05-03T16:56:08.097Z",
+      "updated_at": "2021-08-28T07:22:59.833Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "j534vmnnt3j4",
+      "group_id": "x0247zm62lgz",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5195,31 +5195,31 @@
       ]
     },
     {
-      "id": "tcr45vsm1kl1",
-      "name": "ap-tokyo-1",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:55:51.186Z",
-      "updated_at": "2021-08-28T05:54:30.683Z",
+      "id": "00rsb4yb7gpc",
+      "name": "Japan East (Tokyo)",
+      "status": "operational",
+      "created_at": "2019-05-03T16:55:07.206Z",
+      "updated_at": "2021-08-28T07:22:59.804Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "sxgzv70t0l1v",
+      "group_id": "sx4xcbk5vby9",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "4rrq139w7pmr",
+      "id": "xxdk9zhpsv3w",
       "name": "ap-tokyo-1",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:55:24.634Z",
-      "updated_at": "2021-08-28T05:34:47.439Z",
+      "status": "operational",
+      "created_at": "2019-05-03T16:55:35.728Z",
+      "updated_at": "2021-08-28T07:22:59.677Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "3znl9gpnkdp9",
+      "group_id": "zqf5v0ykx3lk",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5240,31 +5240,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "s37w50x0kkkr",
+      "id": "nb4y0hm8b4dv",
       "name": "ap-tokyo-1",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:56:08.097Z",
-      "updated_at": "2021-08-28T05:34:47.497Z",
+      "status": "operational",
+      "created_at": "2019-05-03T16:55:53.390Z",
+      "updated_at": "2021-08-28T07:22:59.726Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "x0247zm62lgz",
+      "group_id": "1m8dh0nx0l77",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "srk3hrgxjqw4",
-      "name": "ap-tokyo-1 region",
-      "status": "partial_outage",
-      "created_at": "2019-05-21T22:03:19.524Z",
-      "updated_at": "2021-08-28T05:54:30.718Z",
+      "id": "4rrq139w7pmr",
+      "name": "ap-tokyo-1",
+      "status": "operational",
+      "created_at": "2019-05-03T16:55:24.634Z",
+      "updated_at": "2021-08-28T07:22:59.820Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "xcnwmf7ck4ff",
+      "group_id": "3znl9gpnkdp9",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5360,16 +5360,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xxdk9zhpsv3w",
+      "id": "tcr45vsm1kl1",
       "name": "ap-tokyo-1",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:55:35.728Z",
-      "updated_at": "2021-08-28T05:34:47.516Z",
+      "status": "operational",
+      "created_at": "2019-05-03T16:55:51.186Z",
+      "updated_at": "2021-08-28T07:22:59.751Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "zqf5v0ykx3lk",
+      "group_id": "sxgzv70t0l1v",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5450,16 +5450,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "m733m84fccz8",
+      "id": "jsyw56bt1q70",
       "name": "ap-tokyo-1",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:55:33.222Z",
-      "updated_at": "2021-08-28T05:54:30.762Z",
+      "status": "operational",
+      "created_at": "2019-05-03T16:55:27.706Z",
+      "updated_at": "2021-08-28T07:22:59.846Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "grgr5sf16chm",
+      "group_id": "w4rxy5n6jngd",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5495,16 +5495,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jsyw56bt1q70",
-      "name": "ap-tokyo-1",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:55:27.706Z",
-      "updated_at": "2021-08-28T05:34:47.532Z",
+      "id": "srk3hrgxjqw4",
+      "name": "ap-tokyo-1 region",
+      "status": "operational",
+      "created_at": "2019-05-21T22:03:19.524Z",
+      "updated_at": "2021-08-28T07:22:59.763Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "w4rxy5n6jngd",
+      "group_id": "xcnwmf7ck4ff",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5675,16 +5675,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "00rsb4yb7gpc",
-      "name": "Japan East (Tokyo)",
-      "status": "partial_outage",
-      "created_at": "2019-05-03T16:55:07.206Z",
-      "updated_at": "2021-08-28T05:34:47.480Z",
+      "id": "39l4t3hx9110",
+      "name": "ap-tokyo-1",
+      "status": "operational",
+      "created_at": "2019-05-03T16:55:30.834Z",
+      "updated_at": "2021-08-28T07:22:59.711Z",
       "position": 8,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "sx4xcbk5vby9",
+      "group_id": "r6jhxgxtxm2h",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5692,9 +5692,9 @@
     {
       "id": "gzd3863lr5v4",
       "name": "ap-tokyo-1",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-03T16:55:30.056Z",
-      "updated_at": "2021-08-28T05:34:47.459Z",
+      "updated_at": "2021-08-28T07:22:59.690Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -7195,7 +7195,7 @@
     {
       "id": "grgr5sf16chm",
       "name": "Database - Bare Metal, VM, Exadata",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:40:32.498Z",
       "updated_at": "2021-07-17T04:59:21.196Z",
       "position": 11,
@@ -9877,7 +9877,7 @@
     {
       "id": "zqf5v0ykx3lk",
       "name": "Identity",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:44:24.854Z",
       "updated_at": "2021-07-17T04:59:21.227Z",
       "position": 14,
@@ -12253,7 +12253,7 @@
     {
       "id": "j534vmnnt3j4",
       "name": "Developer Services - Container Clusters (OKE)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-21T19:09:53.437Z",
       "updated_at": "2021-07-17T04:59:21.268Z",
       "position": 18,
@@ -14815,7 +14815,7 @@
     {
       "id": "sxgzv70t0l1v",
       "name": "Monitoring",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-01-02T19:00:00.738Z",
       "updated_at": "2021-07-17T04:59:21.306Z",
       "position": 21,
@@ -15094,7 +15094,7 @@
     {
       "id": "1m8dh0nx0l77",
       "name": "Security - Key Management",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-12-04T12:39:29.692Z",
       "updated_at": "2021-07-17T04:59:21.319Z",
       "position": 22,
@@ -15835,7 +15835,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2021-07-17T04:59:21.355Z",
       "position": 26,
@@ -15952,7 +15952,7 @@
     {
       "id": "xcnwmf7ck4ff",
       "name": "Notifications",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-21T21:59:18.366Z",
       "updated_at": "2021-07-17T04:59:21.382Z",
       "position": 29,
@@ -15991,7 +15991,7 @@
     {
       "id": "cl1tm8pr1mcr",
       "name": "Streaming",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-05-21T22:17:11.213Z",
       "updated_at": "2021-07-17T04:59:21.392Z",
       "position": 30,
@@ -16617,16 +16617,114 @@
     {
       "id": "65xdc57xff64",
       "name": "Multiple services | Japan East (Tokyo) | CN-117291",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2021-08-28T05:34:47.363Z",
-      "updated_at": "2021-08-28T05:54:30.862Z",
-      "monitoring_at": null,
+      "updated_at": "2021-08-28T07:22:59.939Z",
+      "monitoring_at": "2021-08-28T07:22:59.925Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/gt0lk127t18w",
       "started_at": "2021-08-28T05:34:47.334Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "rhhbwy6hnyl6",
+          "status": "monitoring",
+          "body": "We're continuing to monitor the environment to confirm that all the services have been restored.",
+          "incident_id": "65xdc57xff64",
+          "created_at": "2021-08-28T07:22:59.925Z",
+          "updated_at": "2021-08-28T07:22:59.925Z",
+          "display_at": "2021-08-28T07:22:59.925Z",
+          "affected_components": [
+            {
+              "code": "00rsb4yb7gpc",
+              "name": "Compute - Japan East (Tokyo)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "m733m84fccz8",
+              "name": "Database - Bare Metal, VM, Exadata - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "xxdk9zhpsv3w",
+              "name": "Identity - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "gzd3863lr5v4",
+              "name": "Networking - Virtual Cloud Networks - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "jsyw56bt1q70",
+              "name": "Object Storage - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "39l4t3hx9110",
+              "name": "Networking - Dynamic Routing Gateways - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "4rrq139w7pmr",
+              "name": "Block Storage - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "kpkfgf0ysptx",
+              "name": "Developer Services - Container Clusters (OKE) - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "nb4y0hm8b4dv",
+              "name": "Security - Key Management - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "tcr45vsm1kl1",
+              "name": "Monitoring - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "s37w50x0kkkr",
+              "name": "Console - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "srk3hrgxjqw4",
+              "name": "Notifications - ap-tokyo-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "vl5ch2qwm2f2",
+              "name": "Streaming - ap-tokyo-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "sv5g0kcj566y",
+              "name": "Network Infrastructure - Japan East (Tokyo)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "7r5xyg7njwfw",
           "status": "identified",
@@ -16786,9 +16884,9 @@
         {
           "id": "vl5ch2qwm2f2",
           "name": "ap-tokyo-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-21T22:20:11.108Z",
-          "updated_at": "2021-08-28T05:54:30.782Z",
+          "updated_at": "2021-08-28T07:22:59.793Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16801,9 +16899,9 @@
         {
           "id": "m733m84fccz8",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:33.222Z",
-          "updated_at": "2021-08-28T05:54:30.762Z",
+          "updated_at": "2021-08-28T07:22:59.859Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16816,9 +16914,9 @@
         {
           "id": "kpkfgf0ysptx",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:41.016Z",
-          "updated_at": "2021-08-28T05:54:30.743Z",
+          "updated_at": "2021-08-28T07:22:59.775Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16831,9 +16929,9 @@
         {
           "id": "srk3hrgxjqw4",
           "name": "ap-tokyo-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-21T22:03:19.524Z",
-          "updated_at": "2021-08-28T05:54:30.718Z",
+          "updated_at": "2021-08-28T07:22:59.763Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16846,9 +16944,9 @@
         {
           "id": "tcr45vsm1kl1",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:51.186Z",
-          "updated_at": "2021-08-28T05:54:30.683Z",
+          "updated_at": "2021-08-28T07:22:59.751Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16861,9 +16959,9 @@
         {
           "id": "nb4y0hm8b4dv",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:53.390Z",
-          "updated_at": "2021-08-28T05:54:30.667Z",
+          "updated_at": "2021-08-28T07:22:59.726Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16876,9 +16974,9 @@
         {
           "id": "39l4t3hx9110",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:30.834Z",
-          "updated_at": "2021-08-28T05:54:30.649Z",
+          "updated_at": "2021-08-28T07:22:59.711Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16891,9 +16989,9 @@
         {
           "id": "jsyw56bt1q70",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:27.706Z",
-          "updated_at": "2021-08-28T05:34:47.532Z",
+          "updated_at": "2021-08-28T07:22:59.846Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16906,9 +17004,9 @@
         {
           "id": "xxdk9zhpsv3w",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:35.728Z",
-          "updated_at": "2021-08-28T05:34:47.516Z",
+          "updated_at": "2021-08-28T07:22:59.677Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16921,9 +17019,9 @@
         {
           "id": "s37w50x0kkkr",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:56:08.097Z",
-          "updated_at": "2021-08-28T05:34:47.497Z",
+          "updated_at": "2021-08-28T07:22:59.833Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16936,9 +17034,9 @@
         {
           "id": "00rsb4yb7gpc",
           "name": "Japan East (Tokyo)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:07.206Z",
-          "updated_at": "2021-08-28T05:34:47.480Z",
+          "updated_at": "2021-08-28T07:22:59.804Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16951,9 +17049,9 @@
         {
           "id": "gzd3863lr5v4",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:30.056Z",
-          "updated_at": "2021-08-28T05:34:47.459Z",
+          "updated_at": "2021-08-28T07:22:59.690Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16966,9 +17064,9 @@
         {
           "id": "4rrq139w7pmr",
           "name": "ap-tokyo-1",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-05-03T16:55:24.634Z",
-          "updated_at": "2021-08-28T05:34:47.439Z",
+          "updated_at": "2021-08-28T07:22:59.820Z",
           "position": 8,
           "description": null,
           "showcase": false,
@@ -16981,9 +17079,9 @@
         {
           "id": "sv5g0kcj566y",
           "name": "Japan East (Tokyo)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-08-31T18:09:14.841Z",
-          "updated_at": "2021-08-28T05:34:47.418Z",
+          "updated_at": "2021-08-28T07:22:59.653Z",
           "position": 7,
           "description": null,
           "showcase": false,
@@ -16998,7 +17096,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-07T19:23:43.148Z"
+    "updated_at": "2021-09-07T19:30:34.231Z"
   },
   "components": [
     {
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure Console | Multiple Regions | CN-119522",
       "status": "identified",
       "created_at": "2021-09-07T19:21:35.701Z",
-      "updated_at": "2021-09-07T19:21:36.405Z",
+      "updated_at": "2021-09-07T19:30:34.225Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -16630,11 +16630,11 @@
         {
           "id": "0cpr9qwfvs8t",
           "status": "identified",
-          "body": "We've identified an issue affecting Oracle Cloud Infrastructure Console. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers may be unable to view regions that they are subscribed to and subscribe to new regions.\n\n<b>Reference Number:</b> CN-119522",
+          "body": "We've identified an issue affecting Oracle Cloud Infrastructure Console. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers may be unable to subscribe to new regions and view regions that they are subscribed to.\n\n<b>Reference Number:</b> CN-119522",
           "incident_id": "xcg6l55dsvd4",
           "created_at": "2021-09-07T19:21:36.401Z",
-          "updated_at": "2021-09-07T19:21:36.401Z",
-          "display_at": "2021-09-07T19:21:36.401Z",
+          "updated_at": "2021-09-07T19:30:34.222Z",
+          "display_at": "2021-09-07T19:21:36.000Z",
           "affected_components": [
             {
               "code": "xx5m67j0x18c",

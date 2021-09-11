@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-11T15:32:59.299Z"
+    "updated_at": "2021-09-11T15:52:02.401Z"
   },
   "components": [
     {
@@ -2864,31 +2864,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "vxszrmvrc3sd",
+      "id": "ls78ck3vbbkf",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-11T21:50:40.688Z",
-      "updated_at": "2021-09-11T13:01:43.733Z",
+      "created_at": "2020-02-01T02:25:12.370Z",
+      "updated_at": "2021-09-11T13:01:43.769Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "rkh6tn5c5s0h",
+      "group_id": "3znl9gpnkdp9",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "hkt8nnlm59b7",
+      "id": "9sxcmzgj1c3h",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:22.938Z",
-      "updated_at": "2021-09-11T13:01:43.625Z",
+      "created_at": "2020-02-01T02:25:36.499Z",
+      "updated_at": "2021-09-11T13:01:43.649Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "f5ppqjqjq0sf",
+      "group_id": "5hpsy50kv8qp",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -2909,16 +2909,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "7mmf93rlhz6v",
+      "id": "8c1r186g3rb1",
       "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
-      "created_at": "2020-05-18T20:45:38.781Z",
-      "updated_at": "2021-09-11T13:01:43.936Z",
+      "status": "operational",
+      "created_at": "2020-02-01T02:25:30.483Z",
+      "updated_at": "2021-09-11T15:52:02.264Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "sr2y42rkwsgk",
+      "group_id": "bztnw6ncdd5p",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -2969,31 +2969,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "8c1r186g3rb1",
+      "id": "0zc4d9cf3sct",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:30.483Z",
-      "updated_at": "2021-09-11T13:01:43.564Z",
+      "created_at": "2020-02-01T02:25:45.725Z",
+      "updated_at": "2021-09-11T13:01:43.577Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "bztnw6ncdd5p",
+      "group_id": "1m8dh0nx0l77",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "g7ph7xxsjpnb",
+      "id": "43m9hhfnxyjl",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:31.986Z",
-      "updated_at": "2021-09-11T13:01:43.637Z",
+      "created_at": "2020-02-01T02:25:42.515Z",
+      "updated_at": "2021-09-11T13:01:43.661Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6gj9ydqydntb",
+      "group_id": "bnvbh75l64dh",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -3014,46 +3014,46 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lsz4hr5s4wf7",
+      "id": "j9n4w4skllhg",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:51.670Z",
-      "updated_at": "2021-09-11T13:01:43.897Z",
+      "created_at": "2020-08-31T18:09:11.915Z",
+      "updated_at": "2021-09-11T13:01:43.948Z",
       "position": 5,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "x0247zm62lgz",
+      "start_date": "2020-08-31",
+      "group_id": "zfhft7y50l92",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "tyf9sc4795n2",
+      "id": "dcvt7kk34cq3",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-04-01T18:06:24.990Z",
-      "updated_at": "2021-09-11T13:01:43.589Z",
+      "created_at": "2020-02-01T02:25:57.716Z",
+      "updated_at": "2021-09-11T13:01:43.601Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "px9x18fcq6hm",
+      "group_id": "cl1tm8pr1mcr",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "qx0467jmyyrv",
+      "id": "42m0lj6yx8vy",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-11T21:49:51.979Z",
-      "updated_at": "2021-09-11T13:01:43.871Z",
+      "created_at": "2020-02-01T02:25:04.092Z",
+      "updated_at": "2021-09-11T13:01:43.922Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "w74ty0wkn3l4",
+      "group_id": "sx4xcbk5vby9",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -3089,16 +3089,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "tcr7lrzk9y72",
+      "id": "pb3l6dsjvyjv",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-11T21:50:15.481Z",
-      "updated_at": "2021-09-11T13:01:43.859Z",
+      "created_at": "2020-02-01T02:25:18.381Z",
+      "updated_at": "2021-09-11T13:01:43.910Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "kgb3x2451pb6",
+      "group_id": "w4rxy5n6jngd",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -3119,46 +3119,46 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ghqflpj7v0vd",
+      "id": "y5vrgfssxj0s",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-03-17T18:58:47.082Z",
-      "updated_at": "2021-09-11T13:01:43.846Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "k0tcpxgc753t",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "q4jrcdfh6g49",
-      "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
-      "created_at": "2020-02-01T02:26:02.464Z",
-      "updated_at": "2021-09-11T13:01:43.834Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "6x9tq37fxgms",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "j9n4w4skllhg",
-      "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
-      "created_at": "2020-08-31T18:09:11.915Z",
-      "updated_at": "2021-09-11T13:01:43.948Z",
+      "created_at": "2020-08-31T17:06:49.353Z",
+      "updated_at": "2021-09-11T13:01:43.885Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": "2020-08-31",
-      "group_id": "zfhft7y50l92",
+      "group_id": "cpyvw7lr6743",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "qx0467jmyyrv",
+      "name": "Japan Central (Osaka)",
+      "status": "partial_outage",
+      "created_at": "2020-02-11T21:49:51.979Z",
+      "updated_at": "2021-09-11T13:01:43.871Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "w74ty0wkn3l4",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "g7ph7xxsjpnb",
+      "name": "Japan Central (Osaka)",
+      "status": "operational",
+      "created_at": "2020-02-01T02:25:31.986Z",
+      "updated_at": "2021-09-11T15:52:02.285Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6gj9ydqydntb",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -3179,46 +3179,46 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "43m9hhfnxyjl",
+      "id": "ydpjlx3c7wv4",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:42.515Z",
-      "updated_at": "2021-09-11T13:01:43.661Z",
+      "created_at": "2020-02-01T02:25:25.994Z",
+      "updated_at": "2021-09-11T13:01:43.685Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "bnvbh75l64dh",
+      "group_id": "w6bwq65xjlh4",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "pb3l6dsjvyjv",
+      "id": "p9b84tlfx67m",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:18.381Z",
-      "updated_at": "2021-09-11T13:01:43.910Z",
+      "created_at": "2020-02-01T02:25:33.472Z",
+      "updated_at": "2021-09-11T13:01:43.960Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "w4rxy5n6jngd",
+      "group_id": "zqf5v0ykx3lk",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "9sxcmzgj1c3h",
+      "id": "9wwdgwyn5gsd",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:36.499Z",
-      "updated_at": "2021-09-11T13:01:43.649Z",
+      "created_at": "2020-02-09T04:16:25.398Z",
+      "updated_at": "2021-09-11T13:01:43.673Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "5hpsy50kv8qp",
+      "group_id": "x7526fhpytvm",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -3293,16 +3293,61 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dcvt7kk34cq3",
+      "id": "hkt8nnlm59b7",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:57.716Z",
-      "updated_at": "2021-09-11T13:01:43.601Z",
+      "created_at": "2020-02-01T02:25:22.938Z",
+      "updated_at": "2021-09-11T13:01:43.625Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "cl1tm8pr1mcr",
+      "group_id": "f5ppqjqjq0sf",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "tcr7lrzk9y72",
+      "name": "Japan Central (Osaka)",
+      "status": "partial_outage",
+      "created_at": "2020-02-11T21:50:15.481Z",
+      "updated_at": "2021-09-11T13:01:43.859Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "kgb3x2451pb6",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "ghqflpj7v0vd",
+      "name": "Japan Central (Osaka)",
+      "status": "partial_outage",
+      "created_at": "2020-03-17T18:58:47.082Z",
+      "updated_at": "2021-09-11T13:01:43.846Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "k0tcpxgc753t",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "q4jrcdfh6g49",
+      "name": "Japan Central (Osaka)",
+      "status": "partial_outage",
+      "created_at": "2020-02-01T02:26:02.464Z",
+      "updated_at": "2021-09-11T13:01:43.834Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "6x9tq37fxgms",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -3368,36 +3413,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ls78ck3vbbkf",
-      "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:12.370Z",
-      "updated_at": "2021-09-11T13:01:43.769Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "3znl9gpnkdp9",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "3cvf6y5xjymn",
-      "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
-      "created_at": "2020-11-06T07:19:13.157Z",
-      "updated_at": "2021-09-11T13:01:43.757Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-05",
-      "group_id": "pbrqh15302sw",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "jp5wv8p6xvy4",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
@@ -3408,6 +3423,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "97q4nsgcx28y",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "vxszrmvrc3sd",
+      "name": "Japan Central (Osaka)",
+      "status": "partial_outage",
+      "created_at": "2020-02-11T21:50:40.688Z",
+      "updated_at": "2021-09-11T13:01:43.733Z",
+      "position": 5,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "rkh6tn5c5s0h",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -3428,76 +3458,46 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "x05mmmjrh31t",
+      "id": "3cvf6y5xjymn",
       "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:40.982Z",
-      "updated_at": "2021-09-11T13:01:43.709Z",
+      "status": "operational",
+      "created_at": "2020-11-06T07:19:13.157Z",
+      "updated_at": "2021-09-11T15:52:02.304Z",
       "position": 5,
       "description": null,
       "showcase": false,
-      "start_date": null,
-      "group_id": "hs1yzcysy1cc",
+      "start_date": "2020-11-05",
+      "group_id": "pbrqh15302sw",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "vdt3fsz8ng3m",
+      "id": "7mmf93rlhz6v",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:26:00.750Z",
-      "updated_at": "2021-09-11T13:01:43.697Z",
+      "created_at": "2020-05-18T20:45:38.781Z",
+      "updated_at": "2021-09-11T13:01:43.936Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "c4vvw2mlz92y",
+      "group_id": "sr2y42rkwsgk",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "p9b84tlfx67m",
+      "id": "tyf9sc4795n2",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:33.472Z",
-      "updated_at": "2021-09-11T13:01:43.960Z",
+      "created_at": "2020-04-01T18:06:24.990Z",
+      "updated_at": "2021-09-11T13:01:43.589Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "zqf5v0ykx3lk",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "y5vrgfssxj0s",
-      "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
-      "created_at": "2020-08-31T17:06:49.353Z",
-      "updated_at": "2021-09-11T13:01:43.885Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-08-31",
-      "group_id": "cpyvw7lr6743",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "0zc4d9cf3sct",
-      "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:45.725Z",
-      "updated_at": "2021-09-11T13:01:43.577Z",
-      "position": 5,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "1m8dh0nx0l77",
+      "group_id": "px9x18fcq6hm",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -3518,46 +3518,46 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "ydpjlx3c7wv4",
+      "id": "x05mmmjrh31t",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:25.994Z",
-      "updated_at": "2021-09-11T13:01:43.685Z",
+      "created_at": "2020-02-01T02:25:40.982Z",
+      "updated_at": "2021-09-11T13:01:43.709Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "w6bwq65xjlh4",
+      "group_id": "hs1yzcysy1cc",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "42m0lj6yx8vy",
+      "id": "lsz4hr5s4wf7",
       "name": "Japan Central (Osaka)",
-      "status": "partial_outage",
-      "created_at": "2020-02-01T02:25:04.092Z",
-      "updated_at": "2021-09-11T13:01:43.922Z",
+      "status": "operational",
+      "created_at": "2020-02-01T02:25:51.670Z",
+      "updated_at": "2021-09-11T15:52:02.238Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "sx4xcbk5vby9",
+      "group_id": "x0247zm62lgz",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "9wwdgwyn5gsd",
+      "id": "vdt3fsz8ng3m",
       "name": "Japan Central (Osaka)",
       "status": "partial_outage",
-      "created_at": "2020-02-09T04:16:25.398Z",
-      "updated_at": "2021-09-11T13:01:43.673Z",
+      "created_at": "2020-02-01T02:26:00.750Z",
+      "updated_at": "2021-09-11T13:01:43.697Z",
       "position": 5,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "x7526fhpytvm",
+      "group_id": "c4vvw2mlz92y",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -6946,7 +6946,7 @@
     {
       "id": "pbrqh15302sw",
       "name": "Autonomous Database",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:07.510Z",
       "updated_at": "2021-07-17T04:59:21.187Z",
       "position": 10,
@@ -7969,7 +7969,7 @@
     {
       "id": "bztnw6ncdd5p",
       "name": "Database - Autonomous Data Warehouse",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-15T17:15:21.418Z",
       "updated_at": "2021-07-17T04:59:21.206Z",
       "position": 12,
@@ -9118,7 +9118,7 @@
     {
       "id": "6gj9ydqydntb",
       "name": "Database - Autonomous Transaction Processing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-21T18:39:06.417Z",
       "updated_at": "2021-07-17T04:59:21.218Z",
       "position": 13,
@@ -15835,7 +15835,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2021-07-17T04:59:21.355Z",
       "position": 26,
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure Multiple Services | Japan Central (Osaka) | CN-120364",
       "status": "identified",
       "created_at": "2021-09-11T12:24:30.522Z",
-      "updated_at": "2021-09-11T15:32:59.294Z",
+      "updated_at": "2021-09-11T15:52:02.390Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -16627,6 +16627,454 @@
       "started_at": "2021-09-11T14:24:43.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "19ggx5srg6lf",
+          "status": "identified",
+          "body": "We are continuing to work on a fix for this issue.",
+          "incident_id": "q5f077bp6w6l",
+          "created_at": "2021-09-11T15:52:02.385Z",
+          "updated_at": "2021-09-11T15:52:02.385Z",
+          "display_at": "2021-09-11T15:52:02.385Z",
+          "affected_components": [
+            {
+              "code": "42m0lj6yx8vy",
+              "name": "Compute - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "p9b84tlfx67m",
+              "name": "Identity - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hkt8nnlm59b7",
+              "name": "Networking - Virtual Cloud Networks - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8c1r186g3rb1",
+              "name": "Database - Autonomous Data Warehouse - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "pb3l6dsjvyjv",
+              "name": "Object Storage - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j8dz4sgwlhx7",
+              "name": "File Storage - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9sxcmzgj1c3h",
+              "name": "Edge Services - DNS Zone Management - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "m1v5xhh6q8fj",
+              "name": "Networking - FastConnect - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5pgbsswz62hj",
+              "name": "Networking - Dynamic Routing Gateways - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ydpjlx3c7wv4",
+              "name": "Networking - Load Balancing - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ls78ck3vbbkf",
+              "name": "Block Storage - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g7ph7xxsjpnb",
+              "name": "Database - Autonomous Transaction Processing - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "21r0llg138wp",
+              "name": "Developer Services - Container Clusters (OKE) - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "0zc4d9cf3sct",
+              "name": "Security - Key Management - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x05mmmjrh31t",
+              "name": "Developer Services - Registry (OCIR) - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "0ngtxkm9z94m",
+              "name": "Monitoring - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "43m9hhfnxyjl",
+              "name": "Marketplace - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "lsz4hr5s4wf7",
+              "name": "Console - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "k21f3bxwnp55",
+              "name": "Resource Manager - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "dcvt7kk34cq3",
+              "name": "Streaming - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7hcwcc8nbnd9",
+              "name": "WAF - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vdt3fsz8ng3m",
+              "name": "Data Safe - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "q4jrcdfh6g49",
+              "name": "Functions - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9wwdgwyn5gsd",
+              "name": "Data Flow - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "qx0467jmyyrv",
+              "name": "Data Catalog - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tcr7lrzk9y72",
+              "name": "Cloud Shell - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vxszrmvrc3sd",
+              "name": "NoSQL Database Cloud - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ksjtvj4wzczh",
+              "name": "Data Science - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ghqflpj7v0vd",
+              "name": "MySQL Database Service - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tyf9sc4795n2",
+              "name": "Vault - Secrets - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7mmf93rlhz6v",
+              "name": "Identity Cloud Service - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jp5wv8p6xvy4",
+              "name": "Data Integration - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y5vrgfssxj0s",
+              "name": "Cloud Guard - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j9n4w4skllhg",
+              "name": "Network Infrastructure - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3cvf6y5xjymn",
+              "name": "Autonomous Database - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "fc8f0x010lhx",
+          "status": "identified",
+          "body": "We're continuing work to mitigate an issue affecting multiple services in the Japan Central (Osaka) region.\n\n<b>Customer Impact:</b> Some customers may be unable to access or manage Oracle Cloud Infrastructure resources hosted in the region. \n\nSome services are now reporting recovery and we are continuing to work to ensure recovery of all services. \n\n<b>Preliminary Root Cause:</b> An internal authentication issue impacted service management functions causing them to return 5XX errors when customers attempted to perform service management operations.\n\n<b>Start Time:</b> September 11, 2021 11:54 UTC\n\n<b>Reference Number:</b> CN-120364",
+          "incident_id": "q5f077bp6w6l",
+          "created_at": "2021-09-11T15:45:29.300Z",
+          "updated_at": "2021-09-11T15:48:22.284Z",
+          "display_at": "2021-09-11T15:45:29.000Z",
+          "affected_components": [
+            {
+              "code": "42m0lj6yx8vy",
+              "name": "Compute - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "p9b84tlfx67m",
+              "name": "Identity - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hkt8nnlm59b7",
+              "name": "Networking - Virtual Cloud Networks - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8c1r186g3rb1",
+              "name": "Database - Autonomous Data Warehouse - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pb3l6dsjvyjv",
+              "name": "Object Storage - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j8dz4sgwlhx7",
+              "name": "File Storage - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9sxcmzgj1c3h",
+              "name": "Edge Services - DNS Zone Management - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "m1v5xhh6q8fj",
+              "name": "Networking - FastConnect - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5pgbsswz62hj",
+              "name": "Networking - Dynamic Routing Gateways - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ydpjlx3c7wv4",
+              "name": "Networking - Load Balancing - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ls78ck3vbbkf",
+              "name": "Block Storage - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g7ph7xxsjpnb",
+              "name": "Database - Autonomous Transaction Processing - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "21r0llg138wp",
+              "name": "Developer Services - Container Clusters (OKE) - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "0zc4d9cf3sct",
+              "name": "Security - Key Management - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x05mmmjrh31t",
+              "name": "Developer Services - Registry (OCIR) - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "0ngtxkm9z94m",
+              "name": "Monitoring - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "43m9hhfnxyjl",
+              "name": "Marketplace - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "lsz4hr5s4wf7",
+              "name": "Console - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "k21f3bxwnp55",
+              "name": "Resource Manager - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "dcvt7kk34cq3",
+              "name": "Streaming - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7hcwcc8nbnd9",
+              "name": "WAF - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vdt3fsz8ng3m",
+              "name": "Data Safe - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "q4jrcdfh6g49",
+              "name": "Functions - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9wwdgwyn5gsd",
+              "name": "Data Flow - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "qx0467jmyyrv",
+              "name": "Data Catalog - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tcr7lrzk9y72",
+              "name": "Cloud Shell - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vxszrmvrc3sd",
+              "name": "NoSQL Database Cloud - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ksjtvj4wzczh",
+              "name": "Data Science - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ghqflpj7v0vd",
+              "name": "MySQL Database Service - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tyf9sc4795n2",
+              "name": "Vault - Secrets - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7mmf93rlhz6v",
+              "name": "Identity Cloud Service - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jp5wv8p6xvy4",
+              "name": "Data Integration - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y5vrgfssxj0s",
+              "name": "Cloud Guard - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j9n4w4skllhg",
+              "name": "Network Infrastructure - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3cvf6y5xjymn",
+              "name": "Autonomous Database - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "dyb66zn2yqvh",
           "status": "identified",
@@ -17960,9 +18408,9 @@
         {
           "id": "8c1r186g3rb1",
           "name": "Japan Central (Osaka)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-02-01T02:25:30.483Z",
-          "updated_at": "2021-09-11T13:01:43.564Z",
+          "updated_at": "2021-09-11T15:52:02.264Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -17975,9 +18423,9 @@
         {
           "id": "g7ph7xxsjpnb",
           "name": "Japan Central (Osaka)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-02-01T02:25:31.986Z",
-          "updated_at": "2021-09-11T13:01:43.637Z",
+          "updated_at": "2021-09-11T15:52:02.285Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -18095,9 +18543,9 @@
         {
           "id": "lsz4hr5s4wf7",
           "name": "Japan Central (Osaka)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-02-01T02:25:51.670Z",
-          "updated_at": "2021-09-11T13:01:43.897Z",
+          "updated_at": "2021-09-11T15:52:02.238Z",
           "position": 5,
           "description": null,
           "showcase": false,
@@ -18350,9 +18798,9 @@
         {
           "id": "3cvf6y5xjymn",
           "name": "Japan Central (Osaka)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-11-06T07:19:13.157Z",
-          "updated_at": "2021-09-11T13:01:43.757Z",
+          "updated_at": "2021-09-11T15:52:02.304Z",
           "position": 5,
           "description": null,
           "showcase": false,

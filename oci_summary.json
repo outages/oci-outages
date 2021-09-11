@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-11T13:23:36.047Z"
+    "updated_at": "2021-09-11T13:36:43.593Z"
   },
   "components": [
     {
@@ -16617,9 +16617,9 @@
     {
       "id": "q5f077bp6w6l",
       "name": "Oracle Cloud Infrastructure Multiple Services | Japan Central (Osaka) | CN-120364",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-09-11T12:24:30.522Z",
-      "updated_at": "2021-09-11T13:01:44.042Z",
+      "updated_at": "2021-09-11T13:36:43.584Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -16627,6 +16627,230 @@
       "started_at": "2021-09-11T12:24:30.499Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "rd29907x94bc",
+          "status": "identified",
+          "body": "We're continuing to investigate an issue with multiple services in the Japan Central (Osaka) region.\n\n<b>Customer Impact:</b> Customers may be unable to access the Oracle Cloud Infrastructure console or access/manage resources hosted in the region.\n\nAn internal authentication issue is causing service management functions to return 5XX errors when attempting to perform service management operations.\n\n<b>Start Time:</b> September 11, 2021 11:54 UTC\n\n<b>Reference Number:</b> CN-120364",
+          "incident_id": "q5f077bp6w6l",
+          "created_at": "2021-09-11T13:36:43.578Z",
+          "updated_at": "2021-09-11T13:36:43.578Z",
+          "display_at": "2021-09-11T13:36:43.578Z",
+          "affected_components": [
+            {
+              "code": "42m0lj6yx8vy",
+              "name": "Compute - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "p9b84tlfx67m",
+              "name": "Identity - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "hkt8nnlm59b7",
+              "name": "Networking - Virtual Cloud Networks - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "8c1r186g3rb1",
+              "name": "Database - Autonomous Data Warehouse - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "pb3l6dsjvyjv",
+              "name": "Object Storage - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j8dz4sgwlhx7",
+              "name": "File Storage - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9sxcmzgj1c3h",
+              "name": "Edge Services - DNS Zone Management - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "m1v5xhh6q8fj",
+              "name": "Networking - FastConnect - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5pgbsswz62hj",
+              "name": "Networking - Dynamic Routing Gateways - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ydpjlx3c7wv4",
+              "name": "Networking - Load Balancing - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ls78ck3vbbkf",
+              "name": "Block Storage - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "g7ph7xxsjpnb",
+              "name": "Database - Autonomous Transaction Processing - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "21r0llg138wp",
+              "name": "Developer Services - Container Clusters (OKE) - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "0zc4d9cf3sct",
+              "name": "Security - Key Management - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "x05mmmjrh31t",
+              "name": "Developer Services - Registry (OCIR) - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "0ngtxkm9z94m",
+              "name": "Monitoring - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "43m9hhfnxyjl",
+              "name": "Marketplace - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "lsz4hr5s4wf7",
+              "name": "Console - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "k21f3bxwnp55",
+              "name": "Resource Manager - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "dcvt7kk34cq3",
+              "name": "Streaming - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7hcwcc8nbnd9",
+              "name": "WAF - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vdt3fsz8ng3m",
+              "name": "Data Safe - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "q4jrcdfh6g49",
+              "name": "Functions - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9wwdgwyn5gsd",
+              "name": "Data Flow - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "qx0467jmyyrv",
+              "name": "Data Catalog - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tcr7lrzk9y72",
+              "name": "Cloud Shell - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "vxszrmvrc3sd",
+              "name": "NoSQL Database Cloud - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ksjtvj4wzczh",
+              "name": "Data Science - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "ghqflpj7v0vd",
+              "name": "MySQL Database Service - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tyf9sc4795n2",
+              "name": "Vault - Secrets - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7mmf93rlhz6v",
+              "name": "Identity Cloud Service - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jp5wv8p6xvy4",
+              "name": "Data Integration - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "y5vrgfssxj0s",
+              "name": "Cloud Guard - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j9n4w4skllhg",
+              "name": "Network Infrastructure - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3cvf6y5xjymn",
+              "name": "Autonomous Database - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "f5tvyqnj77z6",
           "status": "investigating",

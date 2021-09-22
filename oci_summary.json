@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-22T17:34:35.342Z"
+    "updated_at": "2021-09-22T18:19:54.758Z"
   },
   "components": [
     {
@@ -16617,9 +16617,9 @@
     {
       "id": "wjsy1kb2p5d7",
       "name": "Oracle Identity Cloud Service | US West (Phoenix) | CN-122646",
-      "status": "monitoring",
+      "status": "investigating",
       "created_at": "2021-09-22T16:37:07.000Z",
-      "updated_at": "2021-09-22T17:34:35.339Z",
+      "updated_at": "2021-09-22T18:19:54.751Z",
       "monitoring_at": "2021-09-22T17:34:35.324Z",
       "resolved_at": null,
       "impact": "major",
@@ -16627,6 +16627,26 @@
       "started_at": "2021-09-22T16:37:07.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "gcb0fp2b214g",
+          "status": "investigating",
+          "body": "While monitoring, the IDCS showed signs of partial recovery. However, further monitoring showed an increase in utilization which translates to authentication failures. Our engineers are continuing to investigate this issue.",
+          "incident_id": "wjsy1kb2p5d7",
+          "created_at": "2021-09-22T17:53:17.655Z",
+          "updated_at": "2021-09-22T18:19:54.744Z",
+          "display_at": "2021-09-22T17:53:17.000Z",
+          "affected_components": [
+            {
+              "code": "sxpdvl47wb8d",
+              "name": "Identity Cloud Service - US West (Phoenix)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "58n2h517cn4h",
           "status": "monitoring",

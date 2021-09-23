@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-23T19:00:57.206Z"
+    "updated_at": "2021-09-23T19:45:21.694Z"
   },
   "components": [
     {
@@ -16619,14 +16619,34 @@
       "name": "Oracle Identity Cloud Service | US West (Phoenix) | CN-122646",
       "status": "monitoring",
       "created_at": "2021-09-23T13:29:40.301Z",
-      "updated_at": "2021-09-23T19:00:57.203Z",
+      "updated_at": "2021-09-23T19:45:21.685Z",
       "monitoring_at": "2021-09-23T16:27:27.000Z",
       "resolved_at": null,
-      "impact": "none",
+      "impact": "minor",
       "shortlink": "https://stspg.io/n0grb1ft8jsl",
       "started_at": "2021-09-23T14:06:54.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "n5t8gj7ym41z",
+          "status": "monitoring",
+          "body": "We've performed additional configuration changes to fully mitigate the issue affecting Oracle Identity Cloud Service, and we're continuing to monitor the event.\n\n<b>Customer Impact:</b> Some customers may still experience intermittent authentication failures and receive a 4xx-type error for resources and downstream services if their authentication stripe is hosted in US West (Phoenix).",
+          "incident_id": "1j0sg6t6h2fm",
+          "created_at": "2021-09-23T19:45:21.682Z",
+          "updated_at": "2021-09-23T19:45:21.682Z",
+          "display_at": "2021-09-23T19:45:21.682Z",
+          "affected_components": [
+            {
+              "code": "sxpdvl47wb8d",
+              "name": "Identity Cloud Service - US West (Phoenix)",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "3q557ld0b0sz",
           "status": "monitoring",

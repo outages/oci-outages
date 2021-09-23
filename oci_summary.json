@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-23T15:04:15.469Z"
+    "updated_at": "2021-09-23T16:29:03.369Z"
   },
   "components": [
     {
@@ -10426,7 +10426,7 @@
     {
       "id": "sr2y42rkwsgk",
       "name": "Identity Cloud Service",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-05-18T20:45:34.523Z",
       "updated_at": "2021-07-17T04:59:21.238Z",
       "position": 15,
@@ -14404,9 +14404,9 @@
     {
       "id": "sxpdvl47wb8d",
       "name": "US West (Phoenix)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-05-18T20:45:53.556Z",
-      "updated_at": "2021-09-23T13:29:40.337Z",
+      "updated_at": "2021-09-23T16:27:27.828Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -16617,16 +16617,36 @@
     {
       "id": "1j0sg6t6h2fm",
       "name": "Oracle Identity Cloud Service | US West (Phoenix) | CN-122646",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-09-23T13:29:40.301Z",
-      "updated_at": "2021-09-23T15:04:15.458Z",
-      "monitoring_at": null,
+      "updated_at": "2021-09-23T16:29:03.365Z",
+      "monitoring_at": "2021-09-23T16:27:27.913Z",
       "resolved_at": null,
-      "impact": "major",
+      "impact": "none",
       "shortlink": "https://stspg.io/n0grb1ft8jsl",
       "started_at": "2021-09-23T13:29:40.293Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "3q557ld0b0sz",
+          "status": "monitoring",
+          "body": "We have applied mitigation to the issue affecting the Oracle Identity Cloud Service in the US West (Phoenix) region and confirmed customers are no longer experiencing impact. Our service teams are continuing to monitor the situation to ensure full recovery.\n\n<b>Customer Impact:</b>Some customers may have experienced authentication failures or received 5XX type errors when attempting to access Oracle Cloud resources in the US West (Phoenix) region.\n\nA subset of customers may have experienced additional impact for resources and downstream services hosted in other regions, if their authentication stripe is hosted in US West (Phoenix).",
+          "incident_id": "1j0sg6t6h2fm",
+          "created_at": "2021-09-23T16:27:27.913Z",
+          "updated_at": "2021-09-23T16:27:27.913Z",
+          "display_at": "2021-09-23T16:27:27.913Z",
+          "affected_components": [
+            {
+              "code": "sxpdvl47wb8d",
+              "name": "Identity Cloud Service - US West (Phoenix)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "0cw4qmqcf24x",
           "status": "investigating",
@@ -16712,9 +16732,9 @@
         {
           "id": "sxpdvl47wb8d",
           "name": "US West (Phoenix)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-05-18T20:45:53.556Z",
-          "updated_at": "2021-09-23T13:29:40.337Z",
+          "updated_at": "2021-09-23T16:27:27.828Z",
           "position": 21,
           "description": null,
           "showcase": false,
@@ -16729,7 +16749,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

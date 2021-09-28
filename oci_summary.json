@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-09-28T18:50:39.566Z"
+    "updated_at": "2021-09-28T19:29:27.413Z"
   },
   "components": [
     {
@@ -1159,7 +1159,7 @@
     {
       "id": "3znl9gpnkdp9",
       "name": "Block Storage",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-21T18:27:37.975Z",
       "updated_at": "2021-07-17T04:59:21.112Z",
       "position": 2,
@@ -4474,7 +4474,7 @@
     {
       "id": "r6jhxgxtxm2h",
       "name": "Networking - Dynamic Routing Gateways",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-16T22:45:46.155Z",
       "updated_at": "2021-07-17T04:59:21.160Z",
       "position": 7,
@@ -5765,16 +5765,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6shfkpmc8nsz",
+      "id": "3t3f5f88z3x3",
       "name": "Canada Southeast (Montreal)",
-      "status": "degraded_performance",
-      "created_at": "2020-03-02T19:34:30.372Z",
-      "updated_at": "2021-09-28T17:58:56.838Z",
+      "status": "operational",
+      "created_at": "2020-03-02T19:34:17.893Z",
+      "updated_at": "2021-09-28T19:29:27.259Z",
       "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "r6jhxgxtxm2h",
+      "group_id": "3znl9gpnkdp9",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5810,16 +5810,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3t3f5f88z3x3",
+      "id": "kqmprymtgzpl",
       "name": "Canada Southeast (Montreal)",
-      "status": "degraded_performance",
-      "created_at": "2020-03-02T19:34:17.893Z",
-      "updated_at": "2021-09-28T18:50:39.470Z",
+      "status": "operational",
+      "created_at": "2020-03-02T19:35:08.494Z",
+      "updated_at": "2021-09-28T19:29:27.313Z",
       "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "3znl9gpnkdp9",
+      "group_id": "6x9tq37fxgms",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -5984,16 +5984,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "xy5tdf7f8k72",
+      "id": "htjy1wfd1bqd",
       "name": "Canada Southeast (Montreal)",
-      "status": "degraded_performance",
-      "created_at": "2020-03-02T19:35:14.596Z",
-      "updated_at": "2021-09-28T17:58:56.868Z",
+      "status": "operational",
+      "created_at": "2020-03-02T19:34:45.243Z",
+      "updated_at": "2021-09-28T19:29:27.298Z",
       "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "kgb3x2451pb6",
+      "group_id": "j534vmnnt3j4",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -6121,9 +6121,9 @@
     {
       "id": "016k8nkkmfd0",
       "name": "Canada Southeast (Montreal)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-03-02T19:34:40.645Z",
-      "updated_at": "2021-09-28T17:58:56.805Z",
+      "updated_at": "2021-09-28T19:29:27.227Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -6151,9 +6151,9 @@
     {
       "id": "2qz4l9d7p36m",
       "name": "Canada Southeast (Montreal)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-03-02T19:35:17.606Z",
-      "updated_at": "2021-09-28T17:58:56.822Z",
+      "updated_at": "2021-09-28T19:29:27.244Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -6314,16 +6314,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "kqmprymtgzpl",
+      "id": "6shfkpmc8nsz",
       "name": "Canada Southeast (Montreal)",
-      "status": "degraded_performance",
-      "created_at": "2020-03-02T19:35:08.494Z",
-      "updated_at": "2021-09-28T17:58:56.853Z",
+      "status": "operational",
+      "created_at": "2020-03-02T19:34:30.372Z",
+      "updated_at": "2021-09-28T19:29:27.273Z",
       "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6x9tq37fxgms",
+      "group_id": "r6jhxgxtxm2h",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -6374,16 +6374,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "htjy1wfd1bqd",
+      "id": "xy5tdf7f8k72",
       "name": "Canada Southeast (Montreal)",
-      "status": "degraded_performance",
-      "created_at": "2020-03-02T19:34:45.243Z",
-      "updated_at": "2021-09-28T18:50:39.485Z",
+      "status": "operational",
+      "created_at": "2020-03-02T19:35:14.596Z",
+      "updated_at": "2021-09-28T19:29:27.328Z",
       "position": 9,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "j534vmnnt3j4",
+      "group_id": "kgb3x2451pb6",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -11065,7 +11065,7 @@
     {
       "id": "fldz5lpp5mxs",
       "name": "Email Delivery",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-16T22:29:37.454Z",
       "updated_at": "2021-07-17T04:59:21.248Z",
       "position": 16,
@@ -12493,7 +12493,7 @@
     {
       "id": "j534vmnnt3j4",
       "name": "Developer Services - Container Clusters (OKE)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-08-21T19:09:53.437Z",
       "updated_at": "2021-07-17T04:59:21.268Z",
       "position": 18,
@@ -16108,7 +16108,7 @@
     {
       "id": "6x9tq37fxgms",
       "name": "Functions",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-09-25T17:20:33.701Z",
       "updated_at": "2021-07-17T04:59:21.422Z",
       "position": 33,
@@ -16264,7 +16264,7 @@
     {
       "id": "kgb3x2451pb6",
       "name": "Cloud Shell",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-02-11T21:50:12.436Z",
       "updated_at": "2021-07-17T04:59:21.459Z",
       "position": 37,
@@ -16381,7 +16381,7 @@
     {
       "id": "99h2c5hxp4dp",
       "name": "Data Science",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-02-11T21:51:00.601Z",
       "updated_at": "2021-07-17T04:59:21.488Z",
       "position": 40,
@@ -16613,233 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "ldmdt33y4sgt",
-      "name": "Oracle Cloud Infrastructure Networking | Canada Southeast (Montreal) | CN-124163",
-      "status": "identified",
-      "created_at": "2021-09-28T17:58:56.760Z",
-      "updated_at": "2021-09-28T18:50:39.557Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/mbpl0r8bc0vj",
-      "started_at": "2021-09-28T17:58:56.739Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "td1kk2rxcn6t",
-          "status": "identified",
-          "body": "Our engineers are continuing their work to mitigate the issue affecting Oracle Cloud Infrastructure Networking in the Canada Southeast (Montreal) region.",
-          "incident_id": "ldmdt33y4sgt",
-          "created_at": "2021-09-28T18:50:39.554Z",
-          "updated_at": "2021-09-28T18:50:39.554Z",
-          "display_at": "2021-09-28T18:50:39.554Z",
-          "affected_components": [
-            {
-              "code": "016k8nkkmfd0",
-              "name": "Email Delivery - Canada Southeast (Montreal)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "6shfkpmc8nsz",
-              "name": "Networking - Dynamic Routing Gateways - Canada Southeast (Montreal)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3t3f5f88z3x3",
-              "name": "Block Storage - Canada Southeast (Montreal)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "htjy1wfd1bqd",
-              "name": "Developer Services - Container Clusters (OKE) - Canada Southeast (Montreal)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "kqmprymtgzpl",
-              "name": "Functions - Canada Southeast (Montreal)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "xy5tdf7f8k72",
-              "name": "Cloud Shell - Canada Southeast (Montreal)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "2qz4l9d7p36m",
-              "name": "Data Science - Canada Southeast (Montreal)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bnkjyczyy1nr",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Networking in the Canada Southeast (Montreal) region.\n\n<b>Customer Impact:</b> Customers may be unable to access or use Oracle Cloud Infrastructure features or services.\n\n<b>Reference Number:</b> CN-124163",
-          "incident_id": "ldmdt33y4sgt",
-          "created_at": "2021-09-28T17:58:56.949Z",
-          "updated_at": "2021-09-28T17:58:56.949Z",
-          "display_at": "2021-09-28T17:58:56.949Z",
-          "affected_components": [
-            {
-              "code": "016k8nkkmfd0",
-              "name": "Email Delivery - Canada Southeast (Montreal)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "6shfkpmc8nsz",
-              "name": "Networking - Dynamic Routing Gateways - Canada Southeast (Montreal)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "kqmprymtgzpl",
-              "name": "Functions - Canada Southeast (Montreal)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "xy5tdf7f8k72",
-              "name": "Cloud Shell - Canada Southeast (Montreal)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "2qz4l9d7p36m",
-              "name": "Data Science - Canada Southeast (Montreal)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "3t3f5f88z3x3",
-          "name": "Canada Southeast (Montreal)",
-          "status": "degraded_performance",
-          "created_at": "2020-03-02T19:34:17.893Z",
-          "updated_at": "2021-09-28T18:50:39.470Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "3znl9gpnkdp9",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "6shfkpmc8nsz",
-          "name": "Canada Southeast (Montreal)",
-          "status": "degraded_performance",
-          "created_at": "2020-03-02T19:34:30.372Z",
-          "updated_at": "2021-09-28T17:58:56.838Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "r6jhxgxtxm2h",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "016k8nkkmfd0",
-          "name": "Canada Southeast (Montreal)",
-          "status": "degraded_performance",
-          "created_at": "2020-03-02T19:34:40.645Z",
-          "updated_at": "2021-09-28T17:58:56.805Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "fldz5lpp5mxs",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "htjy1wfd1bqd",
-          "name": "Canada Southeast (Montreal)",
-          "status": "degraded_performance",
-          "created_at": "2020-03-02T19:34:45.243Z",
-          "updated_at": "2021-09-28T18:50:39.485Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "j534vmnnt3j4",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "kqmprymtgzpl",
-          "name": "Canada Southeast (Montreal)",
-          "status": "degraded_performance",
-          "created_at": "2020-03-02T19:35:08.494Z",
-          "updated_at": "2021-09-28T17:58:56.853Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "6x9tq37fxgms",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "xy5tdf7f8k72",
-          "name": "Canada Southeast (Montreal)",
-          "status": "degraded_performance",
-          "created_at": "2020-03-02T19:35:14.596Z",
-          "updated_at": "2021-09-28T17:58:56.868Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kgb3x2451pb6",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "2qz4l9d7p36m",
-          "name": "Canada Southeast (Montreal)",
-          "status": "degraded_performance",
-          "created_at": "2020-03-02T19:35:17.606Z",
-          "updated_at": "2021-09-28T17:58:56.822Z",
-          "position": 9,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "99h2c5hxp4dp",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

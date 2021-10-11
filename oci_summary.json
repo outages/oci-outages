@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-11T07:49:23.592Z"
+    "updated_at": "2021-10-11T09:38:11.543Z"
   },
   "components": [
     {
@@ -55,7 +55,7 @@
     {
       "id": "sx4xcbk5vby9",
       "name": "Compute",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:03:40.697Z",
       "updated_at": "2021-06-11T18:22:48.268Z",
       "position": 1,
@@ -1438,7 +1438,7 @@
     {
       "id": "w4rxy5n6jngd",
       "name": "Object Storage",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:10:31.646Z",
       "updated_at": "2021-07-17T04:59:21.122Z",
       "position": 3,
@@ -3151,7 +3151,7 @@
     {
       "id": "zfhft7y50l92",
       "name": "Network Infrastructure",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:05.892Z",
       "updated_at": "2021-07-17T04:59:21.141Z",
       "position": 5,
@@ -4075,7 +4075,7 @@
     {
       "id": "f5ppqjqjq0sf",
       "name": "Networking - Virtual Cloud Networks",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:45:58.359Z",
       "updated_at": "2021-07-17T04:59:21.151Z",
       "position": 6,
@@ -4684,7 +4684,7 @@
     {
       "id": "r6jhxgxtxm2h",
       "name": "Networking - Dynamic Routing Gateways",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:45:46.155Z",
       "updated_at": "2021-07-17T04:59:21.160Z",
       "position": 7,
@@ -5428,7 +5428,7 @@
     {
       "id": "w6bwq65xjlh4",
       "name": "Networking - Load Balancing",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:47:23.450Z",
       "updated_at": "2021-07-17T04:59:21.170Z",
       "position": 8,
@@ -6187,7 +6187,7 @@
     {
       "id": "cwgx3c8m7j3z",
       "name": "Networking - FastConnect",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:41:40.106Z",
       "updated_at": "2021-07-17T04:59:21.178Z",
       "position": 9,
@@ -7096,7 +7096,7 @@
     {
       "id": "pbrqh15302sw",
       "name": "Autonomous Database",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:07.510Z",
       "updated_at": "2021-07-17T04:59:21.187Z",
       "position": 10,
@@ -7195,7 +7195,7 @@
     {
       "id": "grgr5sf16chm",
       "name": "Database - Bare Metal, VM, Exadata",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:40:32.498Z",
       "updated_at": "2021-07-17T04:59:21.196Z",
       "position": 11,
@@ -7879,9 +7879,9 @@
     {
       "id": "1n8bqdsjyvc5",
       "name": "eu-frankfurt-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-10-02T18:57:27.237Z",
-      "updated_at": "2021-10-11T07:49:23.277Z",
+      "updated_at": "2021-10-11T09:38:10.605Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -7894,9 +7894,9 @@
     {
       "id": "3zbhxxy9dmdl",
       "name": "eu-frankfurt-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-10-02T18:31:27.245Z",
-      "updated_at": "2021-10-11T07:49:23.266Z",
+      "updated_at": "2021-10-11T09:38:10.707Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -7939,9 +7939,9 @@
     {
       "id": "hb9j3djsgdjf",
       "name": "eu-frankfurt-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-10-02T18:51:41.079Z",
-      "updated_at": "2021-10-11T07:49:23.243Z",
+      "updated_at": "2021-10-11T09:38:10.662Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -8051,16 +8051,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "5sdbgyrsm29s",
-      "name": "eu-frankfurt-1 region",
+      "id": "b3kml93chtyl",
+      "name": "Germany Central (Frankfurt)",
       "status": "operational",
-      "created_at": "2017-10-02T18:27:22.124Z",
-      "updated_at": "2020-07-10T01:18:51.774Z",
+      "created_at": "2017-10-02T18:26:30.078Z",
+      "updated_at": "2021-10-11T09:38:10.579Z",
       "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "grgr5sf16chm",
+      "group_id": "sx4xcbk5vby9",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -8098,9 +8098,9 @@
     {
       "id": "fyl0mjv95rqw",
       "name": "Germany Central (Frankfurt)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:19.362Z",
-      "updated_at": "2021-10-11T07:49:23.216Z",
+      "updated_at": "2021-10-11T09:38:10.629Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -8158,9 +8158,9 @@
     {
       "id": "yv2tg23fqyt0",
       "name": "eu-frankfurt-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-10-02T18:44:24.932Z",
-      "updated_at": "2021-10-11T07:49:23.254Z",
+      "updated_at": "2021-10-11T09:38:10.685Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -8278,9 +8278,9 @@
     {
       "id": "j46hpzb44hmr",
       "name": "Germany Central (Frankfurt)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:20.702Z",
-      "updated_at": "2021-10-11T07:49:23.204Z",
+      "updated_at": "2021-10-11T09:38:10.733Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -8561,16 +8561,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "b3kml93chtyl",
-      "name": "Germany Central (Frankfurt)",
-      "status": "partial_outage",
-      "created_at": "2017-10-02T18:26:30.078Z",
-      "updated_at": "2021-10-11T07:39:50.743Z",
+      "id": "5sdbgyrsm29s",
+      "name": "eu-frankfurt-1 region",
+      "status": "operational",
+      "created_at": "2017-10-02T18:27:22.124Z",
+      "updated_at": "2020-07-10T01:18:51.774Z",
       "position": 12,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "sx4xcbk5vby9",
+      "group_id": "grgr5sf16chm",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -9442,7 +9442,7 @@
     {
       "id": "zqf5v0ykx3lk",
       "name": "Identity",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:44:24.854Z",
       "updated_at": "2021-07-17T04:59:21.227Z",
       "position": 14,
@@ -11050,7 +11050,7 @@
     {
       "id": "fldz5lpp5mxs",
       "name": "Email Delivery",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:29:37.454Z",
       "updated_at": "2021-07-17T04:59:21.248Z",
       "position": 16,
@@ -12862,9 +12862,9 @@
     {
       "id": "b0tpzntz95rg",
       "name": "UK South (London)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:27.312Z",
-      "updated_at": "2021-10-11T07:49:23.333Z",
+      "updated_at": "2021-10-11T09:38:10.779Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -12967,9 +12967,9 @@
     {
       "id": "0z59xhc0c1nj",
       "name": "uk-london-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-04-05T17:55:28.508Z",
-      "updated_at": "2021-10-11T07:49:23.304Z",
+      "updated_at": "2021-10-11T09:38:10.871Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -13141,9 +13141,9 @@
     {
       "id": "4mmffgnjrmqz",
       "name": "UK South (London)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:23.709Z",
-      "updated_at": "2021-10-11T07:39:50.775Z",
+      "updated_at": "2021-10-11T09:38:10.802Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -13276,9 +13276,9 @@
     {
       "id": "nr996pp2s0zc",
       "name": "uk-london-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-04-05T14:25:48.110Z",
-      "updated_at": "2021-10-11T07:49:23.317Z",
+      "updated_at": "2021-10-11T09:38:10.918Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -13291,9 +13291,9 @@
     {
       "id": "2r8z8pwsjvpd",
       "name": "uk-london-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-04-05T18:40:37.843Z",
-      "updated_at": "2021-10-11T07:49:23.290Z",
+      "updated_at": "2021-10-11T09:38:10.824Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -13351,9 +13351,9 @@
     {
       "id": "jnbpxgfylpsv",
       "name": "uk-london-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-04-05T18:44:26.049Z",
-      "updated_at": "2021-10-11T07:49:23.343Z",
+      "updated_at": "2021-10-11T09:38:10.895Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -13381,9 +13381,9 @@
     {
       "id": "8ph1fb13qmg5",
       "name": "uk-london-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-02-20T21:43:18.788Z",
-      "updated_at": "2021-10-11T07:49:23.379Z",
+      "updated_at": "2021-10-11T09:38:10.756Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -13531,9 +13531,9 @@
     {
       "id": "xcpj6cx68gvs",
       "name": "UK South (London)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-04-05T17:22:54.901Z",
-      "updated_at": "2021-10-11T07:49:23.355Z",
+      "updated_at": "2021-10-11T09:38:10.940Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -13591,9 +13591,9 @@
     {
       "id": "pvpycwv0bcpl",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:28.627Z",
-      "updated_at": "2021-10-11T07:17:58.608Z",
+      "updated_at": "2021-10-11T09:38:11.172Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13660,9 +13660,9 @@
     {
       "id": "3syhy84rxqwk",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:24.852Z",
-      "updated_at": "2021-10-11T07:17:58.645Z",
+      "updated_at": "2021-10-11T09:38:10.963Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13705,9 +13705,9 @@
     {
       "id": "qkkvb0kx7528",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-08T15:50:13.701Z",
-      "updated_at": "2021-10-11T07:17:58.418Z",
+      "updated_at": "2021-10-11T09:38:11.009Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13720,9 +13720,9 @@
     {
       "id": "yz91445z42h3",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T20:22:13.858Z",
-      "updated_at": "2021-10-11T07:49:23.392Z",
+      "updated_at": "2021-10-11T09:38:11.033Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13750,9 +13750,9 @@
     {
       "id": "zy9kt4w718hd",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-05-23T17:30:29.198Z",
-      "updated_at": "2021-10-11T07:17:58.588Z",
+      "updated_at": "2021-10-11T09:38:11.148Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13870,9 +13870,9 @@
     {
       "id": "51t95jcwlzy5",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-09T18:24:48.438Z",
-      "updated_at": "2021-10-11T07:17:58.457Z",
+      "updated_at": "2021-10-11T09:38:11.080Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13930,9 +13930,9 @@
     {
       "id": "121xg4vgxclw",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T05:18:28.410Z",
-      "updated_at": "2021-10-11T07:17:58.438Z",
+      "updated_at": "2021-10-11T09:38:11.057Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14050,9 +14050,9 @@
     {
       "id": "1t8kwz3bvhl5",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-11T17:17:34.529Z",
-      "updated_at": "2021-10-11T07:17:58.497Z",
+      "updated_at": "2021-10-11T09:38:11.102Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14110,9 +14110,9 @@
     {
       "id": "glnrqd9r9z9v",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-11T17:11:27.030Z",
-      "updated_at": "2021-10-11T07:17:58.570Z",
+      "updated_at": "2021-10-11T09:38:11.125Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14170,9 +14170,9 @@
     {
       "id": "9c7ckly20b88",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-06-07T16:57:05.217Z",
-      "updated_at": "2021-10-11T07:17:58.626Z",
+      "updated_at": "2021-10-11T09:38:11.218Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14185,9 +14185,9 @@
     {
       "id": "g61zcpg4f9l6",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-09T14:52:31.774Z",
-      "updated_at": "2021-10-11T07:49:23.415Z",
+      "updated_at": "2021-10-11T09:38:11.195Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14275,9 +14275,9 @@
     {
       "id": "7dmvr7dfprlm",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-11T17:19:52.899Z",
-      "updated_at": "2021-10-11T07:17:58.397Z",
+      "updated_at": "2021-10-11T09:38:10.986Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14485,9 +14485,9 @@
     {
       "id": "v15kk4lwm6ql",
       "name": "us-phoenix-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-09T18:23:07.355Z",
-      "updated_at": "2021-10-11T07:49:23.509Z",
+      "updated_at": "2021-10-11T09:38:11.427Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -14530,9 +14530,9 @@
     {
       "id": "lnwrp1s3tjtj",
       "name": "us-phoenix-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-11T17:20:23.295Z",
-      "updated_at": "2021-10-11T07:49:23.499Z",
+      "updated_at": "2021-10-11T09:38:11.382Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -14560,9 +14560,9 @@
     {
       "id": "wm2jrqk0xh4h",
       "name": "US West (Phoenix)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:29.570Z",
-      "updated_at": "2021-10-11T07:49:23.430Z",
+      "updated_at": "2021-10-11T09:38:11.243Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -14650,9 +14650,9 @@
     {
       "id": "nc2f54blmwhb",
       "name": "us-phoenix-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-16T22:29:52.504Z",
-      "updated_at": "2021-10-11T07:49:23.452Z",
+      "updated_at": "2021-10-11T09:38:11.313Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -14665,9 +14665,9 @@
     {
       "id": "458t1p5br129",
       "name": "US West (Phoenix)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:25.888Z",
-      "updated_at": "2021-10-11T07:39:50.820Z",
+      "updated_at": "2021-10-11T09:38:11.290Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -14710,9 +14710,9 @@
     {
       "id": "58ltvk4qqn80",
       "name": "us-phoenix-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-09T18:20:15.082Z",
-      "updated_at": "2021-10-11T07:49:23.441Z",
+      "updated_at": "2021-10-11T09:38:11.267Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -14845,9 +14845,9 @@
     {
       "id": "sd1qf8kg3n0r",
       "name": "us-phoenix-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-09T15:03:30.091Z",
-      "updated_at": "2021-10-11T07:49:23.465Z",
+      "updated_at": "2021-10-11T09:38:11.335Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -14929,9 +14929,9 @@
     {
       "id": "x848w1p3tjws",
       "name": "US West (Phoenix)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-05-23T17:19:34.202Z",
-      "updated_at": "2021-10-11T07:39:50.805Z",
+      "updated_at": "2021-10-11T09:38:11.404Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -14989,9 +14989,9 @@
     {
       "id": "9898jl4bjgck",
       "name": "us-phoenix-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-11T17:18:12.378Z",
-      "updated_at": "2021-10-11T07:49:23.476Z",
+      "updated_at": "2021-10-11T09:38:11.358Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -15611,21 +15611,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "23bt70kdp2z7",
-      "name": "US West (San Jose)",
-      "status": "operational",
-      "created_at": "2020-07-26T23:20:01.343Z",
-      "updated_at": "2020-12-14T23:48:25.347Z",
-      "position": 22,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "pn36dvh1q81j",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "j81bt3lgrbmb",
       "name": "US West (San Jose)",
       "status": "operational",
@@ -15636,6 +15621,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "r6jhxgxtxm2h",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "23bt70kdp2z7",
+      "name": "US West (San Jose)",
+      "status": "operational",
+      "created_at": "2020-07-26T23:20:01.343Z",
+      "updated_at": "2020-12-14T23:48:25.347Z",
+      "position": 22,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "pn36dvh1q81j",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -16576,7 +16576,7 @@
     {
       "id": "24p7vp53p76c",
       "name": "Oracle Content and Experience",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T05:18:09.585Z",
       "updated_at": "2021-07-17T04:59:21.534Z",
       "position": 45,
@@ -16617,16 +16617,294 @@
     {
       "id": "3lzsm109fv3w",
       "name": "Multiple Oracle Cloud Infrastructure Services affected in multiple Regions | CN-127269",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2021-10-11T07:17:58.328Z",
-      "updated_at": "2021-10-11T07:49:23.584Z",
-      "monitoring_at": null,
+      "updated_at": "2021-10-11T09:38:11.539Z",
+      "monitoring_at": "2021-10-11T09:38:11.514Z",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/b3hbzl0m0lfh",
       "started_at": "2021-10-11T07:17:58.283Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "m7lk3vf3f23k",
+          "status": "monitoring",
+          "body": "Our service teams have identified a potential root cause and have applied mitigation steps. We are currently monitoring the impacted services to confirm full mitigation.\n\nFurther updates will be provided as events warrant.",
+          "incident_id": "3lzsm109fv3w",
+          "created_at": "2021-10-11T09:38:11.514Z",
+          "updated_at": "2021-10-11T09:38:11.514Z",
+          "display_at": "2021-10-11T09:38:11.514Z",
+          "affected_components": [
+            {
+              "code": "b3kml93chtyl",
+              "name": "Compute - Germany Central (Frankfurt)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "xcpj6cx68gvs",
+              "name": "Compute - UK South (London)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "9c7ckly20b88",
+              "name": "Compute - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "x848w1p3tjws",
+              "name": "Compute - US West (Phoenix)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "zy9kt4w718hd",
+              "name": "Database - Bare Metal, VM, Exadata - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "3zbhxxy9dmdl",
+              "name": "Identity - eu-frankfurt-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "nr996pp2s0zc",
+              "name": "Identity - uk-london-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "qkkvb0kx7528",
+              "name": "Identity - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "v15kk4lwm6ql",
+              "name": "Identity - us-phoenix-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "hb9j3djsgdjf",
+              "name": "Networking - Virtual Cloud Networks - eu-frankfurt-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "2r8z8pwsjvpd",
+              "name": "Networking - Virtual Cloud Networks - uk-london-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "1t8kwz3bvhl5",
+              "name": "Networking - Virtual Cloud Networks - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "9898jl4bjgck",
+              "name": "Networking - Virtual Cloud Networks - us-phoenix-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "51t95jcwlzy5",
+              "name": "Object Storage - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "sd1qf8kg3n0r",
+              "name": "Object Storage - us-phoenix-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "8ph1fb13qmg5",
+              "name": "Email Delivery - uk-london-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "yz91445z42h3",
+              "name": "Email Delivery - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "nc2f54blmwhb",
+              "name": "Email Delivery - us-phoenix-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "glnrqd9r9z9v",
+              "name": "Networking - FastConnect - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "yv2tg23fqyt0",
+              "name": "Networking - Dynamic Routing Gateways - eu-frankfurt-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "0z59xhc0c1nj",
+              "name": "Networking - Dynamic Routing Gateways - uk-london-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "7dmvr7dfprlm",
+              "name": "Networking - Dynamic Routing Gateways - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "lnwrp1s3tjtj",
+              "name": "Networking - Dynamic Routing Gateways - us-phoenix-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "1n8bqdsjyvc5",
+              "name": "Networking - Load Balancing - eu-frankfurt-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "jnbpxgfylpsv",
+              "name": "Networking - Load Balancing - uk-london-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "g61zcpg4f9l6",
+              "name": "Networking - Load Balancing - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "58ltvk4qqn80",
+              "name": "Networking - Load Balancing - us-phoenix-1 region",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "k4p0tlcmdnmp",
+              "name": "Block Storage - eu-frankfurt-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "n8s2s4gbyxqs",
+              "name": "Block Storage - uk-london-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1f2cm69cj21q",
+              "name": "Block Storage - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tdrlgwdzh728",
+              "name": "Block Storage - us-phoenix-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "4rxz5m5rv0gh",
+              "name": "Cloud Shell - Germany Central (Frankfurt)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "tlx654c25v05",
+              "name": "Cloud Shell - UK South (London)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jyymkz9mvn0d",
+              "name": "Cloud Shell - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "szyq9zd6sw75",
+              "name": "Cloud Shell - US West (Phoenix)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "121xg4vgxclw",
+              "name": "Oracle Content and Experience - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "fyl0mjv95rqw",
+              "name": "Network Infrastructure - Germany Central (Frankfurt)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "4mmffgnjrmqz",
+              "name": "Network Infrastructure - UK South (London)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "3syhy84rxqwk",
+              "name": "Network Infrastructure - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "458t1p5br129",
+              "name": "Network Infrastructure - US West (Phoenix)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "j46hpzb44hmr",
+              "name": "Autonomous Database - Germany Central (Frankfurt)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "b0tpzntz95rg",
+              "name": "Autonomous Database - UK South (London)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "pvpycwv0bcpl",
+              "name": "Autonomous Database - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "wm2jrqk0xh4h",
+              "name": "Autonomous Database - US West (Phoenix)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "cnkykg973k5w",
           "status": "identified",
@@ -17136,9 +17414,9 @@
         {
           "id": "1n8bqdsjyvc5",
           "name": "eu-frankfurt-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-10-02T18:57:27.237Z",
-          "updated_at": "2021-10-11T07:49:23.277Z",
+          "updated_at": "2021-10-11T09:38:10.605Z",
           "position": 12,
           "description": null,
           "showcase": false,
@@ -17181,9 +17459,9 @@
         {
           "id": "fyl0mjv95rqw",
           "name": "Germany Central (Frankfurt)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-08-31T18:09:19.362Z",
-          "updated_at": "2021-10-11T07:49:23.216Z",
+          "updated_at": "2021-10-11T09:38:10.629Z",
           "position": 12,
           "description": null,
           "showcase": false,
@@ -17196,9 +17474,9 @@
         {
           "id": "b3kml93chtyl",
           "name": "Germany Central (Frankfurt)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-10-02T18:26:30.078Z",
-          "updated_at": "2021-10-11T07:39:50.743Z",
+          "updated_at": "2021-10-11T09:38:10.579Z",
           "position": 12,
           "description": null,
           "showcase": false,
@@ -17211,9 +17489,9 @@
         {
           "id": "3zbhxxy9dmdl",
           "name": "eu-frankfurt-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-10-02T18:31:27.245Z",
-          "updated_at": "2021-10-11T07:49:23.266Z",
+          "updated_at": "2021-10-11T09:38:10.707Z",
           "position": 12,
           "description": null,
           "showcase": false,
@@ -17226,9 +17504,9 @@
         {
           "id": "yv2tg23fqyt0",
           "name": "eu-frankfurt-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-10-02T18:44:24.932Z",
-          "updated_at": "2021-10-11T07:49:23.254Z",
+          "updated_at": "2021-10-11T09:38:10.685Z",
           "position": 12,
           "description": null,
           "showcase": false,
@@ -17241,9 +17519,9 @@
         {
           "id": "hb9j3djsgdjf",
           "name": "eu-frankfurt-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-10-02T18:51:41.079Z",
-          "updated_at": "2021-10-11T07:49:23.243Z",
+          "updated_at": "2021-10-11T09:38:10.662Z",
           "position": 12,
           "description": null,
           "showcase": false,
@@ -17256,9 +17534,9 @@
         {
           "id": "j46hpzb44hmr",
           "name": "Germany Central (Frankfurt)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-11-06T07:19:20.702Z",
-          "updated_at": "2021-10-11T07:49:23.204Z",
+          "updated_at": "2021-10-11T09:38:10.733Z",
           "position": 12,
           "description": null,
           "showcase": false,
@@ -17271,9 +17549,9 @@
         {
           "id": "b0tpzntz95rg",
           "name": "UK South (London)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-11-06T07:19:27.312Z",
-          "updated_at": "2021-10-11T07:49:23.333Z",
+          "updated_at": "2021-10-11T09:38:10.779Z",
           "position": 19,
           "description": null,
           "showcase": false,
@@ -17301,9 +17579,9 @@
         {
           "id": "nr996pp2s0zc",
           "name": "uk-london-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-04-05T14:25:48.110Z",
-          "updated_at": "2021-10-11T07:49:23.317Z",
+          "updated_at": "2021-10-11T09:38:10.918Z",
           "position": 19,
           "description": null,
           "showcase": false,
@@ -17316,9 +17594,9 @@
         {
           "id": "xcpj6cx68gvs",
           "name": "UK South (London)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-04-05T17:22:54.901Z",
-          "updated_at": "2021-10-11T07:49:23.355Z",
+          "updated_at": "2021-10-11T09:38:10.940Z",
           "position": 19,
           "description": null,
           "showcase": false,
@@ -17331,9 +17609,9 @@
         {
           "id": "0z59xhc0c1nj",
           "name": "uk-london-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-04-05T17:55:28.508Z",
-          "updated_at": "2021-10-11T07:49:23.304Z",
+          "updated_at": "2021-10-11T09:38:10.871Z",
           "position": 19,
           "description": null,
           "showcase": false,
@@ -17346,9 +17624,9 @@
         {
           "id": "2r8z8pwsjvpd",
           "name": "uk-london-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-04-05T18:40:37.843Z",
-          "updated_at": "2021-10-11T07:49:23.290Z",
+          "updated_at": "2021-10-11T09:38:10.824Z",
           "position": 19,
           "description": null,
           "showcase": false,
@@ -17361,9 +17639,9 @@
         {
           "id": "jnbpxgfylpsv",
           "name": "uk-london-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-04-05T18:44:26.049Z",
-          "updated_at": "2021-10-11T07:49:23.343Z",
+          "updated_at": "2021-10-11T09:38:10.895Z",
           "position": 19,
           "description": null,
           "showcase": false,
@@ -17391,9 +17669,9 @@
         {
           "id": "4mmffgnjrmqz",
           "name": "UK South (London)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-08-31T18:09:23.709Z",
-          "updated_at": "2021-10-11T07:39:50.775Z",
+          "updated_at": "2021-10-11T09:38:10.802Z",
           "position": 19,
           "description": null,
           "showcase": false,
@@ -17406,9 +17684,9 @@
         {
           "id": "8ph1fb13qmg5",
           "name": "uk-london-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2019-02-20T21:43:18.788Z",
-          "updated_at": "2021-10-11T07:49:23.379Z",
+          "updated_at": "2021-10-11T09:38:10.756Z",
           "position": 19,
           "description": null,
           "showcase": false,
@@ -17436,9 +17714,9 @@
         {
           "id": "zy9kt4w718hd",
           "name": "us-ashburn-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-05-23T17:30:29.198Z",
-          "updated_at": "2021-10-11T07:17:58.588Z",
+          "updated_at": "2021-10-11T09:38:11.148Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17451,9 +17729,9 @@
         {
           "id": "9c7ckly20b88",
           "name": "US East (Ashburn)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-06-07T16:57:05.217Z",
-          "updated_at": "2021-10-11T07:17:58.626Z",
+          "updated_at": "2021-10-11T09:38:11.218Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17466,9 +17744,9 @@
         {
           "id": "qkkvb0kx7528",
           "name": "us-ashburn-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-08T15:50:13.701Z",
-          "updated_at": "2021-10-11T07:17:58.418Z",
+          "updated_at": "2021-10-11T09:38:11.009Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17481,9 +17759,9 @@
         {
           "id": "g61zcpg4f9l6",
           "name": "us-ashburn-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-09T14:52:31.774Z",
-          "updated_at": "2021-10-11T07:49:23.415Z",
+          "updated_at": "2021-10-11T09:38:11.195Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17496,9 +17774,9 @@
         {
           "id": "51t95jcwlzy5",
           "name": "us-ashburn-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-09T18:24:48.438Z",
-          "updated_at": "2021-10-11T07:17:58.457Z",
+          "updated_at": "2021-10-11T09:38:11.080Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17511,9 +17789,9 @@
         {
           "id": "glnrqd9r9z9v",
           "name": "us-ashburn-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-11T17:11:27.030Z",
-          "updated_at": "2021-10-11T07:17:58.570Z",
+          "updated_at": "2021-10-11T09:38:11.125Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17526,9 +17804,9 @@
         {
           "id": "1t8kwz3bvhl5",
           "name": "us-ashburn-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-11T17:17:34.529Z",
-          "updated_at": "2021-10-11T07:17:58.497Z",
+          "updated_at": "2021-10-11T09:38:11.102Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17541,9 +17819,9 @@
         {
           "id": "7dmvr7dfprlm",
           "name": "us-ashburn-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-11T17:19:52.899Z",
-          "updated_at": "2021-10-11T07:17:58.397Z",
+          "updated_at": "2021-10-11T09:38:10.986Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17556,9 +17834,9 @@
         {
           "id": "yz91445z42h3",
           "name": "us-ashburn-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-02-09T20:22:13.858Z",
-          "updated_at": "2021-10-11T07:49:23.392Z",
+          "updated_at": "2021-10-11T09:38:11.033Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17586,9 +17864,9 @@
         {
           "id": "121xg4vgxclw",
           "name": "US East (Ashburn)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-08-31T05:18:28.410Z",
-          "updated_at": "2021-10-11T07:17:58.438Z",
+          "updated_at": "2021-10-11T09:38:11.057Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17601,9 +17879,9 @@
         {
           "id": "3syhy84rxqwk",
           "name": "US East (Ashburn)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-08-31T18:09:24.852Z",
-          "updated_at": "2021-10-11T07:17:58.645Z",
+          "updated_at": "2021-10-11T09:38:10.963Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17616,9 +17894,9 @@
         {
           "id": "pvpycwv0bcpl",
           "name": "US East (Ashburn)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-11-06T07:19:28.627Z",
-          "updated_at": "2021-10-11T07:17:58.608Z",
+          "updated_at": "2021-10-11T09:38:11.172Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17631,9 +17909,9 @@
         {
           "id": "x848w1p3tjws",
           "name": "US West (Phoenix)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-05-23T17:19:34.202Z",
-          "updated_at": "2021-10-11T07:39:50.805Z",
+          "updated_at": "2021-10-11T09:38:11.404Z",
           "position": 21,
           "description": null,
           "showcase": false,
@@ -17661,9 +17939,9 @@
         {
           "id": "sd1qf8kg3n0r",
           "name": "us-phoenix-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-09T15:03:30.091Z",
-          "updated_at": "2021-10-11T07:49:23.465Z",
+          "updated_at": "2021-10-11T09:38:11.335Z",
           "position": 21,
           "description": null,
           "showcase": false,
@@ -17676,9 +17954,9 @@
         {
           "id": "9898jl4bjgck",
           "name": "us-phoenix-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-11T17:18:12.378Z",
-          "updated_at": "2021-10-11T07:49:23.476Z",
+          "updated_at": "2021-10-11T09:38:11.358Z",
           "position": 21,
           "description": null,
           "showcase": false,
@@ -17691,9 +17969,9 @@
         {
           "id": "v15kk4lwm6ql",
           "name": "us-phoenix-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-09T18:23:07.355Z",
-          "updated_at": "2021-10-11T07:49:23.509Z",
+          "updated_at": "2021-10-11T09:38:11.427Z",
           "position": 21,
           "description": null,
           "showcase": false,
@@ -17706,9 +17984,9 @@
         {
           "id": "wm2jrqk0xh4h",
           "name": "US West (Phoenix)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-11-06T07:19:29.570Z",
-          "updated_at": "2021-10-11T07:49:23.430Z",
+          "updated_at": "2021-10-11T09:38:11.243Z",
           "position": 21,
           "description": null,
           "showcase": false,
@@ -17721,9 +17999,9 @@
         {
           "id": "458t1p5br129",
           "name": "US West (Phoenix)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-08-31T18:09:25.888Z",
-          "updated_at": "2021-10-11T07:39:50.820Z",
+          "updated_at": "2021-10-11T09:38:11.290Z",
           "position": 21,
           "description": null,
           "showcase": false,
@@ -17736,9 +18014,9 @@
         {
           "id": "58ltvk4qqn80",
           "name": "us-phoenix-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-09T18:20:15.082Z",
-          "updated_at": "2021-10-11T07:49:23.441Z",
+          "updated_at": "2021-10-11T09:38:11.267Z",
           "position": 21,
           "description": null,
           "showcase": false,
@@ -17766,9 +18044,9 @@
         {
           "id": "nc2f54blmwhb",
           "name": "us-phoenix-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-08-16T22:29:52.504Z",
-          "updated_at": "2021-10-11T07:49:23.452Z",
+          "updated_at": "2021-10-11T09:38:11.313Z",
           "position": 21,
           "description": null,
           "showcase": false,
@@ -17781,9 +18059,9 @@
         {
           "id": "lnwrp1s3tjtj",
           "name": "us-phoenix-1 region",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2017-08-11T17:20:23.295Z",
-          "updated_at": "2021-10-11T07:49:23.499Z",
+          "updated_at": "2021-10-11T09:38:11.382Z",
           "position": 21,
           "description": null,
           "showcase": false,

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-11T07:17:58.739Z"
+    "updated_at": "2021-10-11T07:36:51.015Z"
   },
   "components": [
     {
@@ -16616,10 +16616,10 @@
   "incidents": [
     {
       "id": "3lzsm109fv3w",
-      "name": "multiple services | US East (Ashburn) | CN-127269",
+      "name": "Multiple Oracle Cloud Infrastructure Services affected in multiple Regions | CN-127269",
       "status": "investigating",
       "created_at": "2021-10-11T07:17:58.328Z",
-      "updated_at": "2021-10-11T07:17:58.735Z",
+      "updated_at": "2021-10-11T07:36:51.011Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",

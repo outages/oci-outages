@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-20T10:26:35.959Z"
+    "updated_at": "2021-10-20T11:10:56.634Z"
   },
   "components": [
     {
@@ -11005,9 +11005,9 @@
     {
       "id": "7gpn4rz6r6sy",
       "name": "Chile Central (Santiago)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-14T23:42:59.486Z",
-      "updated_at": "2021-10-20T08:04:34.039Z",
+      "updated_at": "2021-10-20T11:10:56.466Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -11998,9 +11998,9 @@
     {
       "id": "wg6n5m35rn6d",
       "name": "sa-saopaulo-1",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-08-28T20:02:06.851Z",
-      "updated_at": "2021-10-20T08:04:34.057Z",
+      "updated_at": "2021-10-20T11:10:56.486Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -13915,9 +13915,9 @@
     {
       "id": "z1gy5yjm6bv5",
       "name": "us-ashburn-1 region",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-20T19:56:50.804Z",
-      "updated_at": "2021-10-20T08:04:34.075Z",
+      "updated_at": "2021-10-20T11:10:56.506Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14590,9 +14590,9 @@
     {
       "id": "0prwth0fg4v2",
       "name": "us-phoenix-1 region",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-20T19:57:58.109Z",
-      "updated_at": "2021-10-20T08:04:34.093Z",
+      "updated_at": "2021-10-20T11:10:56.526Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -15259,9 +15259,9 @@
     {
       "id": "5qcxg1pswf2s",
       "name": "US West (San Jose)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-07-26T23:20:05.488Z",
-      "updated_at": "2021-10-20T08:04:34.107Z",
+      "updated_at": "2021-10-20T11:10:56.543Z",
       "position": 22,
       "description": null,
       "showcase": false,
@@ -15835,7 +15835,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2021-07-17T04:59:21.355Z",
       "position": 26,
@@ -16613,235 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "9zy8h0jf2t6k",
-      "name": "Oracle Cloud Infrastructure Console | Multiple Regions | CN-129582",
-      "status": "investigating",
-      "created_at": "2021-10-20T08:04:33.983Z",
-      "updated_at": "2021-10-20T10:26:35.950Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/35pws2zrww7d",
-      "started_at": "2021-10-20T08:04:34.000Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "7wz047k87dkm",
-          "status": "investigating",
-          "body": "We have taken steps to mitigate the latency issue with Oracle Cloud Infrastructure Console in multiple regions and are now monitoring health.\n\nFurther updates will be provided upon mitigation.",
-          "incident_id": "9zy8h0jf2t6k",
-          "created_at": "2021-10-20T09:23:47.823Z",
-          "updated_at": "2021-10-20T10:26:35.945Z",
-          "display_at": "2021-10-20T10:26:47.000Z",
-          "affected_components": [
-            {
-              "code": "7gpn4rz6r6sy",
-              "name": "Console - Chile Central (Santiago)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "wg6n5m35rn6d",
-              "name": "Console - sa-saopaulo-1",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "z1gy5yjm6bv5",
-              "name": "Console - us-ashburn-1 region",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0prwth0fg4v2",
-              "name": "Console - us-phoenix-1 region",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "5qcxg1pswf2s",
-              "name": "Console - US West (San Jose)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "h973hn3dx9p0",
-          "status": "investigating",
-          "body": "We're continuing to investigate latency issues with Oracle Cloud Infrastructure Console in multiple regions.\n\n<b>Customer Impact:</b> Some customers may experience delays while accessing or using the Oracle Cloud Infrastructure Console service. Retries are expected to succeed.\n\nSDK and CLI calls are not impacted. \n\nFurther updates will be provided as events warrant.",
-          "incident_id": "9zy8h0jf2t6k",
-          "created_at": "2021-10-20T09:18:17.872Z",
-          "updated_at": "2021-10-20T09:35:46.094Z",
-          "display_at": "2021-10-20T09:18:17.000Z",
-          "affected_components": [
-            {
-              "code": "7gpn4rz6r6sy",
-              "name": "Console - Chile Central (Santiago)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "wg6n5m35rn6d",
-              "name": "Console - sa-saopaulo-1",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "z1gy5yjm6bv5",
-              "name": "Console - us-ashburn-1 region",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0prwth0fg4v2",
-              "name": "Console - us-phoenix-1 region",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "5qcxg1pswf2s",
-              "name": "Console - US West (San Jose)",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "0kj80h0rlbwl",
-          "status": "investigating",
-          "body": "We're investigating a potential latency issue with Oracle Cloud Infrastructure Console in multiple regions.\n\n<b>Customer Impact:</b> Some customers may experience delays while accessing or using the Oracle Cloud Infrastructure Console. \n\nFurther updates will be provided as events warrant.\n\n<b>Start time:</b> October 20, 2021 04:30 UTC\n\n<b>Reference Number:</b> CN-125982",
-          "incident_id": "9zy8h0jf2t6k",
-          "created_at": "2021-10-20T08:04:34.192Z",
-          "updated_at": "2021-10-20T09:35:44.221Z",
-          "display_at": "2021-10-20T08:04:34.000Z",
-          "affected_components": [
-            {
-              "code": "7gpn4rz6r6sy",
-              "name": "Console - Chile Central (Santiago)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "wg6n5m35rn6d",
-              "name": "Console - sa-saopaulo-1",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "z1gy5yjm6bv5",
-              "name": "Console - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "0prwth0fg4v2",
-              "name": "Console - us-phoenix-1 region",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "5qcxg1pswf2s",
-              "name": "Console - US West (San Jose)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "7gpn4rz6r6sy",
-          "name": "Chile Central (Santiago)",
-          "status": "degraded_performance",
-          "created_at": "2020-12-14T23:42:59.486Z",
-          "updated_at": "2021-10-20T08:04:34.039Z",
-          "position": 16,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-12-14",
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "wg6n5m35rn6d",
-          "name": "sa-saopaulo-1",
-          "status": "degraded_performance",
-          "created_at": "2019-08-28T20:02:06.851Z",
-          "updated_at": "2021-10-20T08:04:34.057Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "z1gy5yjm6bv5",
-          "name": "us-ashburn-1 region",
-          "status": "degraded_performance",
-          "created_at": "2019-02-20T19:56:50.804Z",
-          "updated_at": "2021-10-20T08:04:34.075Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "0prwth0fg4v2",
-          "name": "us-phoenix-1 region",
-          "status": "degraded_performance",
-          "created_at": "2019-02-20T19:57:58.109Z",
-          "updated_at": "2021-10-20T08:04:34.093Z",
-          "position": 21,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "5qcxg1pswf2s",
-          "name": "US West (San Jose)",
-          "status": "degraded_performance",
-          "created_at": "2020-07-26T23:20:05.488Z",
-          "updated_at": "2021-10-20T08:04:34.107Z",
-          "position": 22,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "x0247zm62lgz",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

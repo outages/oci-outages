@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-16T08:13:38.171Z"
+    "updated_at": "2021-10-20T08:04:34.198Z"
   },
   "components": [
     {
@@ -11005,9 +11005,9 @@
     {
       "id": "7gpn4rz6r6sy",
       "name": "Chile Central (Santiago)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-12-14T23:42:59.486Z",
-      "updated_at": "2021-09-16T16:03:38.233Z",
+      "updated_at": "2021-10-20T08:04:34.039Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -11998,9 +11998,9 @@
     {
       "id": "wg6n5m35rn6d",
       "name": "sa-saopaulo-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-28T20:02:06.851Z",
-      "updated_at": "2021-09-16T16:03:38.251Z",
+      "updated_at": "2021-10-20T08:04:34.057Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -12146,6 +12146,36 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "hfx5gqxtkgvg",
+      "name": "UK West (Cardiff)",
+      "status": "operational",
+      "created_at": "2020-11-06T06:42:27.592Z",
+      "updated_at": "2020-12-14T23:47:15.633Z",
+      "position": 18,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-11-05",
+      "group_id": "cwgx3c8m7j3z",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "w1p4953ng8r0",
+      "name": "UK West (Cardiff)",
+      "status": "operational",
+      "created_at": "2020-11-06T07:19:26.161Z",
+      "updated_at": "2020-12-14T23:47:19.046Z",
+      "position": 18,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-11-05",
+      "group_id": "pbrqh15302sw",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "ptc8262rcm6g",
       "name": "UK West (Cardiff)",
       "status": "operational",
@@ -12156,36 +12186,6 @@
       "showcase": false,
       "start_date": "2020-11-05",
       "group_id": "sxgzv70t0l1v",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "cgpng47mqpy1",
-      "name": "UK West (Cardiff)",
-      "status": "operational",
-      "created_at": "2020-11-06T06:42:24.459Z",
-      "updated_at": "2020-12-14T23:46:49.371Z",
-      "position": 18,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-05",
-      "group_id": "r6jhxgxtxm2h",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "qgmyxxqy7g3h",
-      "name": "UK West (Cardiff)",
-      "status": "operational",
-      "created_at": "2020-11-06T06:42:47.308Z",
-      "updated_at": "2020-12-14T23:48:16.111Z",
-      "position": 18,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-05",
-      "group_id": "1m8dh0nx0l77",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12206,16 +12206,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "g9k7p4xbky8v",
+      "id": "cgpng47mqpy1",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:42:18.549Z",
-      "updated_at": "2021-04-13T00:08:49.117Z",
+      "created_at": "2020-11-06T06:42:24.459Z",
+      "updated_at": "2020-12-14T23:46:49.371Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "w4rxy5n6jngd",
+      "group_id": "r6jhxgxtxm2h",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12260,6 +12260,21 @@
       ]
     },
     {
+      "id": "2yfsjnmvyjbg",
+      "name": "UK West (Cardiff)",
+      "status": "operational",
+      "created_at": "2020-11-06T06:42:30.497Z",
+      "updated_at": "2020-12-14T23:47:24.596Z",
+      "position": 18,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-11-05",
+      "group_id": "bztnw6ncdd5p",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9yp3h73yz2p3",
       "name": "UK West (Cardiff)",
       "status": "operational",
@@ -12270,21 +12285,6 @@
       "showcase": false,
       "start_date": "2020-11-05",
       "group_id": "6gj9ydqydntb",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "3hv13z6k07h8",
-      "name": "UK West (Cardiff)",
-      "status": "operational",
-      "created_at": "2020-11-06T06:42:41.136Z",
-      "updated_at": "2020-12-14T23:47:57.035Z",
-      "position": 18,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-05",
-      "group_id": "j534vmnnt3j4",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12335,16 +12335,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dggyl03bzzwt",
+      "id": "qgmyxxqy7g3h",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:42:51.689Z",
-      "updated_at": "2020-12-14T23:48:31.649Z",
+      "created_at": "2020-11-06T06:42:47.308Z",
+      "updated_at": "2020-12-14T23:48:16.111Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "g83y71zgyqp2",
+      "group_id": "1m8dh0nx0l77",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12410,31 +12410,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "2yfsjnmvyjbg",
+      "id": "dggyl03bzzwt",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:42:30.497Z",
-      "updated_at": "2020-12-14T23:47:24.596Z",
+      "created_at": "2020-11-06T06:42:51.689Z",
+      "updated_at": "2020-12-14T23:48:31.649Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "bztnw6ncdd5p",
+      "group_id": "g83y71zgyqp2",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "sgh01n2p25gp",
+      "id": "3hv13z6k07h8",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:42:53.225Z",
-      "updated_at": "2021-09-16T16:03:38.268Z",
+      "created_at": "2020-11-06T06:42:41.136Z",
+      "updated_at": "2020-12-14T23:47:57.035Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "x0247zm62lgz",
+      "group_id": "j534vmnnt3j4",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12470,6 +12470,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "sgh01n2p25gp",
+      "name": "UK West (Cardiff)",
+      "status": "operational",
+      "created_at": "2020-11-06T06:42:53.225Z",
+      "updated_at": "2021-09-16T16:03:38.268Z",
+      "position": 18,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-11-05",
+      "group_id": "x0247zm62lgz",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "8fw6hyc67ycl",
       "name": "UK West (Cardiff)",
       "status": "operational",
@@ -12480,21 +12495,6 @@
       "showcase": false,
       "start_date": "2020-11-05",
       "group_id": "f5ppqjqjq0sf",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "kk71y3nslnsn",
-      "name": "UK West (Cardiff)",
-      "status": "operational",
-      "created_at": "2020-11-06T06:42:42.620Z",
-      "updated_at": "2020-12-14T23:47:59.390Z",
-      "position": 18,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-05",
-      "group_id": "hs1yzcysy1cc",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12515,16 +12515,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "zfmbgvg246pr",
+      "id": "kk71y3nslnsn",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:42:21.745Z",
-      "updated_at": "2021-08-24T23:28:36.648Z",
+      "created_at": "2020-11-06T06:42:42.620Z",
+      "updated_at": "2020-12-14T23:47:59.390Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "zfhft7y50l92",
+      "group_id": "hs1yzcysy1cc",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12560,16 +12560,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "1tv3khqvwzv8",
+      "id": "g9k7p4xbky8v",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:43:12.933Z",
-      "updated_at": "2021-09-21T22:07:30.315Z",
+      "created_at": "2020-11-06T06:42:18.549Z",
+      "updated_at": "2021-04-13T00:08:49.117Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "99h2c5hxp4dp",
+      "group_id": "w4rxy5n6jngd",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12635,16 +12635,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "436f53n01rw1",
+      "id": "p8nsy24n3xws",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:42:56.338Z",
-      "updated_at": "2020-12-14T23:49:00.896Z",
+      "created_at": "2020-11-06T06:42:15.551Z",
+      "updated_at": "2020-12-14T23:46:11.663Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "6jfcnpnry6xn",
+      "group_id": "3znl9gpnkdp9",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12695,31 +12695,31 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "c9v37kfddkxg",
+      "id": "1tv3khqvwzv8",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:43:09.924Z",
-      "updated_at": "2020-12-14T23:49:55.865Z",
+      "created_at": "2020-11-06T06:43:12.933Z",
+      "updated_at": "2021-09-21T22:07:30.315Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "kgb3x2451pb6",
+      "group_id": "99h2c5hxp4dp",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
     },
     {
-      "id": "hfx5gqxtkgvg",
+      "id": "436f53n01rw1",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:42:27.592Z",
-      "updated_at": "2020-12-14T23:47:15.633Z",
+      "created_at": "2020-11-06T06:42:56.338Z",
+      "updated_at": "2020-12-14T23:49:00.896Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "cwgx3c8m7j3z",
+      "group_id": "6jfcnpnry6xn",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12740,16 +12740,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "p8nsy24n3xws",
+      "id": "c9v37kfddkxg",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:42:15.551Z",
-      "updated_at": "2020-12-14T23:46:11.663Z",
+      "created_at": "2020-11-06T06:43:09.924Z",
+      "updated_at": "2020-12-14T23:49:55.865Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "3znl9gpnkdp9",
+      "group_id": "kgb3x2451pb6",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12785,16 +12785,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "nbqzbbglljyx",
+      "id": "zfmbgvg246pr",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T06:42:48.978Z",
-      "updated_at": "2020-12-14T23:48:22.307Z",
+      "created_at": "2020-11-06T06:42:21.745Z",
+      "updated_at": "2021-08-24T23:28:36.648Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "mpknxhzlyvrc",
+      "group_id": "zfhft7y50l92",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12845,16 +12845,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "w1p4953ng8r0",
+      "id": "nbqzbbglljyx",
       "name": "UK West (Cardiff)",
       "status": "operational",
-      "created_at": "2020-11-06T07:19:26.161Z",
-      "updated_at": "2020-12-14T23:47:19.046Z",
+      "created_at": "2020-11-06T06:42:48.978Z",
+      "updated_at": "2020-12-14T23:48:22.307Z",
       "position": 18,
       "description": null,
       "showcase": false,
       "start_date": "2020-11-05",
-      "group_id": "pbrqh15302sw",
+      "group_id": "mpknxhzlyvrc",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -12875,21 +12875,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "n8s2s4gbyxqs",
-      "name": "uk-london-1 region",
-      "status": "operational",
-      "created_at": "2018-08-21T18:29:29.705Z",
-      "updated_at": "2021-10-11T10:35:56.351Z",
-      "position": 19,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "3znl9gpnkdp9",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "lq7kmd097l17",
       "name": "uk-london-1 region",
       "status": "operational",
@@ -12905,21 +12890,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "y1y6y6mdtbh1",
-      "name": "uk-london-1 region",
-      "status": "operational",
-      "created_at": "2018-12-04T12:43:22.522Z",
-      "updated_at": "2020-12-14T23:48:16.117Z",
-      "position": 19,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "1m8dh0nx0l77",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "27ktn7dc6tyb",
       "name": "UK South (London)",
       "status": "operational",
@@ -12930,6 +12900,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "1fldbcnqmhtq",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "y1y6y6mdtbh1",
+      "name": "uk-london-1 region",
+      "status": "operational",
+      "created_at": "2018-12-04T12:43:22.522Z",
+      "updated_at": "2020-12-14T23:48:16.117Z",
+      "position": 19,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "1m8dh0nx0l77",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13364,21 +13349,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "dmjktt3h5zyf",
-      "name": "UK South (London)",
-      "status": "operational",
-      "created_at": "2019-09-12T22:52:49.071Z",
-      "updated_at": "2020-12-14T23:49:23.791Z",
-      "position": 19,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "c4vvw2mlz92y",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "8ph1fb13qmg5",
       "name": "uk-london-1 region",
       "status": "operational",
@@ -13389,6 +13359,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "fldz5lpp5mxs",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "dmjktt3h5zyf",
+      "name": "UK South (London)",
+      "status": "operational",
+      "created_at": "2019-09-12T22:52:49.071Z",
+      "updated_at": "2020-12-14T23:49:23.791Z",
+      "position": 19,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "c4vvw2mlz92y",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13424,6 +13409,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "v6jghxh9cgfg",
+      "name": "uk-london-1 region",
+      "status": "operational",
+      "created_at": "2018-04-05T17:42:22.896Z",
+      "updated_at": "2020-12-14T23:47:21.632Z",
+      "position": 19,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "grgr5sf16chm",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "f4jrcn2rkmc5",
       "name": "UK South (London)",
       "status": "operational",
@@ -13439,16 +13439,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "v6jghxh9cgfg",
+      "id": "mg37dtw4kvxz",
       "name": "uk-london-1 region",
       "status": "operational",
-      "created_at": "2018-04-05T17:42:22.896Z",
-      "updated_at": "2020-12-14T23:47:21.632Z",
+      "created_at": "2019-01-02T18:51:27.315Z",
+      "updated_at": "2020-12-14T23:47:59.396Z",
       "position": 19,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "grgr5sf16chm",
+      "group_id": "hs1yzcysy1cc",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13499,21 +13499,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mg37dtw4kvxz",
-      "name": "uk-london-1 region",
-      "status": "operational",
-      "created_at": "2019-01-02T18:51:27.315Z",
-      "updated_at": "2020-12-14T23:47:59.396Z",
-      "position": 19,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "hs1yzcysy1cc",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "qsz4k3r4pt5m",
       "name": "uk-london-1 region",
       "status": "operational",
@@ -13539,6 +13524,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "sx4xcbk5vby9",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "n8s2s4gbyxqs",
+      "name": "uk-london-1 region",
+      "status": "operational",
+      "created_at": "2018-08-21T18:29:29.705Z",
+      "updated_at": "2021-10-11T10:35:56.351Z",
+      "position": 19,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "3znl9gpnkdp9",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13913,6 +13913,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "z1gy5yjm6bv5",
+      "name": "us-ashburn-1 region",
+      "status": "degraded_performance",
+      "created_at": "2019-02-20T19:56:50.804Z",
+      "updated_at": "2021-10-20T08:04:34.075Z",
+      "position": 20,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "x0247zm62lgz",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "gvhv212l7st0",
       "name": "US East (Ashburn)",
       "status": "operational",
@@ -14148,21 +14163,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "x7526fhpytvm",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "z1gy5yjm6bv5",
-      "name": "us-ashburn-1 region",
-      "status": "operational",
-      "created_at": "2019-02-20T19:56:50.804Z",
-      "updated_at": "2021-09-16T16:03:38.352Z",
-      "position": 20,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "x0247zm62lgz",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -14590,9 +14590,9 @@
     {
       "id": "0prwth0fg4v2",
       "name": "us-phoenix-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-20T19:57:58.109Z",
-      "updated_at": "2021-09-16T16:03:38.369Z",
+      "updated_at": "2021-10-20T08:04:34.093Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -15259,9 +15259,9 @@
     {
       "id": "5qcxg1pswf2s",
       "name": "US West (San Jose)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-07-26T23:20:05.488Z",
-      "updated_at": "2021-10-06T09:43:29.364Z",
+      "updated_at": "2021-10-20T08:04:34.107Z",
       "position": 22,
       "description": null,
       "showcase": false,
@@ -15835,7 +15835,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2021-07-17T04:59:21.355Z",
       "position": 26,
@@ -16613,10 +16613,147 @@
       ]
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "9zy8h0jf2t6k",
+      "name": "Oracle Cloud Infrastructure Console | Multiple Regions | CN-129582",
+      "status": "investigating",
+      "created_at": "2021-10-20T08:04:33.983Z",
+      "updated_at": "2021-10-20T08:04:34.195Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/35pws2zrww7d",
+      "started_at": "2021-10-20T08:04:33.969Z",
+      "page_id": "2bsbdh54lcgq",
+      "incident_updates": [
+        {
+          "id": "0kj80h0rlbwl",
+          "status": "investigating",
+          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Console in multiple regions.\n\n<b>Customer Impact:</b> Customers may experience delays while accessing or using the Oracle Cloud Infrastructure Console service.\n\n<b>Start time:</b>October 20, 2021 04:30  UTC\n\n<b>Reference Number:</b>CN-125982",
+          "incident_id": "9zy8h0jf2t6k",
+          "created_at": "2021-10-20T08:04:34.192Z",
+          "updated_at": "2021-10-20T08:04:34.192Z",
+          "display_at": "2021-10-20T08:04:34.192Z",
+          "affected_components": [
+            {
+              "code": "7gpn4rz6r6sy",
+              "name": "Console - Chile Central (Santiago)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wg6n5m35rn6d",
+              "name": "Console - sa-saopaulo-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "z1gy5yjm6bv5",
+              "name": "Console - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "0prwth0fg4v2",
+              "name": "Console - us-phoenix-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "5qcxg1pswf2s",
+              "name": "Console - US West (San Jose)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "7gpn4rz6r6sy",
+          "name": "Chile Central (Santiago)",
+          "status": "degraded_performance",
+          "created_at": "2020-12-14T23:42:59.486Z",
+          "updated_at": "2021-10-20T08:04:34.039Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-14",
+          "group_id": "x0247zm62lgz",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "wg6n5m35rn6d",
+          "name": "sa-saopaulo-1",
+          "status": "degraded_performance",
+          "created_at": "2019-08-28T20:02:06.851Z",
+          "updated_at": "2021-10-20T08:04:34.057Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "x0247zm62lgz",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "z1gy5yjm6bv5",
+          "name": "us-ashburn-1 region",
+          "status": "degraded_performance",
+          "created_at": "2019-02-20T19:56:50.804Z",
+          "updated_at": "2021-10-20T08:04:34.075Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "x0247zm62lgz",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "0prwth0fg4v2",
+          "name": "us-phoenix-1 region",
+          "status": "degraded_performance",
+          "created_at": "2019-02-20T19:57:58.109Z",
+          "updated_at": "2021-10-20T08:04:34.093Z",
+          "position": 21,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "x0247zm62lgz",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "5qcxg1pswf2s",
+          "name": "US West (San Jose)",
+          "status": "degraded_performance",
+          "created_at": "2020-07-26T23:20:05.488Z",
+          "updated_at": "2021-10-20T08:04:34.107Z",
+          "position": 22,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "x0247zm62lgz",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }

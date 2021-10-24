@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-23T23:48:24.367Z"
+    "updated_at": "2021-10-24T00:46:05.163Z"
   },
   "components": [
     {
@@ -3151,7 +3151,7 @@
     {
       "id": "zfhft7y50l92",
       "name": "Network Infrastructure",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:05.892Z",
       "updated_at": "2021-07-17T04:59:21.141Z",
       "position": 5,
@@ -9442,7 +9442,7 @@
     {
       "id": "zqf5v0ykx3lk",
       "name": "Identity",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:44:24.854Z",
       "updated_at": "2021-07-17T04:59:21.227Z",
       "position": 14,
@@ -11357,21 +11357,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "6k5261bkjysv",
-      "name": "Chile Central (Santiago)",
-      "status": "operational",
-      "created_at": "2020-12-14T23:42:53.492Z",
-      "updated_at": "2020-12-14T23:48:16.099Z",
-      "position": 16,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-12-14",
-      "group_id": "1m8dh0nx0l77",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3hjlgzhdclsm",
       "name": "Chile Central (Santiago)",
       "status": "operational",
@@ -11382,6 +11367,21 @@
       "showcase": false,
       "start_date": "2020-12-14",
       "group_id": "c4vvw2mlz92y",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "6k5261bkjysv",
+      "name": "Chile Central (Santiago)",
+      "status": "operational",
+      "created_at": "2020-12-14T23:42:53.492Z",
+      "updated_at": "2020-12-14T23:48:16.099Z",
+      "position": 16,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-12-14",
+      "group_id": "1m8dh0nx0l77",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13660,9 +13660,9 @@
     {
       "id": "3syhy84rxqwk",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-08-31T18:09:24.852Z",
-      "updated_at": "2021-10-23T22:16:02.359Z",
+      "updated_at": "2021-10-24T00:24:53.600Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13705,9 +13705,9 @@
     {
       "id": "qkkvb0kx7528",
       "name": "us-ashburn-1 region",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2017-08-08T15:50:13.701Z",
-      "updated_at": "2021-10-23T22:16:02.375Z",
+      "updated_at": "2021-10-24T00:24:53.617Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -16613,110 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "c49rz8mm41h2",
-      "name": "Oracle Cloud Infrastructure Networking | US East (Ashburn) | CN-130788",
-      "status": "identified",
-      "created_at": "2021-10-23T22:16:02.323Z",
-      "updated_at": "2021-10-23T23:48:24.357Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/sd3rj3mn34mn",
-      "started_at": "2021-10-23T22:16:02.312Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "nstm9by2gnf5",
-          "status": "identified",
-          "body": "We've identified an issue affecting a subset Oracle Cloud Infrastructure services in the US East (Ashburn) region. Our engineers are actively working to mitigate the issue.",
-          "incident_id": "c49rz8mm41h2",
-          "created_at": "2021-10-23T23:48:24.354Z",
-          "updated_at": "2021-10-23T23:48:24.354Z",
-          "display_at": "2021-10-23T23:48:24.354Z",
-          "affected_components": [
-            {
-              "code": "qkkvb0kx7528",
-              "name": "Identity - us-ashburn-1 region",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "3syhy84rxqwk",
-              "name": "Network Infrastructure - US East (Ashburn)",
-              "old_status": "partial_outage",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "8bnd8kn5lh3p",
-          "status": "investigating",
-          "body": "We are investigating a potential issue affecting the Oracle Cloud infrastructure Networking service in the US East (Ashburn) region.\n\n<b>Customer Impact:</b> Some customers may be unable to connect to or use Oracle Cloud Infrastructure services or resources . In addition some downstream services may experience unintended impact as a result.\n\nFurther updates will be provided as events warrant.\n\n<b>Start Time:</b> October 23, 2021 20:44 UTC\n\n<b>Reference Number:</b> CN-130788",
-          "incident_id": "c49rz8mm41h2",
-          "created_at": "2021-10-23T22:16:02.468Z",
-          "updated_at": "2021-10-23T22:16:02.468Z",
-          "display_at": "2021-10-23T22:16:02.468Z",
-          "affected_components": [
-            {
-              "code": "qkkvb0kx7528",
-              "name": "Identity - us-ashburn-1 region",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "3syhy84rxqwk",
-              "name": "Network Infrastructure - US East (Ashburn)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "qkkvb0kx7528",
-          "name": "us-ashburn-1 region",
-          "status": "partial_outage",
-          "created_at": "2017-08-08T15:50:13.701Z",
-          "updated_at": "2021-10-23T22:16:02.375Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "zqf5v0ykx3lk",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3syhy84rxqwk",
-          "name": "US East (Ashburn)",
-          "status": "partial_outage",
-          "created_at": "2020-08-31T18:09:24.852Z",
-          "updated_at": "2021-10-23T22:16:02.359Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-08-31",
-          "group_id": "zfhft7y50l92",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

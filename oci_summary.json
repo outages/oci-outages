@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-26T06:44:48.237Z"
+    "updated_at": "2021-10-26T11:41:59.143Z"
   },
   "components": [
     {
@@ -574,9 +574,9 @@
     {
       "id": "501stjnrvl1n",
       "name": "South Korea North (Chuncheon)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-06-03T22:05:21.067Z",
-      "updated_at": "2021-10-26T06:44:48.149Z",
+      "updated_at": "2021-10-26T11:41:59.048Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure Compute | Multiple Regions | CN-131119",
       "status": "identified",
       "created_at": "2021-10-25T20:08:13.640Z",
-      "updated_at": "2021-10-25T20:09:22.034Z",
+      "updated_at": "2021-10-26T11:41:59.133Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -16627,6 +16627,152 @@
       "started_at": "2021-10-25T20:08:13.605Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "xgx583bq0m60",
+          "status": "identified",
+          "body": "We have identified a fix to mitigate the issue affecting Oracle Cloud Infrastructure Compute in multiple regions, and are in the process of applying this across the affected regions. \n\nNewly converted Pay As You Go (PAYG) customers may continue to experience delays when reinstating their disabled instances.\n\nAdditional updates will be provided as events warrant or upon mitigation.",
+          "incident_id": "h3t4674jn21y",
+          "created_at": "2021-10-26T11:41:59.129Z",
+          "updated_at": "2021-10-26T11:41:59.129Z",
+          "display_at": "2021-10-26T11:41:59.129Z",
+          "affected_components": [
+            {
+              "code": "501stjnrvl1n",
+              "name": "Compute - South Korea North (Chuncheon)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "21yzf4t86njc",
+              "name": "Compute - India South (Hyderabad)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "4lfbvkvlnlgc",
+              "name": "Compute - Australia Southeast (Melbourne)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "cbwcgszbcv3h",
+              "name": "Compute - India West (Mumbai)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "42m0lj6yx8vy",
+              "name": "Compute - Japan Central (Osaka)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rby16l9f40pp",
+              "name": "Compute - South Korea Central (Seoul)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xmvnd7pdfm78",
+              "name": "Compute - Australia East (Sydney)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "00rsb4yb7gpc",
+              "name": "Compute - Japan East (Tokyo)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "003sxbgm5dwq",
+              "name": "Compute - Canada Southeast (Montreal)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "qvcr0hgty8kq",
+              "name": "Compute - Canada Southeast (Toronto)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jnh5jlrt7qwr",
+              "name": "Compute - Netherlands Northwest (Amsterdam)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b3kml93chtyl",
+              "name": "Compute - Germany Central (Frankfurt)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "f68nqlnwmwzr",
+              "name": "Compute - Switzerland North (Zurich)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "49lgz2w62yq6",
+              "name": "Compute - UAE East (Dubai)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "ycxy30kzhxhv",
+              "name": "Compute - Saudi Arabia West (Jeddah)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "t8xy75699f82",
+              "name": "Compute - Chile Central (Santiago)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "8v2v896t1sxk",
+              "name": "Compute - Brazil East (Sao Paulo)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bfnqk016967p",
+              "name": "Compute - UK West (Cardiff)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xcpj6cx68gvs",
+              "name": "Compute - UK South (London)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "9c7ckly20b88",
+              "name": "Compute - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "x848w1p3tjws",
+              "name": "Compute - US West (Phoenix)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "y9fkm0mdt6gl",
+              "name": "Compute - US West (San Jose)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "7xshqtbrytxs",
           "status": "identified",
@@ -16778,9 +16924,9 @@
         {
           "id": "501stjnrvl1n",
           "name": "South Korea North (Chuncheon)",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2020-06-03T22:05:21.067Z",
-          "updated_at": "2021-10-26T06:44:48.149Z",
+          "updated_at": "2021-10-26T11:41:59.048Z",
           "position": 1,
           "description": null,
           "showcase": false,

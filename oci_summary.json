@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-26T16:51:07.944Z"
+    "updated_at": "2021-10-27T21:03:50.208Z"
   },
   "components": [
     {
@@ -1099,9 +1099,9 @@
     {
       "id": "21yzf4t86njc",
       "name": "India South (Hyderabad)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-05-11T18:34:35.466Z",
-      "updated_at": "2021-10-25T20:08:13.765Z",
+      "updated_at": "2021-10-27T21:03:49.916Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -1897,9 +1897,9 @@
     {
       "id": "4lfbvkvlnlgc",
       "name": "Australia Southeast (Melbourne)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-02-01T02:24:01.552Z",
-      "updated_at": "2021-10-25T20:08:13.788Z",
+      "updated_at": "2021-10-27T21:03:49.933Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -6172,9 +6172,9 @@
     {
       "id": "003sxbgm5dwq",
       "name": "Canada Southeast (Montreal)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-03-02T19:34:08.808Z",
-      "updated_at": "2021-10-25T20:08:13.906Z",
+      "updated_at": "2021-10-27T21:03:49.950Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -8563,9 +8563,9 @@
     {
       "id": "b3kml93chtyl",
       "name": "Germany Central (Frankfurt)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-10-02T18:26:30.078Z",
-      "updated_at": "2021-10-25T20:08:13.966Z",
+      "updated_at": "2021-10-27T21:03:49.967Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -9397,9 +9397,9 @@
     {
       "id": "49lgz2w62yq6",
       "name": "UAE East (Dubai)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-09-30T23:12:26.253Z",
-      "updated_at": "2021-10-25T20:08:14.008Z",
+      "updated_at": "2021-10-27T21:03:49.983Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -10480,9 +10480,9 @@
     {
       "id": "ycxy30kzhxhv",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-02-01T02:27:06.940Z",
-      "updated_at": "2021-10-25T20:08:14.031Z",
+      "updated_at": "2021-10-27T21:03:50.000Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -11254,9 +11254,9 @@
     {
       "id": "t8xy75699f82",
       "name": "Chile Central (Santiago)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-12-14T23:42:17.408Z",
-      "updated_at": "2021-10-25T20:08:14.049Z",
+      "updated_at": "2021-10-27T21:03:50.016Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -12532,9 +12532,9 @@
     {
       "id": "bfnqk016967p",
       "name": "UK West (Cardiff)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2020-11-06T06:42:07.972Z",
-      "updated_at": "2021-10-25T20:08:14.088Z",
+      "updated_at": "2021-10-27T21:03:50.031Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -13516,9 +13516,9 @@
     {
       "id": "xcpj6cx68gvs",
       "name": "UK South (London)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-04-05T17:22:54.901Z",
-      "updated_at": "2021-10-25T20:08:14.106Z",
+      "updated_at": "2021-10-27T21:03:50.047Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -14170,9 +14170,9 @@
     {
       "id": "9c7ckly20b88",
       "name": "US East (Ashburn)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-06-07T16:57:05.217Z",
-      "updated_at": "2021-10-25T20:08:14.128Z",
+      "updated_at": "2021-10-27T21:03:50.064Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14929,9 +14929,9 @@
     {
       "id": "x848w1p3tjws",
       "name": "US West (Phoenix)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-05-23T17:19:34.202Z",
-      "updated_at": "2021-10-25T20:08:14.149Z",
+      "updated_at": "2021-10-27T21:03:50.081Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure Compute | Multiple Regions | CN-131119",
       "status": "identified",
       "created_at": "2021-10-25T20:08:13.640Z",
-      "updated_at": "2021-10-26T16:51:07.936Z",
+      "updated_at": "2021-10-27T21:03:50.200Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -16627,6 +16627,152 @@
       "started_at": "2021-10-25T20:08:14.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "66k12zkpkfj7",
+          "status": "identified",
+          "body": "We've applied the fix to most of the affected regions, and we're continuing to perform the same steps in the remaining impacted regions.\n\n<b>Customer Impact:</b> Newly converted Pay As You Go (PAYG) customers may experience delays when reinstating their disabled instances.\n\n<b>Note: </b>In normal circumstances, requests to reinstate disabled instances are usually processed within 24 hours. If you have an instance that has not been reinstated after 24 hours, you may contact Oracle Support to have it manually reinstated.\n\nAdditional updates will be provided as events warrant or upon mitigation.",
+          "incident_id": "h3t4674jn21y",
+          "created_at": "2021-10-27T21:03:50.197Z",
+          "updated_at": "2021-10-27T21:03:50.197Z",
+          "display_at": "2021-10-27T21:03:50.197Z",
+          "affected_components": [
+            {
+              "code": "501stjnrvl1n",
+              "name": "Compute - South Korea North (Chuncheon)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "21yzf4t86njc",
+              "name": "Compute - India South (Hyderabad)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "4lfbvkvlnlgc",
+              "name": "Compute - Australia Southeast (Melbourne)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "cbwcgszbcv3h",
+              "name": "Compute - India West (Mumbai)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "42m0lj6yx8vy",
+              "name": "Compute - Japan Central (Osaka)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rby16l9f40pp",
+              "name": "Compute - South Korea Central (Seoul)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xmvnd7pdfm78",
+              "name": "Compute - Australia East (Sydney)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "00rsb4yb7gpc",
+              "name": "Compute - Japan East (Tokyo)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "003sxbgm5dwq",
+              "name": "Compute - Canada Southeast (Montreal)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "qvcr0hgty8kq",
+              "name": "Compute - Canada Southeast (Toronto)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jnh5jlrt7qwr",
+              "name": "Compute - Netherlands Northwest (Amsterdam)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "b3kml93chtyl",
+              "name": "Compute - Germany Central (Frankfurt)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "f68nqlnwmwzr",
+              "name": "Compute - Switzerland North (Zurich)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "49lgz2w62yq6",
+              "name": "Compute - UAE East (Dubai)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "ycxy30kzhxhv",
+              "name": "Compute - Saudi Arabia West (Jeddah)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "t8xy75699f82",
+              "name": "Compute - Chile Central (Santiago)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "8v2v896t1sxk",
+              "name": "Compute - Brazil East (Sao Paulo)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "bfnqk016967p",
+              "name": "Compute - UK West (Cardiff)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "xcpj6cx68gvs",
+              "name": "Compute - UK South (London)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "9c7ckly20b88",
+              "name": "Compute - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "x848w1p3tjws",
+              "name": "Compute - US West (Phoenix)",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "y9fkm0mdt6gl",
+              "name": "Compute - US West (San Jose)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xgx583bq0m60",
           "status": "identified",
@@ -16939,9 +17085,9 @@
         {
           "id": "21yzf4t86njc",
           "name": "India South (Hyderabad)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-05-11T18:34:35.466Z",
-          "updated_at": "2021-10-25T20:08:13.765Z",
+          "updated_at": "2021-10-27T21:03:49.916Z",
           "position": 2,
           "description": null,
           "showcase": false,
@@ -16954,9 +17100,9 @@
         {
           "id": "4lfbvkvlnlgc",
           "name": "Australia Southeast (Melbourne)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-02-01T02:24:01.552Z",
-          "updated_at": "2021-10-25T20:08:13.788Z",
+          "updated_at": "2021-10-27T21:03:49.933Z",
           "position": 3,
           "description": null,
           "showcase": false,
@@ -17044,9 +17190,9 @@
         {
           "id": "003sxbgm5dwq",
           "name": "Canada Southeast (Montreal)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-03-02T19:34:08.808Z",
-          "updated_at": "2021-10-25T20:08:13.906Z",
+          "updated_at": "2021-10-27T21:03:49.950Z",
           "position": 9,
           "description": null,
           "showcase": false,
@@ -17089,9 +17235,9 @@
         {
           "id": "b3kml93chtyl",
           "name": "Germany Central (Frankfurt)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-10-02T18:26:30.078Z",
-          "updated_at": "2021-10-25T20:08:13.966Z",
+          "updated_at": "2021-10-27T21:03:49.967Z",
           "position": 12,
           "description": null,
           "showcase": false,
@@ -17119,9 +17265,9 @@
         {
           "id": "49lgz2w62yq6",
           "name": "UAE East (Dubai)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-09-30T23:12:26.253Z",
-          "updated_at": "2021-10-25T20:08:14.008Z",
+          "updated_at": "2021-10-27T21:03:49.983Z",
           "position": 14,
           "description": null,
           "showcase": false,
@@ -17134,9 +17280,9 @@
         {
           "id": "ycxy30kzhxhv",
           "name": "Saudi Arabia West (Jeddah)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-02-01T02:27:06.940Z",
-          "updated_at": "2021-10-25T20:08:14.031Z",
+          "updated_at": "2021-10-27T21:03:50.000Z",
           "position": 15,
           "description": null,
           "showcase": false,
@@ -17149,9 +17295,9 @@
         {
           "id": "t8xy75699f82",
           "name": "Chile Central (Santiago)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-12-14T23:42:17.408Z",
-          "updated_at": "2021-10-25T20:08:14.049Z",
+          "updated_at": "2021-10-27T21:03:50.016Z",
           "position": 16,
           "description": null,
           "showcase": false,
@@ -17179,9 +17325,9 @@
         {
           "id": "bfnqk016967p",
           "name": "UK West (Cardiff)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2020-11-06T06:42:07.972Z",
-          "updated_at": "2021-10-25T20:08:14.088Z",
+          "updated_at": "2021-10-27T21:03:50.031Z",
           "position": 18,
           "description": null,
           "showcase": false,
@@ -17194,9 +17340,9 @@
         {
           "id": "xcpj6cx68gvs",
           "name": "UK South (London)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-04-05T17:22:54.901Z",
-          "updated_at": "2021-10-25T20:08:14.106Z",
+          "updated_at": "2021-10-27T21:03:50.047Z",
           "position": 19,
           "description": null,
           "showcase": false,
@@ -17209,9 +17355,9 @@
         {
           "id": "9c7ckly20b88",
           "name": "US East (Ashburn)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-06-07T16:57:05.217Z",
-          "updated_at": "2021-10-25T20:08:14.128Z",
+          "updated_at": "2021-10-27T21:03:50.064Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17224,9 +17370,9 @@
         {
           "id": "x848w1p3tjws",
           "name": "US West (Phoenix)",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2017-05-23T17:19:34.202Z",
-          "updated_at": "2021-10-25T20:08:14.149Z",
+          "updated_at": "2021-10-27T21:03:50.081Z",
           "position": 21,
           "description": null,
           "showcase": false,

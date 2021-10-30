@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-30T05:43:13.096Z"
+    "updated_at": "2021-10-30T06:33:26.126Z"
   },
   "components": [
     {
@@ -7096,7 +7096,7 @@
     {
       "id": "pbrqh15302sw",
       "name": "Autonomous Database",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:07.510Z",
       "updated_at": "2021-07-17T04:59:21.187Z",
       "position": 10,
@@ -7984,7 +7984,7 @@
     {
       "id": "bztnw6ncdd5p",
       "name": "Database - Autonomous Data Warehouse",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-08-15T17:15:21.418Z",
       "updated_at": "2021-07-17T04:59:21.206Z",
       "position": 12,
@@ -9442,7 +9442,7 @@
     {
       "id": "zqf5v0ykx3lk",
       "name": "Identity",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-02-09T19:44:24.854Z",
       "updated_at": "2021-07-17T04:59:21.227Z",
       "position": 14,
@@ -11479,9 +11479,9 @@
     {
       "id": "7zcqc187w6z4",
       "name": "Brazil East (Sao Paulo)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-11-06T07:19:25.050Z",
-      "updated_at": "2021-10-30T05:43:12.993Z",
+      "updated_at": "2021-10-30T06:33:25.983Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -11509,9 +11509,9 @@
     {
       "id": "qz7fc98m96vy",
       "name": "sa-saopaulo-1",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-08-28T20:00:03.235Z",
-      "updated_at": "2021-10-30T05:43:13.011Z",
+      "updated_at": "2021-10-30T06:33:26.001Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -11899,9 +11899,9 @@
     {
       "id": "4hfbnl5n7j4c",
       "name": "sa-saopaulo-1",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2019-08-28T19:59:42.858Z",
-      "updated_at": "2021-10-30T05:43:12.975Z",
+      "updated_at": "2021-10-30T06:33:25.962Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -16613,105 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "py3wfhnv9w5z",
-      "name": "Multiple services | Brazil East (Sao Paulo) | CN-137332",
-      "status": "investigating",
-      "created_at": "2021-10-30T05:43:12.936Z",
-      "updated_at": "2021-10-30T05:43:13.092Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/04s89b45z4qk",
-      "started_at": "2021-10-30T05:43:12.921Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "s2sdyk6431t3",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with multiple services in the Brazil East (Sao Paulo) region.\n\n<b>Customer Impact:</b> Customers may be unable to access or use multiple services features.\n\n<b>Start Time:</b> October 30, 2021 05:02 UTC\n\n<b>Reference Number:</b> CN-137332",
-          "incident_id": "py3wfhnv9w5z",
-          "created_at": "2021-10-30T05:43:13.090Z",
-          "updated_at": "2021-10-30T05:43:13.090Z",
-          "display_at": "2021-10-30T05:43:13.090Z",
-          "affected_components": [
-            {
-              "code": "qz7fc98m96vy",
-              "name": "Identity - sa-saopaulo-1",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "4hfbnl5n7j4c",
-              "name": "Database - Autonomous Data Warehouse - sa-saopaulo-1",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            },
-            {
-              "code": "7zcqc187w6z4",
-              "name": "Autonomous Database - Brazil East (Sao Paulo)",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "4hfbnl5n7j4c",
-          "name": "sa-saopaulo-1",
-          "status": "partial_outage",
-          "created_at": "2019-08-28T19:59:42.858Z",
-          "updated_at": "2021-10-30T05:43:12.975Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "bztnw6ncdd5p",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "qz7fc98m96vy",
-          "name": "sa-saopaulo-1",
-          "status": "partial_outage",
-          "created_at": "2019-08-28T20:00:03.235Z",
-          "updated_at": "2021-10-30T05:43:13.011Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "zqf5v0ykx3lk",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "7zcqc187w6z4",
-          "name": "Brazil East (Sao Paulo)",
-          "status": "partial_outage",
-          "created_at": "2020-11-06T07:19:25.050Z",
-          "updated_at": "2021-10-30T05:43:12.993Z",
-          "position": 17,
-          "description": null,
-          "showcase": false,
-          "start_date": "2020-11-05",
-          "group_id": "pbrqh15302sw",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

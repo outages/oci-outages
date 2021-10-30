@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-10-30T19:33:04.639Z"
+    "updated_at": "2021-10-30T20:15:38.136Z"
   },
   "components": [
     {
@@ -9292,9 +9292,9 @@
     {
       "id": "3sgmf40m05j9",
       "name": "UAE East (Dubai)",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2020-09-30T23:12:50.087Z",
-      "updated_at": "2021-10-30T19:33:04.384Z",
+      "updated_at": "2021-10-30T20:15:38.046Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -16616,10 +16616,10 @@
   "incidents": [
     {
       "id": "fmy0vvxbk0wt",
-      "name": "Oracle Cloud Infrastructure Virtual Networking | Multiple Regions  | CN-137688",
-      "status": "investigating",
+      "name": "Oracle Cloud Infrastructure VPN Connect | Multiple Regions  | CN-137688",
+      "status": "identified",
       "created_at": "2021-10-30T19:33:03.999Z",
-      "updated_at": "2021-10-30T19:33:04.635Z",
+      "updated_at": "2021-10-30T20:15:38.127Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -16628,13 +16628,159 @@
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
         {
+          "id": "fn9ty9hmf85j",
+          "status": "identified",
+          "body": "We've identified an issue affecting the Oracle Cloud Infrastructure VPN Connect service. Our engineers are actively working to mitigate the issue.",
+          "incident_id": "fmy0vvxbk0wt",
+          "created_at": "2021-10-30T20:15:38.123Z",
+          "updated_at": "2021-10-30T20:15:38.123Z",
+          "display_at": "2021-10-30T20:15:38.123Z",
+          "affected_components": [
+            {
+              "code": "w34hc6g61krv",
+              "name": "Networking - Dynamic Routing Gateways - South Korea North (Chuncheon)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7s4xl3n75gm2",
+              "name": "Networking - Dynamic Routing Gateways - India South (Hyderabad)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "r1m77kh16vt3",
+              "name": "Networking - Dynamic Routing Gateways - Australia Southeast (Melbourne)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "zdl0st275kd9",
+              "name": "Networking - Dynamic Routing Gateways - ap-mumbai-1",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5pgbsswz62hj",
+              "name": "Networking - Dynamic Routing Gateways - Japan Central (Osaka)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "5wm862qz4wqz",
+              "name": "Networking - Dynamic Routing Gateways - ap-seoul-1",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "rkqp8y9k9hfq",
+              "name": "Networking - Dynamic Routing Gateways - Australia East (Sydney)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "39l4t3hx9110",
+              "name": "Networking - Dynamic Routing Gateways - ap-tokyo-1",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "6shfkpmc8nsz",
+              "name": "Networking - Dynamic Routing Gateways - Canada Southeast (Montreal)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "dpfk88r8h97t",
+              "name": "Networking - Dynamic Routing Gateways - ca-toronto-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "10ll6768wsg7",
+              "name": "Networking - Dynamic Routing Gateways - Netherlands Northwest (Amsterdam)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "yv2tg23fqyt0",
+              "name": "Networking - Dynamic Routing Gateways - eu-frankfurt-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wshqzxxfffxq",
+              "name": "Networking - Dynamic Routing Gateways - eu-zurich-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "3sgmf40m05j9",
+              "name": "Networking - Dynamic Routing Gateways - UAE East (Dubai)",
+              "old_status": "partial_outage",
+              "new_status": "operational"
+            },
+            {
+              "code": "d9zr7djwbtq9",
+              "name": "Networking - Dynamic Routing Gateways - Saudi Arabia West (Jeddah)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "9bzlbmz3zhbn",
+              "name": "Networking - Dynamic Routing Gateways - Chile Central (Santiago)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "k704d7cy0d2v",
+              "name": "Networking - Dynamic Routing Gateways - sa-saopaulo-1",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "cgpng47mqpy1",
+              "name": "Networking - Dynamic Routing Gateways - UK West (Cardiff)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "0z59xhc0c1nj",
+              "name": "Networking - Dynamic Routing Gateways - uk-london-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "7dmvr7dfprlm",
+              "name": "Networking - Dynamic Routing Gateways - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "lnwrp1s3tjtj",
+              "name": "Networking - Dynamic Routing Gateways - us-phoenix-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "j81bt3lgrbmb",
+              "name": "Networking - Dynamic Routing Gateways - US West (San Jose)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "xl7sg3mcjllv",
           "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Virtual Networking.\n\n<b>Customer Impact:</b> Customers may experience connectivity issues with newly created IPSec tunnels.\n\nFurther updates will be provided as new information becomes available. \n\n<b>Start Time:</b> October 29, 2021 17:14 UTC\n\n<b>Reference Number:</b> CN-137688",
+          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure VPN Connect.\n\n<b>Customer Impact:</b> Customers may experience connectivity issues with newly created IPSec tunnels.\n\nFurther updates will be provided as new information becomes available. \n\n<b>Start Time:</b> October 29, 2021 17:14 UTC\n\n<b>Reference Number:</b> CN-137688",
           "incident_id": "fmy0vvxbk0wt",
           "created_at": "2021-10-30T19:33:04.631Z",
-          "updated_at": "2021-10-30T19:33:04.631Z",
-          "display_at": "2021-10-30T19:33:04.631Z",
+          "updated_at": "2021-10-30T19:58:00.133Z",
+          "display_at": "2021-10-30T19:33:04.000Z",
           "affected_components": [
             {
               "code": "w34hc6g61krv",
@@ -16973,9 +17119,9 @@
         {
           "id": "3sgmf40m05j9",
           "name": "UAE East (Dubai)",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2020-09-30T23:12:50.087Z",
-          "updated_at": "2021-10-30T19:33:04.384Z",
+          "updated_at": "2021-10-30T20:15:38.046Z",
           "position": 14,
           "description": null,
           "showcase": false,

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-01T19:36:04.973Z"
+    "updated_at": "2021-11-01T19:42:40.250Z"
   },
   "components": [
     {
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure Console | Multiple Regions | CN-138495",
       "status": "investigating",
       "created_at": "2021-11-01T19:34:47.204Z",
-      "updated_at": "2021-11-01T19:36:04.967Z",
+      "updated_at": "2021-11-01T19:42:40.240Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -16630,10 +16630,10 @@
         {
           "id": "580sv6nrfshh",
           "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Console in multiple regions.\n\n<b>Customer Impact:</b> Customers may experience intermittent Console plug-in failures when using Oracle Cloud Infrastructure services.\n\n<b>Start Time:</b> November 1, 2021 18:38 UTC\n\n<b>Reference Number:</b> CN-138495",
+          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Console in multiple regions.\n\n<b>Customer Impact:</b> Customers may experience intermittent Console plug-in failures when using Oracle Cloud Infrastructure services.\n\n<b>Start Time:</b> November 1, 2021 18:35 UTC\n\n<b>Reference Number:</b> CN-138495",
           "incident_id": "1szrfxjbhddq",
           "created_at": "2021-11-01T19:34:47.760Z",
-          "updated_at": "2021-11-01T19:36:04.866Z",
+          "updated_at": "2021-11-01T19:42:40.233Z",
           "display_at": "2021-11-01T19:34:47.000Z",
           "affected_components": [
             {

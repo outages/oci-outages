@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-11T22:46:07.717Z"
+    "updated_at": "2021-11-11T23:32:12.874Z"
   },
   "components": [
     {
@@ -5737,9 +5737,9 @@
     {
       "id": "9js4kg445kk6",
       "name": "Canada Southeast (Montreal)",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-05-18T20:45:43.237Z",
-      "updated_at": "2021-11-02T04:14:28.529Z",
+      "updated_at": "2021-11-11T23:32:12.791Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -5977,9 +5977,9 @@
     {
       "id": "390yy10j6xwc",
       "name": "Canada Southeast (Montreal)",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-03-02T19:34:57.870Z",
-      "updated_at": "2021-11-01T19:56:18.524Z",
+      "updated_at": "2021-11-11T23:32:12.776Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -10441,7 +10441,7 @@
     {
       "id": "sr2y42rkwsgk",
       "name": "Identity Cloud Service",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2020-05-18T20:45:34.523Z",
       "updated_at": "2021-07-17T04:59:21.238Z",
       "position": 15,
@@ -15835,7 +15835,7 @@
     {
       "id": "x0247zm62lgz",
       "name": "Console",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2019-02-20T19:52:17.138Z",
       "updated_at": "2021-07-17T04:59:21.355Z",
       "position": 26,
@@ -16615,6 +16615,79 @@
   ],
   "incidents": [
     {
+      "id": "f29n88swyr6y",
+      "name": "Oracle Identity Cloud Service | Canada Southeast (Montreal) | CN-141937",
+      "status": "identified",
+      "created_at": "2021-11-11T23:32:12.744Z",
+      "updated_at": "2021-11-11T23:32:12.871Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/143t26pydzzw",
+      "started_at": "2021-11-11T23:32:12.734Z",
+      "page_id": "2bsbdh54lcgq",
+      "incident_updates": [
+        {
+          "id": "hmdjgbkhz0mw",
+          "status": "identified",
+          "body": "We've identified an issue affecting Oracle Identity Cloud Service in the Canada Southeast (Montreal) region. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers may be unable to access Oracle Cloud Infrastructure services using Oracle Identity Cloud Service for authentication.\n\n<b>Reference Number:</b> CN-141937",
+          "incident_id": "f29n88swyr6y",
+          "created_at": "2021-11-11T23:32:12.869Z",
+          "updated_at": "2021-11-11T23:32:12.869Z",
+          "display_at": "2021-11-11T23:32:12.869Z",
+          "affected_components": [
+            {
+              "code": "390yy10j6xwc",
+              "name": "Console - Canada Southeast (Montreal)",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "9js4kg445kk6",
+              "name": "Identity Cloud Service - Canada Southeast (Montreal)",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "390yy10j6xwc",
+          "name": "Canada Southeast (Montreal)",
+          "status": "major_outage",
+          "created_at": "2020-03-02T19:34:57.870Z",
+          "updated_at": "2021-11-11T23:32:12.776Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "x0247zm62lgz",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "9js4kg445kk6",
+          "name": "Canada Southeast (Montreal)",
+          "status": "major_outage",
+          "created_at": "2020-05-18T20:45:43.237Z",
+          "updated_at": "2021-11-11T23:32:12.791Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "sr2y42rkwsgk",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "nn790xqtyf7f",
       "name": "Multiple Oracle Cloud Infrastructure services | US East (Ashburn) | CN-141885",
       "status": "identified",
@@ -16692,36 +16765,6 @@
       ],
       "components": [
         {
-          "id": "zy9kt4w718hd",
-          "name": "us-ashburn-1 region",
-          "status": "partial_outage",
-          "created_at": "2017-05-23T17:30:29.198Z",
-          "updated_at": "2021-11-11T22:46:07.614Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "grgr5sf16chm",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "9c7ckly20b88",
-          "name": "US East (Ashburn)",
-          "status": "partial_outage",
-          "created_at": "2017-06-07T16:57:05.217Z",
-          "updated_at": "2021-11-11T22:46:07.494Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "sx4xcbk5vby9",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
           "id": "1f2cm69cj21q",
           "name": "us-ashburn-1 region",
           "status": "degraded_performance",
@@ -16767,16 +16810,16 @@
           "only_show_if_degraded": false
         },
         {
-          "id": "wdny85n1cg2p",
-          "name": "US East (Ashburn)",
-          "status": "degraded_performance",
-          "created_at": "2020-02-09T04:16:37.864Z",
-          "updated_at": "2021-11-11T22:46:07.593Z",
+          "id": "zy9kt4w718hd",
+          "name": "us-ashburn-1 region",
+          "status": "partial_outage",
+          "created_at": "2017-05-23T17:30:29.198Z",
+          "updated_at": "2021-11-11T22:46:07.614Z",
           "position": 20,
           "description": null,
           "showcase": false,
           "start_date": null,
-          "group_id": "x7526fhpytvm",
+          "group_id": "grgr5sf16chm",
           "page_id": "2bsbdh54lcgq",
           "group": false,
           "only_show_if_degraded": false
@@ -16807,6 +16850,36 @@
           "showcase": false,
           "start_date": null,
           "group_id": "99h2c5hxp4dp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "wdny85n1cg2p",
+          "name": "US East (Ashburn)",
+          "status": "degraded_performance",
+          "created_at": "2020-02-09T04:16:37.864Z",
+          "updated_at": "2021-11-11T22:46:07.593Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "x7526fhpytvm",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "9c7ckly20b88",
+          "name": "US East (Ashburn)",
+          "status": "partial_outage",
+          "created_at": "2017-06-07T16:57:05.217Z",
+          "updated_at": "2021-11-11T22:46:07.494Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "sx4xcbk5vby9",
           "page_id": "2bsbdh54lcgq",
           "group": false,
           "only_show_if_degraded": false

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-12T06:36:28.805Z"
+    "updated_at": "2021-11-12T13:38:42.687Z"
   },
   "components": [
     {
@@ -55,7 +55,7 @@
     {
       "id": "sx4xcbk5vby9",
       "name": "Compute",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2018-02-09T19:03:40.697Z",
       "updated_at": "2021-06-11T18:22:48.268Z",
       "position": 1,
@@ -10441,7 +10441,7 @@
     {
       "id": "sr2y42rkwsgk",
       "name": "Identity Cloud Service",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-05-18T20:45:34.523Z",
       "updated_at": "2021-07-17T04:59:21.238Z",
       "position": 15,
@@ -13645,9 +13645,9 @@
     {
       "id": "plwgpp9t87kl",
       "name": "us-ashburn-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-21T22:20:09.141Z",
-      "updated_at": "2021-04-28T04:23:26.633Z",
+      "updated_at": "2021-11-12T13:38:42.561Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13675,9 +13675,9 @@
     {
       "id": "vzr7fypxk02s",
       "name": "US East (Ashburn)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-05-18T20:45:52.301Z",
-      "updated_at": "2021-11-06T02:50:28.705Z",
+      "updated_at": "2021-11-12T13:38:42.599Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13975,9 +13975,9 @@
     {
       "id": "p672sfqr5d4z",
       "name": "US East (Ashburn)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-09-25T17:33:18.056Z",
-      "updated_at": "2021-05-27T05:23:43.493Z",
+      "updated_at": "2021-11-12T13:38:42.542Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14005,9 +14005,9 @@
     {
       "id": "sw1s612g83b1",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2020-03-17T18:59:00.560Z",
-      "updated_at": "2021-11-12T03:11:09.298Z",
+      "updated_at": "2021-11-12T13:38:42.579Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14170,9 +14170,9 @@
     {
       "id": "9c7ckly20b88",
       "name": "US East (Ashburn)",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2017-06-07T16:57:05.217Z",
-      "updated_at": "2021-11-11T22:46:07.494Z",
+      "updated_at": "2021-11-12T13:38:42.521Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -15991,7 +15991,7 @@
     {
       "id": "cl1tm8pr1mcr",
       "name": "Streaming",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-21T22:17:11.213Z",
       "updated_at": "2021-07-17T04:59:21.392Z",
       "position": 30,
@@ -16108,7 +16108,7 @@
     {
       "id": "6x9tq37fxgms",
       "name": "Functions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-09-25T17:20:33.701Z",
       "updated_at": "2021-07-17T04:59:21.422Z",
       "position": 33,
@@ -16420,7 +16420,7 @@
     {
       "id": "k0tcpxgc753t",
       "name": "MySQL Database Service",
-      "status": "partial_outage",
+      "status": "degraded_performance",
       "created_at": "2020-03-17T18:58:43.875Z",
       "updated_at": "2021-07-17T04:59:21.497Z",
       "position": 41,
@@ -16619,7 +16619,7 @@
       "name": "Multiple Oracle Cloud Infrastructure services | US East (Ashburn) | CN-141891",
       "status": "identified",
       "created_at": "2021-11-11T22:46:07.410Z",
-      "updated_at": "2021-11-12T06:36:28.800Z",
+      "updated_at": "2021-11-12T13:38:42.678Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -16627,6 +16627,86 @@
       "started_at": "2021-11-11T22:46:07.374Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "gd6r9mgkh0sh",
+          "status": "identified",
+          "body": "We are continuing to work towards mitigation and several services are beginning to see recovery.\n\nFurther updates will be provided as events warrant.",
+          "incident_id": "nn790xqtyf7f",
+          "created_at": "2021-11-12T13:38:42.674Z",
+          "updated_at": "2021-11-12T13:38:42.674Z",
+          "display_at": "2021-11-12T13:38:42.674Z",
+          "affected_components": [
+            {
+              "code": "9c7ckly20b88",
+              "name": "Compute - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1t8kwz3bvhl5",
+              "name": "Networking - Virtual Cloud Networks - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "g61zcpg4f9l6",
+              "name": "Networking - Load Balancing - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1f2cm69cj21q",
+              "name": "Block Storage - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lp82tkj1c0lq",
+              "name": "Developer Services - Container Clusters (OKE) - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "plwgpp9t87kl",
+              "name": "Streaming - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "p672sfqr5d4z",
+              "name": "Functions - US East (Ashburn)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wdny85n1cg2p",
+              "name": "Data Flow - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "ss2r28hk890c",
+              "name": "Data Science - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "sw1s612g83b1",
+              "name": "MySQL Database Service - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vzr7fypxk02s",
+              "name": "Identity Cloud Service - US East (Ashburn)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "j3v6zvf4jl83",
           "status": "identified",
@@ -16962,26 +17042,11 @@
       ],
       "components": [
         {
-          "id": "zy9kt4w718hd",
-          "name": "us-ashburn-1 region",
-          "status": "partial_outage",
-          "created_at": "2017-05-23T17:30:29.198Z",
-          "updated_at": "2021-11-11T22:46:07.614Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "grgr5sf16chm",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
           "id": "9c7ckly20b88",
           "name": "US East (Ashburn)",
-          "status": "partial_outage",
+          "status": "degraded_performance",
           "created_at": "2017-06-07T16:57:05.217Z",
-          "updated_at": "2021-11-11T22:46:07.494Z",
+          "updated_at": "2021-11-12T13:38:42.521Z",
           "position": 20,
           "description": null,
           "showcase": false,
@@ -17022,21 +17087,6 @@
           "only_show_if_degraded": false
         },
         {
-          "id": "w1mh8h0xljvl",
-          "name": "us-ashburn-1 region",
-          "status": "degraded_performance",
-          "created_at": "2018-02-09T20:36:18.400Z",
-          "updated_at": "2021-11-12T00:21:11.070Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "93h2kff76f72",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
           "id": "1f2cm69cj21q",
           "name": "us-ashburn-1 region",
           "status": "degraded_performance",
@@ -17067,31 +17117,31 @@
           "only_show_if_degraded": false
         },
         {
-          "id": "m2kl73jm4ppg",
+          "id": "plwgpp9t87kl",
           "name": "us-ashburn-1 region",
           "status": "degraded_performance",
-          "created_at": "2018-08-21T19:15:14.020Z",
-          "updated_at": "2021-11-11T22:46:07.553Z",
+          "created_at": "2019-05-21T22:20:09.141Z",
+          "updated_at": "2021-11-12T13:38:42.561Z",
           "position": 20,
           "description": null,
           "showcase": false,
           "start_date": null,
-          "group_id": "mpknxhzlyvrc",
+          "group_id": "cl1tm8pr1mcr",
           "page_id": "2bsbdh54lcgq",
           "group": false,
           "only_show_if_degraded": false
         },
         {
-          "id": "dhsgcnvy58tc",
-          "name": "us-ashburn-1 region",
+          "id": "p672sfqr5d4z",
+          "name": "US East (Ashburn)",
           "status": "degraded_performance",
-          "created_at": "2019-05-21T21:50:34.365Z",
-          "updated_at": "2021-11-12T00:21:11.030Z",
+          "created_at": "2019-09-25T17:33:18.056Z",
+          "updated_at": "2021-11-12T13:38:42.542Z",
           "position": 20,
           "description": null,
           "showcase": false,
           "start_date": null,
-          "group_id": "6jfcnpnry6xn",
+          "group_id": "6x9tq37fxgms",
           "page_id": "2bsbdh54lcgq",
           "group": false,
           "only_show_if_degraded": false
@@ -17107,21 +17157,6 @@
           "showcase": false,
           "start_date": null,
           "group_id": "x7526fhpytvm",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jyymkz9mvn0d",
-          "name": "US East (Ashburn)",
-          "status": "major_outage",
-          "created_at": "2020-02-11T21:50:29.516Z",
-          "updated_at": "2021-11-11T22:46:07.515Z",
-          "position": 20,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "kgb3x2451pb6",
           "page_id": "2bsbdh54lcgq",
           "group": false,
           "only_show_if_degraded": false
@@ -17144,14 +17179,29 @@
         {
           "id": "sw1s612g83b1",
           "name": "US East (Ashburn)",
-          "status": "partial_outage",
+          "status": "degraded_performance",
           "created_at": "2020-03-17T18:59:00.560Z",
-          "updated_at": "2021-11-12T03:11:09.298Z",
+          "updated_at": "2021-11-12T13:38:42.579Z",
           "position": 20,
           "description": null,
           "showcase": false,
           "start_date": null,
           "group_id": "k0tcpxgc753t",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vzr7fypxk02s",
+          "name": "US East (Ashburn)",
+          "status": "degraded_performance",
+          "created_at": "2020-05-18T20:45:52.301Z",
+          "updated_at": "2021-11-12T13:38:42.599Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "sr2y42rkwsgk",
           "page_id": "2bsbdh54lcgq",
           "group": false,
           "only_show_if_degraded": false

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-11T23:44:46.792Z"
+    "updated_at": "2021-11-12T00:46:30.884Z"
   },
   "components": [
     {
@@ -2437,7 +2437,7 @@
     {
       "id": "93h2kff76f72",
       "name": "File Storage",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-16T22:11:47.759Z",
       "updated_at": "2021-07-17T04:59:21.132Z",
       "position": 4,
@@ -4075,7 +4075,7 @@
     {
       "id": "f5ppqjqjq0sf",
       "name": "Networking - Virtual Cloud Networks",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-09T19:45:58.359Z",
       "updated_at": "2021-07-17T04:59:21.151Z",
       "position": 6,
@@ -5428,7 +5428,7 @@
     {
       "id": "w6bwq65xjlh4",
       "name": "Networking - Load Balancing",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-16T22:47:23.450Z",
       "updated_at": "2021-07-17T04:59:21.170Z",
       "position": 8,
@@ -13690,9 +13690,9 @@
     {
       "id": "w1mh8h0xljvl",
       "name": "us-ashburn-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-09T20:36:18.400Z",
-      "updated_at": "2021-08-31T21:14:48.999Z",
+      "updated_at": "2021-11-12T00:21:11.070Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14065,9 +14065,9 @@
     {
       "id": "1t8kwz3bvhl5",
       "name": "us-ashburn-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-11T17:17:34.529Z",
-      "updated_at": "2021-10-11T09:38:11.102Z",
+      "updated_at": "2021-11-12T00:21:11.092Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14185,9 +14185,9 @@
     {
       "id": "g61zcpg4f9l6",
       "name": "us-ashburn-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-09T14:52:31.774Z",
-      "updated_at": "2021-10-11T09:38:11.195Z",
+      "updated_at": "2021-11-12T00:21:11.113Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14245,9 +14245,9 @@
     {
       "id": "dhsgcnvy58tc",
       "name": "us-ashburn-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-21T21:50:34.365Z",
-      "updated_at": "2020-12-14T23:49:00.908Z",
+      "updated_at": "2021-11-12T00:21:11.030Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -15913,7 +15913,7 @@
     {
       "id": "6jfcnpnry6xn",
       "name": "Resource Manager",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-21T21:44:48.241Z",
       "updated_at": "2021-07-17T04:59:21.374Z",
       "position": 28,
@@ -16619,7 +16619,7 @@
       "name": "Multiple Oracle Cloud Infrastructure services | US East (Ashburn) | CN-141885",
       "status": "identified",
       "created_at": "2021-11-11T22:46:07.410Z",
-      "updated_at": "2021-11-11T22:46:07.712Z",
+      "updated_at": "2021-11-12T00:46:30.877Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -16627,6 +16627,92 @@
       "started_at": "2021-11-11T22:46:07.374Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "l4nwg465n7dh",
+          "status": "identified",
+          "body": "We're continuing to apply a fix to mitigate the issue affecting multiple services in the US East (Ashburn) region.\n\nAdditional updates will be provided as events warrant or upon mitigation.",
+          "incident_id": "nn790xqtyf7f",
+          "created_at": "2021-11-12T00:21:11.193Z",
+          "updated_at": "2021-11-12T00:46:30.872Z",
+          "display_at": "2021-11-12T00:21:11.000Z",
+          "affected_components": [
+            {
+              "code": "9c7ckly20b88",
+              "name": "Compute - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "zy9kt4w718hd",
+              "name": "Database - Bare Metal, VM, Exadata - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1t8kwz3bvhl5",
+              "name": "Networking - Virtual Cloud Networks - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "w1mh8h0xljvl",
+              "name": "File Storage - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "g61zcpg4f9l6",
+              "name": "Networking - Load Balancing - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1f2cm69cj21q",
+              "name": "Block Storage - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lp82tkj1c0lq",
+              "name": "Developer Services - Container Clusters (OKE) - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "m2kl73jm4ppg",
+              "name": "Governance - Audit - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "dhsgcnvy58tc",
+              "name": "Resource Manager - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wdny85n1cg2p",
+              "name": "Data Flow - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jyymkz9mvn0d",
+              "name": "Cloud Shell - US East (Ashburn)",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            },
+            {
+              "code": "ss2r28hk890c",
+              "name": "Data Science - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "qh034zgvqlfb",
           "status": "identified",
@@ -16722,6 +16808,51 @@
           "only_show_if_degraded": false
         },
         {
+          "id": "g61zcpg4f9l6",
+          "name": "us-ashburn-1 region",
+          "status": "degraded_performance",
+          "created_at": "2017-08-09T14:52:31.774Z",
+          "updated_at": "2021-11-12T00:21:11.113Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "w6bwq65xjlh4",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "1t8kwz3bvhl5",
+          "name": "us-ashburn-1 region",
+          "status": "degraded_performance",
+          "created_at": "2017-08-11T17:17:34.529Z",
+          "updated_at": "2021-11-12T00:21:11.092Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "f5ppqjqjq0sf",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "w1mh8h0xljvl",
+          "name": "us-ashburn-1 region",
+          "status": "degraded_performance",
+          "created_at": "2018-02-09T20:36:18.400Z",
+          "updated_at": "2021-11-12T00:21:11.070Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "93h2kff76f72",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
           "id": "1f2cm69cj21q",
           "name": "us-ashburn-1 region",
           "status": "degraded_performance",
@@ -16762,6 +16893,21 @@
           "showcase": false,
           "start_date": null,
           "group_id": "mpknxhzlyvrc",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "dhsgcnvy58tc",
+          "name": "us-ashburn-1 region",
+          "status": "degraded_performance",
+          "created_at": "2019-05-21T21:50:34.365Z",
+          "updated_at": "2021-11-12T00:21:11.030Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6jfcnpnry6xn",
           "page_id": "2bsbdh54lcgq",
           "group": false,
           "only_show_if_degraded": false

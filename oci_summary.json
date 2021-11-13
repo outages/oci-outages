@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-13T05:44:04.981Z"
+    "updated_at": "2021-11-13T06:40:51.772Z"
   },
   "components": [
     {
@@ -9442,7 +9442,7 @@
     {
       "id": "zqf5v0ykx3lk",
       "name": "Identity",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-09T19:44:24.854Z",
       "updated_at": "2021-07-17T04:59:21.227Z",
       "position": 14,
@@ -14453,6 +14453,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "v15kk4lwm6ql",
+      "name": "us-phoenix-1 region",
+      "status": "partial_outage",
+      "created_at": "2017-08-09T18:23:07.355Z",
+      "updated_at": "2021-11-13T06:40:51.685Z",
+      "position": 21,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "zqf5v0ykx3lk",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "tdrlgwdzh728",
       "name": "us-phoenix-1 region",
       "status": "operational",
@@ -14478,21 +14493,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "6jfcnpnry6xn",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "v15kk4lwm6ql",
-      "name": "us-phoenix-1 region",
-      "status": "operational",
-      "created_at": "2017-08-09T18:23:07.355Z",
-      "updated_at": "2021-10-11T09:38:11.427Z",
-      "position": 21,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "zqf5v0ykx3lk",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -16615,6 +16615,58 @@
   ],
   "incidents": [
     {
+      "id": "4n6g7sl2vb90",
+      "name": "Oracle Cloud Infrastructure Identity | US West (Phoenix) | CN-143432",
+      "status": "investigating",
+      "created_at": "2021-11-13T06:40:51.650Z",
+      "updated_at": "2021-11-13T06:40:51.769Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/vvwy3ll8rjfx",
+      "started_at": "2021-11-13T06:40:51.643Z",
+      "page_id": "2bsbdh54lcgq",
+      "incident_updates": [
+        {
+          "id": "mcbw4f6cp2tm",
+          "status": "investigating",
+          "body": "We're investigating an issue with Oracle Cloud Infrastructure Identity in the US West (Phoenix) region.\n\n<b>Customer Impact:</b> Customers may experience API latency increase while accessing or using the Oracle Cloud Infrastructure Identity service.\n\n<b>Start Time:</b> Nov 13, 2021 06:08 UTC \n\n<b>Reference Number:</b> CN-143432",
+          "incident_id": "4n6g7sl2vb90",
+          "created_at": "2021-11-13T06:40:51.766Z",
+          "updated_at": "2021-11-13T06:40:51.766Z",
+          "display_at": "2021-11-13T06:40:51.766Z",
+          "affected_components": [
+            {
+              "code": "v15kk4lwm6ql",
+              "name": "Identity - us-phoenix-1 region",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "v15kk4lwm6ql",
+          "name": "us-phoenix-1 region",
+          "status": "partial_outage",
+          "created_at": "2017-08-09T18:23:07.355Z",
+          "updated_at": "2021-11-13T06:40:51.685Z",
+          "position": 21,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "zqf5v0ykx3lk",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    },
+    {
       "id": "9xnypbyj810h",
       "name": "Oracle Cloud Infrastructure VPN Connect | US West (Phoenix) | CN-143372",
       "status": "identified",
@@ -16710,6 +16762,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "description": "Minor Service Outage"
   }
 }

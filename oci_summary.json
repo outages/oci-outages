@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-11-12T21:23:57.934Z"
+    "updated_at": "2021-11-13T04:39:29.474Z"
   },
   "components": [
     {
@@ -4075,7 +4075,7 @@
     {
       "id": "f5ppqjqjq0sf",
       "name": "Networking - Virtual Cloud Networks",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-02-09T19:45:58.359Z",
       "updated_at": "2021-07-17T04:59:21.151Z",
       "position": 6,
@@ -14989,9 +14989,9 @@
     {
       "id": "9898jl4bjgck",
       "name": "us-phoenix-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-08-11T17:18:12.378Z",
-      "updated_at": "2021-10-11T09:38:11.358Z",
+      "updated_at": "2021-11-13T04:39:29.376Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -16613,10 +16613,63 @@
       ]
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "9xnypbyj810h",
+      "name": "Oracle Cloud Infrastructure VPN Connect | US West (Phoenix) | CN-143372",
+      "status": "identified",
+      "created_at": "2021-11-13T04:39:29.333Z",
+      "updated_at": "2021-11-13T04:39:29.469Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/h3sdc0mmb6bt",
+      "started_at": "2021-11-13T04:39:29.325Z",
+      "page_id": "2bsbdh54lcgq",
+      "incident_updates": [
+        {
+          "id": "rxv6s26k7bdp",
+          "status": "identified",
+          "body": "We've identified an issue affecting Oracle Cloud Infrastructure VPN Connect in the US West (Phoenix) region. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers may experience tunnels down and packet loss while accessing using the Oracle Cloud Infrastructure VPN Connect service.\n\n<b>Start Time:</b> Nov 13, 2021 01:43 UTC\n\n<b>Reference Number:</b> CN-143372",
+          "incident_id": "9xnypbyj810h",
+          "created_at": "2021-11-13T04:39:29.466Z",
+          "updated_at": "2021-11-13T04:39:29.466Z",
+          "display_at": "2021-11-13T04:39:29.466Z",
+          "affected_components": [
+            {
+              "code": "9898jl4bjgck",
+              "name": "Networking - Virtual Cloud Networks - us-phoenix-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "9898jl4bjgck",
+          "name": "us-phoenix-1 region",
+          "status": "degraded_performance",
+          "created_at": "2017-08-11T17:18:12.378Z",
+          "updated_at": "2021-11-13T04:39:29.376Z",
+          "position": 21,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "f5ppqjqjq0sf",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }

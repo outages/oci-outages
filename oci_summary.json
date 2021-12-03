@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-03T22:38:53.069Z"
+    "updated_at": "2021-12-03T23:38:49.901Z"
   },
   "components": [
     {
@@ -55,7 +55,7 @@
     {
       "id": "sx4xcbk5vby9",
       "name": "Compute",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-02-09T19:03:40.697Z",
       "updated_at": "2021-06-11T18:22:48.268Z",
       "position": 1,
@@ -137,21 +137,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "50fgg9z3hjy3",
-      "name": "South Korea North (Chuncheon)",
-      "status": "operational",
-      "created_at": "2020-06-03T22:05:53.294Z",
-      "updated_at": "2021-05-26T00:50:41.786Z",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "sr2y42rkwsgk",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "zv62f1r6fj3k",
       "name": "South Korea North (Chuncheon)",
       "status": "operational",
@@ -162,6 +147,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "93h2kff76f72",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "tj10gfry0836",
+      "name": "South Korea North (Chuncheon)",
+      "status": "operational",
+      "created_at": "2020-06-03T22:06:03.844Z",
+      "updated_at": "2020-06-03T22:15:05.634Z",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "bnvbh75l64dh",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -182,16 +182,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "tj10gfry0836",
+      "id": "50fgg9z3hjy3",
       "name": "South Korea North (Chuncheon)",
       "status": "operational",
-      "created_at": "2020-06-03T22:06:03.844Z",
-      "updated_at": "2020-06-03T22:15:05.634Z",
+      "created_at": "2020-06-03T22:05:53.294Z",
+      "updated_at": "2021-05-26T00:50:41.786Z",
       "position": 1,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "bnvbh75l64dh",
+      "group_id": "sr2y42rkwsgk",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -1897,9 +1897,9 @@
     {
       "id": "4lfbvkvlnlgc",
       "name": "Australia Southeast (Melbourne)",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-02-01T02:24:01.552Z",
-      "updated_at": "2021-10-27T21:03:49.933Z",
+      "updated_at": "2021-12-03T23:38:29.803Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -2105,16 +2105,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "v0lksrfq60vy",
+      "id": "gzx0pvn0x91j",
       "name": "Australia Southeast (Melbourne)",
       "status": "operational",
-      "created_at": "2020-02-01T02:25:00.381Z",
-      "updated_at": "2020-06-03T22:18:00.555Z",
+      "created_at": "2020-02-01T02:24:57.370Z",
+      "updated_at": "2020-06-03T22:17:34.665Z",
       "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "6x9tq37fxgms",
+      "group_id": "5cqp9v9vl2y8",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -2135,16 +2135,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "gzx0pvn0x91j",
+      "id": "v0lksrfq60vy",
       "name": "Australia Southeast (Melbourne)",
-      "status": "operational",
-      "created_at": "2020-02-01T02:24:57.370Z",
-      "updated_at": "2020-06-03T22:17:34.665Z",
+      "status": "degraded_performance",
+      "created_at": "2020-02-01T02:25:00.381Z",
+      "updated_at": "2021-12-03T23:27:01.302Z",
       "position": 3,
       "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "5cqp9v9vl2y8",
+      "group_id": "6x9tq37fxgms",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -16108,7 +16108,7 @@
     {
       "id": "6x9tq37fxgms",
       "name": "Functions",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-09-25T17:20:33.701Z",
       "updated_at": "2021-07-17T04:59:21.422Z",
       "position": 33,
@@ -16616,10 +16616,10 @@
   "incidents": [
     {
       "id": "v83qm7jg0kd1",
-      "name": "Oracle Cloud Infrastructure Cloud Shell | Australia Southeast (Melbourne) | CN-158100",
-      "status": "investigating",
+      "name": "Multiple Oracle Cloud Infrastructure services | Australia Southeast (Melbourne) | CN-158100",
+      "status": "identified",
       "created_at": "2021-12-03T22:38:52.957Z",
-      "updated_at": "2021-12-03T22:38:53.066Z",
+      "updated_at": "2021-12-03T23:38:49.899Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "critical",
@@ -16627,6 +16627,64 @@
       "started_at": "2021-12-03T22:38:52.950Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "lt9rr3j03slm",
+          "status": "identified",
+          "body": "Our engineers are continuing their work to mitigate the issue affecting multiple Oracle Cloud Infrastructure services in the Australia Southeast (Melbourne) region.\n\n<b>Customer Impact:</b> Customers may be unable to launch new Cloud Shell instances. Functions customers may experience intermittent request failures when attempting to invoke Functions. Compute customers may be unable to launch or terminate compute instances.",
+          "incident_id": "v83qm7jg0kd1",
+          "created_at": "2021-12-03T23:38:29.936Z",
+          "updated_at": "2021-12-03T23:38:29.936Z",
+          "display_at": "2021-12-03T23:38:29.936Z",
+          "affected_components": [
+            {
+              "code": "4lfbvkvlnlgc",
+              "name": "Compute - Australia Southeast (Melbourne)",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "v0lksrfq60vy",
+              "name": "Functions - Australia Southeast (Melbourne)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xlmft0xb23bn",
+              "name": "Cloud Shell - Australia Southeast (Melbourne)",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "vlzspwcl2hgx",
+          "status": "identified",
+          "body": "Our engineers are continuing their work to mitigate the issue affecting Oracle Cloud Infrastructure Cloud Shell and Functions in the Australia Southeast (Melbourne) region.\n\n<b>Customer Impact:</b> Customers may be unable to launch new Cloud Shell instances; and some customers may also experience intermittent request failures when attempting to invoke Functions.",
+          "incident_id": "v83qm7jg0kd1",
+          "created_at": "2021-12-03T23:27:01.380Z",
+          "updated_at": "2021-12-03T23:28:10.393Z",
+          "display_at": "2021-12-03T23:27:01.000Z",
+          "affected_components": [
+            {
+              "code": "v0lksrfq60vy",
+              "name": "Functions - Australia Southeast (Melbourne)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "xlmft0xb23bn",
+              "name": "Cloud Shell - Australia Southeast (Melbourne)",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "48tc92396yjt",
           "status": "investigating",
@@ -16649,6 +16707,36 @@
         }
       ],
       "components": [
+        {
+          "id": "4lfbvkvlnlgc",
+          "name": "Australia Southeast (Melbourne)",
+          "status": "partial_outage",
+          "created_at": "2020-02-01T02:24:01.552Z",
+          "updated_at": "2021-12-03T23:38:29.803Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "sx4xcbk5vby9",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "v0lksrfq60vy",
+          "name": "Australia Southeast (Melbourne)",
+          "status": "degraded_performance",
+          "created_at": "2020-02-01T02:25:00.381Z",
+          "updated_at": "2021-12-03T23:27:01.302Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "6x9tq37fxgms",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
         {
           "id": "xlmft0xb23bn",
           "name": "Australia Southeast (Melbourne)",

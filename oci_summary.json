@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-08T19:23:41.250Z"
+    "updated_at": "2021-12-08T20:22:53.421Z"
   },
   "components": [
     {
@@ -16617,9 +16617,9 @@
     {
       "id": "z83l9pzfxs6y",
       "name": "Oracle Cloud Infrastructure Container Engine for Kubernetes and Data Flow | US East (Ashburn) | CN-159964",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2021-12-08T18:47:37.958Z",
-      "updated_at": "2021-12-08T18:47:38.075Z",
+      "updated_at": "2021-12-08T20:22:53.413Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -16627,6 +16627,32 @@
       "started_at": "2021-12-08T18:47:37.949Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "t3m341c4hy1w",
+          "status": "identified",
+          "body": "Our engineers are continuing their work to mitigate the issue affecting Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE) and Data Flow in the US East (Ashburn) region.\n\n<b>Customer Impact:</b> Customers may be experiencing increased latency and intermittent request failures when performing OKE node pool and Data Flow resource operations.",
+          "incident_id": "z83l9pzfxs6y",
+          "created_at": "2021-12-08T20:22:53.411Z",
+          "updated_at": "2021-12-08T20:22:53.411Z",
+          "display_at": "2021-12-08T20:22:53.411Z",
+          "affected_components": [
+            {
+              "code": "lp82tkj1c0lq",
+              "name": "Developer Services - Container Clusters (OKE) - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "wdny85n1cg2p",
+              "name": "Data Flow - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1395kj2hzqyb",
           "status": "investigating",

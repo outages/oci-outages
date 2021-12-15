@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-15T03:39:41.719Z"
+    "updated_at": "2021-12-15T04:23:38.526Z"
   },
   "components": [
     {
@@ -55,7 +55,7 @@
     {
       "id": "sx4xcbk5vby9",
       "name": "Compute",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-09T19:03:40.697Z",
       "updated_at": "2021-06-11T18:22:48.268Z",
       "position": 1,
@@ -8563,9 +8563,9 @@
     {
       "id": "b3kml93chtyl",
       "name": "Germany Central (Frankfurt)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-10-02T18:26:30.078Z",
-      "updated_at": "2021-12-15T03:39:41.626Z",
+      "updated_at": "2021-12-15T04:09:04.959Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -16613,63 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "vlqygws4cyck",
-      "name": "Oracle Cloud Infrastructure Compute | Germany Central (Frankfurt) | CN-162437",
-      "status": "investigating",
-      "created_at": "2021-12-15T03:39:41.586Z",
-      "updated_at": "2021-12-15T03:39:41.716Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/gl3gs6hfmvwv",
-      "started_at": "2021-12-15T03:39:41.578Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "q4ncyw4ppq30",
-          "status": "investigating",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Compute in the Germany Central (Frankfurt) region.\n\n<b>Customer Impact:</b> Customers might be experiencing a 500-type error message or intermittent timeout errors when performing CRUD operations such as Create, Read, Update, or Delete on their instances. Compute API operations such as Get, Launch, Terminate, or Update operations may also may be affected.\n\nFor service which rely on these processes, including Data Flow, they may might be experiencing intermittent connectivity failures as well. \n\n<b>Reference Number:</b>CN-162437\n\n<b>Start Time:</b>December 15, 2021  01:00 UTC",
-          "incident_id": "vlqygws4cyck",
-          "created_at": "2021-12-15T03:39:41.713Z",
-          "updated_at": "2021-12-15T03:39:41.713Z",
-          "display_at": "2021-12-15T03:39:41.713Z",
-          "affected_components": [
-            {
-              "code": "b3kml93chtyl",
-              "name": "Compute - Germany Central (Frankfurt)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "b3kml93chtyl",
-          "name": "Germany Central (Frankfurt)",
-          "status": "degraded_performance",
-          "created_at": "2017-10-02T18:26:30.078Z",
-          "updated_at": "2021-12-15T03:39:41.626Z",
-          "position": 12,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "sx4xcbk5vby9",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

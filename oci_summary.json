@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-18T00:23:40.676Z"
+    "updated_at": "2021-12-18T06:23:39.460Z"
   },
   "components": [
     {
@@ -13917,7 +13917,7 @@
       "name": "us-ashburn-1 region",
       "status": "operational",
       "created_at": "2019-02-20T19:56:50.804Z",
-      "updated_at": "2021-11-06T02:50:28.718Z",
+      "updated_at": "2021-12-18T06:15:37.592Z",
       "position": 20,
       "description": null,
       "showcase": false,

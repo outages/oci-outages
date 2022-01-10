@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2021-12-30T22:40:03.112Z"
+    "updated_at": "2022-01-10T18:56:41.418Z"
   },
   "components": [
     {
@@ -544,9 +544,9 @@
     {
       "id": "qbv92zhrlnlq",
       "name": "South Korea North (Chuncheon)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-06-03T22:05:56.419Z",
-      "updated_at": "2021-02-16T03:39:12.488Z",
+      "updated_at": "2022-01-10T18:55:14.045Z",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -904,9 +904,9 @@
     {
       "id": "glpsc055f5yv",
       "name": "India South (Hyderabad)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-05-11T18:35:09.905Z",
-      "updated_at": "2021-02-16T03:39:12.522Z",
+      "updated_at": "2022-01-10T18:55:14.081Z",
       "position": 2,
       "description": null,
       "showcase": false,
@@ -2077,9 +2077,9 @@
     {
       "id": "qmdcqffxncjj",
       "name": "Australia Southeast (Melbourne)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-02-01T02:24:34.796Z",
-      "updated_at": "2021-02-16T03:39:12.538Z",
+      "updated_at": "2022-01-10T18:55:14.098Z",
       "position": 3,
       "description": null,
       "showcase": false,
@@ -2596,9 +2596,9 @@
     {
       "id": "q6hfsf8p35b7",
       "name": "ap-mumbai-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-07-26T19:50:40.945Z",
-      "updated_at": "2021-02-16T03:39:12.554Z",
+      "updated_at": "2022-01-10T18:55:14.117Z",
       "position": 4,
       "description": null,
       "showcase": false,
@@ -3310,9 +3310,9 @@
     {
       "id": "9sxcmzgj1c3h",
       "name": "Japan Central (Osaka)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-02-01T02:25:36.499Z",
-      "updated_at": "2021-09-11T17:09:03.894Z",
+      "updated_at": "2022-01-10T18:55:14.134Z",
       "position": 5,
       "description": null,
       "showcase": false,
@@ -4015,9 +4015,9 @@
     {
       "id": "9msccrkp0w0h",
       "name": "ap-seoul-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-21T17:25:46.623Z",
-      "updated_at": "2021-02-16T03:39:12.586Z",
+      "updated_at": "2022-01-10T18:55:14.151Z",
       "position": 6,
       "description": null,
       "showcase": false,
@@ -4603,9 +4603,9 @@
     {
       "id": "fdyb3dcxfdqv",
       "name": "Australia East (Sydney)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-09-18T17:08:46.591Z",
-      "updated_at": "2021-02-16T03:39:12.602Z",
+      "updated_at": "2022-01-10T18:55:14.171Z",
       "position": 7,
       "description": null,
       "showcase": false,
@@ -5617,9 +5617,9 @@
     {
       "id": "v5mql5zfgtxn",
       "name": "ap-tokyo-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-05-03T16:55:39.316Z",
-      "updated_at": "2021-02-16T03:39:12.618Z",
+      "updated_at": "2022-01-10T18:55:14.189Z",
       "position": 8,
       "description": null,
       "showcase": false,
@@ -6082,9 +6082,9 @@
     {
       "id": "0vfqnj7wc61m",
       "name": "Canada Southeast (Montreal)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-03-02T19:34:42.638Z",
-      "updated_at": "2021-02-16T03:39:12.635Z",
+      "updated_at": "2022-01-10T18:55:14.207Z",
       "position": 9,
       "description": null,
       "showcase": false,
@@ -6466,9 +6466,9 @@
     {
       "id": "53xy8nnv6hkn",
       "name": "ca-toronto-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-01-17T16:28:16.560Z",
-      "updated_at": "2021-02-16T03:39:12.651Z",
+      "updated_at": "2022-01-10T18:55:14.225Z",
       "position": 10,
       "description": null,
       "showcase": false,
@@ -7384,9 +7384,9 @@
     {
       "id": "fzj60k92c4bt",
       "name": "Netherlands Northwest (Amsterdam)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-02-01T02:26:38.389Z",
-      "updated_at": "2021-02-16T03:39:12.670Z",
+      "updated_at": "2022-01-10T18:55:14.243Z",
       "position": 11,
       "description": null,
       "showcase": false,
@@ -8413,9 +8413,9 @@
     {
       "id": "sgrslfg8pxgr",
       "name": "eu-frankfurt-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-12-05T21:05:39.917Z",
-      "updated_at": "2021-02-16T03:39:12.685Z",
+      "updated_at": "2022-01-10T18:55:14.260Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -8608,9 +8608,9 @@
     {
       "id": "vkx4l5jmy2k4",
       "name": "eu-zurich-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-09T17:55:07.478Z",
-      "updated_at": "2021-02-16T03:39:12.701Z",
+      "updated_at": "2022-01-10T18:55:14.279Z",
       "position": 13,
       "description": null,
       "showcase": false,
@@ -9481,9 +9481,9 @@
     {
       "id": "31rbxm09xrtz",
       "name": "UAE East (Dubai)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-09-30T23:13:04.109Z",
-      "updated_at": "2021-02-16T03:39:12.719Z",
+      "updated_at": "2022-01-10T18:55:14.297Z",
       "position": 14,
       "description": null,
       "showcase": false,
@@ -10276,9 +10276,9 @@
     {
       "id": "5l8n6rlw4tf7",
       "name": "Saudi Arabia West (Jeddah)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-02-01T02:27:40.109Z",
-      "updated_at": "2021-02-16T03:39:12.734Z",
+      "updated_at": "2022-01-10T18:55:14.314Z",
       "position": 15,
       "description": null,
       "showcase": false,
@@ -11119,9 +11119,9 @@
     {
       "id": "83chzfvwjh14",
       "name": "Chile Central (Santiago)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-12-14T23:42:44.431Z",
-      "updated_at": "2021-02-16T03:39:12.749Z",
+      "updated_at": "2022-01-10T18:55:14.331Z",
       "position": 16,
       "description": null,
       "showcase": false,
@@ -11524,9 +11524,9 @@
     {
       "id": "skr6x8hm1wpb",
       "name": "sa-saopaulo-1",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2019-08-28T20:00:24.614Z",
-      "updated_at": "2021-02-16T03:39:12.764Z",
+      "updated_at": "2022-01-10T18:55:14.348Z",
       "position": 17,
       "description": null,
       "showcase": false,
@@ -11959,7 +11959,7 @@
     {
       "id": "5hpsy50kv8qp",
       "name": "Edge Services - DNS Zone Management",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-16T22:18:39.539Z",
       "updated_at": "2021-07-17T04:59:21.258Z",
       "position": 17,
@@ -12307,9 +12307,9 @@
     {
       "id": "jgvhp9sxf6bl",
       "name": "UK West (Cardiff)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-11-06T06:42:38.250Z",
-      "updated_at": "2021-02-16T03:39:12.779Z",
+      "updated_at": "2022-01-10T18:55:14.367Z",
       "position": 18,
       "description": null,
       "showcase": false,
@@ -13396,9 +13396,9 @@
     {
       "id": "rmg8t1mv061l",
       "name": "uk-london-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-04-05T17:50:29.523Z",
-      "updated_at": "2021-10-06T16:46:37.830Z",
+      "updated_at": "2022-01-10T18:55:14.384Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -13576,9 +13576,9 @@
     {
       "id": "fz76q4wdqpny",
       "name": "us-ashburn-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-12-05T21:04:41.283Z",
-      "updated_at": "2021-02-16T03:39:12.813Z",
+      "updated_at": "2022-01-10T18:55:14.404Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14305,9 +14305,9 @@
     {
       "id": "mvmhlt5nxw8s",
       "name": "us-phoenix-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2017-12-05T21:03:14.605Z",
-      "updated_at": "2021-02-16T03:39:12.830Z",
+      "updated_at": "2022-01-10T18:55:14.420Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -15439,9 +15439,9 @@
     {
       "id": "wjvzll8xw44d",
       "name": "US West (San Jose)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-07-26T23:19:49.321Z",
-      "updated_at": "2021-02-16T03:39:12.846Z",
+      "updated_at": "2022-01-10T18:55:14.438Z",
       "position": 22,
       "description": null,
       "showcase": false,
@@ -16613,10 +16613,504 @@
       ]
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "c4g67zdyn1bn",
+      "name": "Oracle Cloud Infrastructure DNS | Multiple Regions | CN-167642",
+      "status": "identified",
+      "created_at": "2022-01-10T18:55:13.944Z",
+      "updated_at": "2022-01-10T18:56:41.411Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/m0yrq7j4nnw5",
+      "started_at": "2022-01-10T18:55:13.908Z",
+      "page_id": "2bsbdh54lcgq",
+      "incident_updates": [
+        {
+          "id": "fzlr9lp5r65g",
+          "status": "identified",
+          "body": "We've identified an issue affecting Oracle Cloud Infrastructure DNS. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Oracle Cloud services that utilize the impacted DNS infrastructure may experience degraded performance such as latency and/or intermittent errors when performing service management operations.\n\n<b>Reference Number:</b> CN-167642",
+          "incident_id": "c4g67zdyn1bn",
+          "created_at": "2022-01-10T18:55:14.567Z",
+          "updated_at": "2022-01-10T18:56:41.406Z",
+          "display_at": "2022-01-10T18:55:14.000Z",
+          "affected_components": [
+            {
+              "code": "qbv92zhrlnlq",
+              "name": "Edge Services - DNS Zone Management - South Korea North (Chuncheon)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "glpsc055f5yv",
+              "name": "Edge Services - DNS Zone Management - India South (Hyderabad)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "qmdcqffxncjj",
+              "name": "Edge Services - DNS Zone Management - Australia Southeast (Melbourne)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "q6hfsf8p35b7",
+              "name": "Edge Services - DNS Zone Management - ap-mumbai-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "9sxcmzgj1c3h",
+              "name": "Edge Services - DNS Zone Management - Japan Central (Osaka)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "9msccrkp0w0h",
+              "name": "Edge Services - DNS Zone Management - ap-seoul-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "fdyb3dcxfdqv",
+              "name": "Edge Services - DNS Zone Management - Australia East (Sydney)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "v5mql5zfgtxn",
+              "name": "Edge Services - DNS Zone Management - ap-tokyo-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "0vfqnj7wc61m",
+              "name": "Edge Services - DNS Zone Management - Canada Southeast (Montreal)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "53xy8nnv6hkn",
+              "name": "Edge Services - DNS Zone Management - ca-toronto-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "fzj60k92c4bt",
+              "name": "Edge Services - DNS Zone Management - Netherlands Northwest (Amsterdam)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "sgrslfg8pxgr",
+              "name": "Edge Services - DNS Zone Management - eu-frankfurt-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "vkx4l5jmy2k4",
+              "name": "Edge Services - DNS Zone Management - eu-zurich-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "31rbxm09xrtz",
+              "name": "Edge Services - DNS Zone Management - UAE East (Dubai)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "5l8n6rlw4tf7",
+              "name": "Edge Services - DNS Zone Management - Saudi Arabia West (Jeddah)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "83chzfvwjh14",
+              "name": "Edge Services - DNS Zone Management - Chile Central (Santiago)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "skr6x8hm1wpb",
+              "name": "Edge Services - DNS Zone Management - sa-saopaulo-1",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jgvhp9sxf6bl",
+              "name": "Edge Services - DNS Zone Management - UK West (Cardiff)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "rmg8t1mv061l",
+              "name": "Edge Services - DNS Zone Management - uk-london-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "fz76q4wdqpny",
+              "name": "Edge Services - DNS Zone Management - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "mvmhlt5nxw8s",
+              "name": "Edge Services - DNS Zone Management - us-phoenix-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wjvzll8xw44d",
+              "name": "Edge Services - DNS Zone Management - US West (San Jose)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "qbv92zhrlnlq",
+          "name": "South Korea North (Chuncheon)",
+          "status": "degraded_performance",
+          "created_at": "2020-06-03T22:05:56.419Z",
+          "updated_at": "2022-01-10T18:55:14.045Z",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "glpsc055f5yv",
+          "name": "India South (Hyderabad)",
+          "status": "degraded_performance",
+          "created_at": "2020-05-11T18:35:09.905Z",
+          "updated_at": "2022-01-10T18:55:14.081Z",
+          "position": 2,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "qmdcqffxncjj",
+          "name": "Australia Southeast (Melbourne)",
+          "status": "degraded_performance",
+          "created_at": "2020-02-01T02:24:34.796Z",
+          "updated_at": "2022-01-10T18:55:14.098Z",
+          "position": 3,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "q6hfsf8p35b7",
+          "name": "ap-mumbai-1",
+          "status": "degraded_performance",
+          "created_at": "2019-07-26T19:50:40.945Z",
+          "updated_at": "2022-01-10T18:55:14.117Z",
+          "position": 4,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "9sxcmzgj1c3h",
+          "name": "Japan Central (Osaka)",
+          "status": "degraded_performance",
+          "created_at": "2020-02-01T02:25:36.499Z",
+          "updated_at": "2022-01-10T18:55:14.134Z",
+          "position": 5,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "9msccrkp0w0h",
+          "name": "ap-seoul-1",
+          "status": "degraded_performance",
+          "created_at": "2019-05-21T17:25:46.623Z",
+          "updated_at": "2022-01-10T18:55:14.151Z",
+          "position": 6,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "fdyb3dcxfdqv",
+          "name": "Australia East (Sydney)",
+          "status": "degraded_performance",
+          "created_at": "2019-09-18T17:08:46.591Z",
+          "updated_at": "2022-01-10T18:55:14.171Z",
+          "position": 7,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "v5mql5zfgtxn",
+          "name": "ap-tokyo-1",
+          "status": "degraded_performance",
+          "created_at": "2019-05-03T16:55:39.316Z",
+          "updated_at": "2022-01-10T18:55:14.189Z",
+          "position": 8,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "0vfqnj7wc61m",
+          "name": "Canada Southeast (Montreal)",
+          "status": "degraded_performance",
+          "created_at": "2020-03-02T19:34:42.638Z",
+          "updated_at": "2022-01-10T18:55:14.207Z",
+          "position": 9,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "53xy8nnv6hkn",
+          "name": "ca-toronto-1 region",
+          "status": "degraded_performance",
+          "created_at": "2019-01-17T16:28:16.560Z",
+          "updated_at": "2022-01-10T18:55:14.225Z",
+          "position": 10,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "fzj60k92c4bt",
+          "name": "Netherlands Northwest (Amsterdam)",
+          "status": "degraded_performance",
+          "created_at": "2020-02-01T02:26:38.389Z",
+          "updated_at": "2022-01-10T18:55:14.243Z",
+          "position": 11,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "sgrslfg8pxgr",
+          "name": "eu-frankfurt-1 region",
+          "status": "degraded_performance",
+          "created_at": "2017-12-05T21:05:39.917Z",
+          "updated_at": "2022-01-10T18:55:14.260Z",
+          "position": 12,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "vkx4l5jmy2k4",
+          "name": "eu-zurich-1 region",
+          "status": "degraded_performance",
+          "created_at": "2019-08-09T17:55:07.478Z",
+          "updated_at": "2022-01-10T18:55:14.279Z",
+          "position": 13,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "31rbxm09xrtz",
+          "name": "UAE East (Dubai)",
+          "status": "degraded_performance",
+          "created_at": "2020-09-30T23:13:04.109Z",
+          "updated_at": "2022-01-10T18:55:14.297Z",
+          "position": 14,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-09-30",
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "5l8n6rlw4tf7",
+          "name": "Saudi Arabia West (Jeddah)",
+          "status": "degraded_performance",
+          "created_at": "2020-02-01T02:27:40.109Z",
+          "updated_at": "2022-01-10T18:55:14.314Z",
+          "position": 15,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "83chzfvwjh14",
+          "name": "Chile Central (Santiago)",
+          "status": "degraded_performance",
+          "created_at": "2020-12-14T23:42:44.431Z",
+          "updated_at": "2022-01-10T18:55:14.331Z",
+          "position": 16,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-12-14",
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "skr6x8hm1wpb",
+          "name": "sa-saopaulo-1",
+          "status": "degraded_performance",
+          "created_at": "2019-08-28T20:00:24.614Z",
+          "updated_at": "2022-01-10T18:55:14.348Z",
+          "position": 17,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jgvhp9sxf6bl",
+          "name": "UK West (Cardiff)",
+          "status": "degraded_performance",
+          "created_at": "2020-11-06T06:42:38.250Z",
+          "updated_at": "2022-01-10T18:55:14.367Z",
+          "position": 18,
+          "description": null,
+          "showcase": false,
+          "start_date": "2020-11-05",
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "rmg8t1mv061l",
+          "name": "uk-london-1 region",
+          "status": "degraded_performance",
+          "created_at": "2018-04-05T17:50:29.523Z",
+          "updated_at": "2022-01-10T18:55:14.384Z",
+          "position": 19,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "fz76q4wdqpny",
+          "name": "us-ashburn-1 region",
+          "status": "degraded_performance",
+          "created_at": "2017-12-05T21:04:41.283Z",
+          "updated_at": "2022-01-10T18:55:14.404Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "mvmhlt5nxw8s",
+          "name": "us-phoenix-1 region",
+          "status": "degraded_performance",
+          "created_at": "2017-12-05T21:03:14.605Z",
+          "updated_at": "2022-01-10T18:55:14.420Z",
+          "position": 21,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "wjvzll8xw44d",
+          "name": "US West (San Jose)",
+          "status": "degraded_performance",
+          "created_at": "2020-07-26T23:19:49.321Z",
+          "updated_at": "2022-01-10T18:55:14.438Z",
+          "position": 22,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "5hpsy50kv8qp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }

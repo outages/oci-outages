@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-01-28T15:23:40.103Z"
+    "updated_at": "2022-01-28T16:01:45.690Z"
   },
   "components": [
     {
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure IDCS Service | Germany Central (Frankfurt) | CN-176654",
       "status": "investigating",
       "created_at": "2022-01-28T15:15:41.050Z",
-      "updated_at": "2022-01-28T15:15:41.170Z",
+      "updated_at": "2022-01-28T16:01:45.681Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -16627,6 +16627,26 @@
       "started_at": "2022-01-28T15:15:41.043Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "n461pp7w0kns",
+          "status": "investigating",
+          "body": "We are continuing to investigate the issue affecting the Oracle Cloud infrastructure IDCS service in Germany Central (Frankfurt).\n\n<b>Customer Impact:</b> Some customers may experience interruptions to the Oracle Cloud Infrastructure IDCS service, be intermittently unable to access the IDCS Console and/or experience timeouts. Additionally some downstream services may experience unintended impact as a result.\n\nWe have identified a potential root cause and our service teams are working to apply the appropriate mitigation steps.",
+          "incident_id": "1wlrz80gvfbz",
+          "created_at": "2022-01-28T16:01:45.678Z",
+          "updated_at": "2022-01-28T16:01:45.678Z",
+          "display_at": "2022-01-28T16:01:45.678Z",
+          "affected_components": [
+            {
+              "code": "qdqx2k4s15hh",
+              "name": "Identity Cloud Service - Germany Central (Frankfurt)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "tb8t0h1pcw84",
           "status": "investigating",

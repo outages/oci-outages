@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-11T11:23:50.479Z"
+    "updated_at": "2022-02-11T12:24:21.909Z"
   },
   "components": [
     {
@@ -16617,16 +16617,42 @@
     {
       "id": "nzhhxfpm9l7g",
       "name": "Oracle Management Cloud and Visual Builder Studio | Germany Central (Frankfurt) and UK South (London) | CN-192541",
-      "status": "identified",
-      "created_at": "2022-02-11T10:30:44.098Z",
-      "updated_at": "2022-02-11T11:00:39.037Z",
-      "monitoring_at": null,
+      "status": "monitoring",
+      "created_at": "2022-02-11T10:30:44.000Z",
+      "updated_at": "2022-02-11T12:24:21.906Z",
+      "monitoring_at": "2022-02-11T12:24:21.886Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/rwdlm4gg3sv0",
       "started_at": "2022-02-11T10:30:44.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "8hf4sn6q74jd",
+          "status": "monitoring",
+          "body": "We have deployed a fix for the issue affecting Oracle Management Cloud and Visual Builder Studio in the Germany Central (Frankfurt) and UK South (London) regions and we are monitoring to confirm mitigation.\n\n<b>Customer Impact:</b> Impacted customers are experiencing issues logging into the Console. CLI and SDK calls may also fail.\n\n<b>Start Time:</b> February 11, 2022 08:46 UTC\n\n<b>Reference Number:</b> CN-192541",
+          "incident_id": "nzhhxfpm9l7g",
+          "created_at": "2022-02-11T12:24:21.886Z",
+          "updated_at": "2022-02-11T12:24:21.886Z",
+          "display_at": "2022-02-11T12:24:21.886Z",
+          "affected_components": [
+            {
+              "code": "qdqx2k4s15hh",
+              "name": "Identity Cloud Service - Germany Central (Frankfurt)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yh4k91gsp7zr",
+              "name": "Identity Cloud Service - UK South (London)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "9xhy8skqw281",
           "status": "identified",

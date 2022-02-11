@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-11T10:33:10.980Z"
+    "updated_at": "2022-02-11T10:50:08.096Z"
   },
   "components": [
     {
@@ -8239,9 +8239,9 @@
     {
       "id": "qdqx2k4s15hh",
       "name": "Germany Central (Frankfurt)",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-05-18T20:45:46.749Z",
-      "updated_at": "2022-01-28T16:52:28.142Z",
+      "updated_at": "2022-02-11T10:47:41.914Z",
       "position": 12,
       "description": null,
       "showcase": false,
@@ -10441,7 +10441,7 @@
     {
       "id": "sr2y42rkwsgk",
       "name": "Identity Cloud Service",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-05-18T20:45:34.523Z",
       "updated_at": "2021-07-17T04:59:21.238Z",
       "position": 15,
@@ -12320,21 +12320,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "mg98f80ssf4t",
-      "name": "UK West (Cardiff)",
-      "status": "operational",
-      "created_at": "2020-11-06T06:42:35.206Z",
-      "updated_at": "2021-05-26T00:50:41.958Z",
-      "position": 18,
-      "description": null,
-      "showcase": false,
-      "start_date": "2020-11-05",
-      "group_id": "sr2y42rkwsgk",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "kk71y3nslnsn",
       "name": "UK West (Cardiff)",
       "status": "operational",
@@ -12345,6 +12330,21 @@
       "showcase": false,
       "start_date": "2020-11-05",
       "group_id": "hs1yzcysy1cc",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "mg98f80ssf4t",
+      "name": "UK West (Cardiff)",
+      "status": "operational",
+      "created_at": "2020-11-06T06:42:35.206Z",
+      "updated_at": "2021-05-26T00:50:41.958Z",
+      "position": 18,
+      "description": null,
+      "showcase": false,
+      "start_date": "2020-11-05",
+      "group_id": "sr2y42rkwsgk",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -13351,9 +13351,9 @@
     {
       "id": "yh4k91gsp7zr",
       "name": "UK South (London)",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2020-05-18T20:45:51.226Z",
-      "updated_at": "2021-09-11T22:39:23.366Z",
+      "updated_at": "2022-02-11T10:47:41.931Z",
       "position": 19,
       "description": null,
       "showcase": false,
@@ -16619,34 +16619,91 @@
       "name": "Oracle Management Cloud and Visual Builder Studio | Germany Central (Frankfurt) and UK South (London) | CN-192541",
       "status": "investigating",
       "created_at": "2022-02-11T10:30:44.098Z",
-      "updated_at": "2022-02-11T10:33:10.973Z",
+      "updated_at": "2022-02-11T10:50:08.091Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/rwdlm4gg3sv0",
-      "started_at": "2022-02-11T10:30:44.090Z",
+      "started_at": "2022-02-11T10:30:44.000Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
         {
+          "id": "141gh7j1wbb1",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "nzhhxfpm9l7g",
+          "created_at": "2022-02-11T10:47:42.009Z",
+          "updated_at": "2022-02-11T10:47:42.009Z",
+          "display_at": "2022-02-11T10:47:42.009Z",
+          "affected_components": [
+            {
+              "code": "qdqx2k4s15hh",
+              "name": "Identity Cloud Service - Germany Central (Frankfurt)",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "yh4k91gsp7zr",
+              "name": "Identity Cloud Service - UK South (London)",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "3ksg94k1q2x3",
           "status": "investigating",
-          "body": "We're investigating an issue with Oracle Management Cloud and Visual Builder Studio in the Germany Central (Frankfurt) and UK South (London) regions.\n\n<b>Customer Impact:</b> Impacted customers are experiencing issues logging into the Console.\n\nOur engineers are investigating the issue and we will provide further updates as warranted.\n\n<b>Start Time:</b> February 11, 2022 08:46 UTC\n\n<b>Reference Number:</b> CN-192541",
+          "body": "We're investigating an issue with Oracle Management Cloud and Visual Builder Studio in the Germany Central (Frankfurt) and UK South (London) regions.\n\n<b>Customer Impact:</b> Impacted customers are experiencing issues logging into the Console. CLI and SDK calls may also fail.\n\nOur engineers are investigating the issue and we will provide further updates as warranted.\n\n<b>Start Time:</b> February 11, 2022 08:46 UTC\n\n<b>Reference Number:</b> CN-192541",
           "incident_id": "nzhhxfpm9l7g",
           "created_at": "2022-02-11T10:30:44.175Z",
-          "updated_at": "2022-02-11T10:30:44.175Z",
-          "display_at": "2022-02-11T10:30:44.175Z",
+          "updated_at": "2022-02-11T10:46:25.029Z",
+          "display_at": "2022-02-11T10:30:44.000Z",
           "affected_components": null,
           "deliver_notifications": false,
           "custom_tweet": null,
           "tweet_id": null
         }
       ],
-      "components": []
+      "components": [
+        {
+          "id": "qdqx2k4s15hh",
+          "name": "Germany Central (Frankfurt)",
+          "status": "partial_outage",
+          "created_at": "2020-05-18T20:45:46.749Z",
+          "updated_at": "2022-02-11T10:47:41.914Z",
+          "position": 12,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "sr2y42rkwsgk",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "yh4k91gsp7zr",
+          "name": "UK South (London)",
+          "status": "partial_outage",
+          "created_at": "2020-05-18T20:45:51.226Z",
+          "updated_at": "2022-02-11T10:47:41.931Z",
+          "position": 19,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "sr2y42rkwsgk",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
     }
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }

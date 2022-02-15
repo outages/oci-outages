@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-15T19:01:33.358Z"
+    "updated_at": "2022-02-15T19:37:22.009Z"
   },
   "components": [
     {
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure | US East (Ashburn) | CN-195864",
       "status": "identified",
       "created_at": "2022-02-15T15:28:29.210Z",
-      "updated_at": "2022-02-15T19:01:33.348Z",
+      "updated_at": "2022-02-15T19:37:22.000Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -16627,6 +16627,80 @@
       "started_at": "2022-02-15T15:28:29.203Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "f6hgv8wcqx4v",
+          "status": "identified",
+          "body": "Our engineers are continuing work to mitigate the issue. Some services are beginning to see recovery. Further updates will be shared as information becomes available.\n\n<b>Customer Impact:</b> Customers may experience delays or timeouts when attempting to perform service management operations such as Create, Read, Update, or Delete (CRUD). Downstream services that leverage these services as part of their workflows may experience impact as well.\n\nImpacted Services:\n\n- Cloud Shell\n- Database\n- Block Storage\n- Compute\n- Container Engine for Kubernetes\n- File Storage\n- Marketplace\n- Functions\n- Oracle Content and Experience\n- Virtual Cloud Networks\n- Data Flow\n- Data Science\n- DevOps\n- Events\n- Load Balancer\n- Service Gateway\n- API Gateway\n- MySQL\n\n<b>Start Time:</b> February 15, 2022 15:05 UTC",
+          "incident_id": "7hjd5pjft89c",
+          "created_at": "2022-02-15T19:37:21.996Z",
+          "updated_at": "2022-02-15T19:37:21.996Z",
+          "display_at": "2022-02-15T19:37:21.996Z",
+          "affected_components": [
+            {
+              "code": "9c7ckly20b88",
+              "name": "Compute - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "zy9kt4w718hd",
+              "name": "Database - Bare Metal, VM, Exadata - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1t8kwz3bvhl5",
+              "name": "Networking - Virtual Cloud Networks - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "w1mh8h0xljvl",
+              "name": "File Storage - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1f2cm69cj21q",
+              "name": "Block Storage - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "n640k1nw5xh4",
+              "name": "Marketplace - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "p672sfqr5d4z",
+              "name": "Functions - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jyymkz9mvn0d",
+              "name": "Cloud Shell - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "sw1s612g83b1",
+              "name": "MySQL Database Service - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "121xg4vgxclw",
+              "name": "Oracle Content and Experience - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "vfhls7380yzj",
           "status": "identified",

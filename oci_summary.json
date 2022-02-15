@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-15T23:37:08.227Z"
+    "updated_at": "2022-02-15T23:44:30.088Z"
   },
   "components": [
     {
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure | US East (Ashburn) | CN-195864",
       "status": "monitoring",
       "created_at": "2022-02-15T15:28:29.210Z",
-      "updated_at": "2022-02-15T23:37:08.219Z",
+      "updated_at": "2022-02-15T23:44:30.081Z",
       "monitoring_at": "2022-02-15T23:13:46.000Z",
       "resolved_at": null,
       "impact": "major",
@@ -16630,10 +16630,10 @@
         {
           "id": "88fl04j2tcxq",
           "status": "monitoring",
-          "body": "Engineers have applied mitigating actions and a majority of the impacted services have now recovered.  Some services are still in the process of recovery, and we will continue to monitor service health until the issue is fully resolved.\n\n<b>Customer Impact:</b> Customers may experience delays or timeouts when attempting to perform service management operations such as Create, Read, Update, or Delete (CRUD). Downstream services that leverage these services as part of their workflows may experience impact as well.\n\nImpacted Services:\n\n- Cloud Shell\n- Database\n- Block Storage\n- Compute\n- Container Engine for Kubernetes\n- File Storage\n- Marketplace\n- Functions\n- Oracle Content and Experience\n- Virtual Cloud Networks\n- Data Flow\n- Data Science\n- DevOps\n- Events\n- Load Balancer\n- Service Gateway\n- API Gateway\n- MySQL\n- Service Connector Hub\n\n<b>Start Time:</b> February 15, 2022 15:05 UTC",
+          "body": "Engineers have applied mitigating actions and a majority of the impacted services have now recovered.  Some services are still in the process of recovery, and we will continue to monitor service health until the issue is fully resolved.\n\n<b>Customer Impact:</b> Customers may experience delays or timeouts when attempting to perform service management operations such as Create, Read, Update, or Delete (CRUD). Downstream services that leverage these services as part of their workflows may experience impact as well.\n\nImpacted Services:\n\n- Cloud Shell\n- Database\n- Block Storage\n- Compute\n- Container Engine for Kubernetes\n- File Storage\n- Marketplace\n- Functions\n- Oracle Content and Experience\n- Virtual Cloud Networks\n- Data Flow\n- Data Science\n- DevOps\n- Events\n- Load Balancer\n- Service Gateway\n- API Gateway\n- MySQL\n- Service Connector Hub\n\n<b>Start Time:</b> February 15, 2022 13:22 UTC",
           "incident_id": "7hjd5pjft89c",
           "created_at": "2022-02-15T23:13:46.062Z",
-          "updated_at": "2022-02-15T23:37:08.215Z",
+          "updated_at": "2022-02-15T23:44:30.077Z",
           "display_at": "2022-02-15T23:13:46.000Z",
           "affected_components": [
             {

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-15T17:08:33.351Z"
+    "updated_at": "2022-02-15T18:06:25.664Z"
   },
   "components": [
     {
@@ -16619,7 +16619,7 @@
       "name": "Oracle Cloud Infrastructure | US East (Ashburn) | CN-195864",
       "status": "identified",
       "created_at": "2022-02-15T15:28:29.210Z",
-      "updated_at": "2022-02-15T17:08:33.342Z",
+      "updated_at": "2022-02-15T18:06:25.657Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
@@ -16627,6 +16627,74 @@
       "started_at": "2022-02-15T15:28:29.203Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "6j2qhb7c6l7r",
+          "status": "identified",
+          "body": "We've identified an issue affecting multiple services in the US East (Ashburn) region. Our engineers are actively working to mitigate the issue.\n\n<b>Customer Impact:</b> Customers may experience delays or timeouts when attempting to perform service management operations such as Create, Read, Update, or Delete (CRUD). Downstream services that leverage these services as part of their work flows may experience impact as well.\n\n<b>Start Time:</b> February 15, 2022 15:05 UTC\n\nFurther updates will be shared as information becomes available.",
+          "incident_id": "7hjd5pjft89c",
+          "created_at": "2022-02-15T18:00:26.677Z",
+          "updated_at": "2022-02-15T18:06:25.652Z",
+          "display_at": "2022-02-15T18:00:26.000Z",
+          "affected_components": [
+            {
+              "code": "9c7ckly20b88",
+              "name": "Compute - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1t8kwz3bvhl5",
+              "name": "Networking - Virtual Cloud Networks - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "w1mh8h0xljvl",
+              "name": "File Storage - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "1f2cm69cj21q",
+              "name": "Block Storage - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "n640k1nw5xh4",
+              "name": "Marketplace - us-ashburn-1 region",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "p672sfqr5d4z",
+              "name": "Functions - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jyymkz9mvn0d",
+              "name": "Cloud Shell - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "sw1s612g83b1",
+              "name": "MySQL Database Service - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "121xg4vgxclw",
+              "name": "Oracle Content and Experience - US East (Ashburn)",
+              "old_status": "partial_outage",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "2p6fnypc6rvd",
           "status": "identified",

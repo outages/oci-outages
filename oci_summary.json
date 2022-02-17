@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-02-17T18:53:17.307Z"
+    "updated_at": "2022-02-17T19:23:55.210Z"
   },
   "components": [
     {
@@ -16613,7 +16613,37 @@
       ]
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "tp4cbkqxr55t",
+      "name": "Oracle Cloud Infrastructure DNS | Multiple Regions | CN-197870",
+      "status": "investigating",
+      "created_at": "2022-02-17T19:23:55.122Z",
+      "updated_at": "2022-02-17T19:23:55.207Z",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/b2kmvnj2vt85",
+      "started_at": "2022-02-17T19:23:55.116Z",
+      "page_id": "2bsbdh54lcgq",
+      "incident_updates": [
+        {
+          "id": "13qdx6bd4n0f",
+          "status": "investigating",
+          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure DNS in multiple regions.\n\n<b>Customer Impact:</b> Customers may be experiencing issues with DNS resolution.\n\n<b>Reference Number:</b> CN-197870",
+          "incident_id": "tp4cbkqxr55t",
+          "created_at": "2022-02-17T19:23:55.204Z",
+          "updated_at": "2022-02-17T19:23:55.204Z",
+          "display_at": "2022-02-17T19:23:55.204Z",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": []
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",

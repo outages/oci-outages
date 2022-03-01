@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-01T22:48:53.099Z"
+    "updated_at": "2022-03-01T23:26:24.735Z"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "sx4xcbk5vby9",
       "name": "Compute",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-02-09T19:03:40.697Z",
       "updated_at": "2021-06-11T18:22:48.268Z",
       "position": 1,
@@ -14779,9 +14779,9 @@
     {
       "id": "x848w1p3tjws",
       "name": "US West (Phoenix)",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2017-05-23T17:19:34.202Z",
-      "updated_at": "2022-03-01T22:48:53.008Z",
+      "updated_at": "2022-03-01T23:25:43.095Z",
       "position": 21,
       "description": null,
       "showcase": false,
@@ -16613,63 +16613,10 @@
       ]
     }
   ],
-  "incidents": [
-    {
-      "id": "8fd5jtccyglv",
-      "name": "Oracle Cloud Infrastructure Compute | US West (Phoenix) | CN-208552",
-      "status": "identified",
-      "created_at": "2022-03-01T22:48:52.964Z",
-      "updated_at": "2022-03-01T22:48:53.096Z",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/7lmd6g76vpf7",
-      "started_at": "2022-03-01T22:48:52.955Z",
-      "page_id": "2bsbdh54lcgq",
-      "incident_updates": [
-        {
-          "id": "1r3ss0gmvns8",
-          "status": "identified",
-          "body": "We're investigating a potential issue with Oracle Cloud Infrastructure Compute in the US West (Phoenix) region.\n\n<b>Customer Impact:</b> Some customers may be experiencing delays and intermittent failures when attempting to perform service management operations such as launching instances.\n\n<b>Start Time:</b> March 1, 2022 22:10 UTC\n\n<b>Reference Number:</b> CN-208552",
-          "incident_id": "8fd5jtccyglv",
-          "created_at": "2022-03-01T22:48:53.094Z",
-          "updated_at": "2022-03-01T22:48:53.094Z",
-          "display_at": "2022-03-01T22:48:53.094Z",
-          "affected_components": [
-            {
-              "code": "x848w1p3tjws",
-              "name": "Compute - US West (Phoenix)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "x848w1p3tjws",
-          "name": "US West (Phoenix)",
-          "status": "degraded_performance",
-          "created_at": "2017-05-23T17:19:34.202Z",
-          "updated_at": "2022-03-01T22:48:53.008Z",
-          "position": 21,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": "sx4xcbk5vby9",
-          "page_id": "2bsbdh54lcgq",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }

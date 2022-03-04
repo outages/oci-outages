@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-04T19:23:40.258Z"
+    "updated_at": "2022-03-04T20:47:20.723Z"
   },
   "components": [
     {
@@ -12178,7 +12178,7 @@
     {
       "id": "j534vmnnt3j4",
       "name": "Developer Services - Container Clusters (OKE)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-21T19:09:53.437Z",
       "updated_at": "2021-07-17T04:59:21.268Z",
       "position": 18,
@@ -13786,9 +13786,9 @@
     {
       "id": "sw1s612g83b1",
       "name": "US East (Ashburn)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-03-17T18:59:00.560Z",
-      "updated_at": "2022-02-15T23:13:45.962Z",
+      "updated_at": "2022-03-04T20:47:20.629Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -13846,9 +13846,9 @@
     {
       "id": "lp82tkj1c0lq",
       "name": "us-ashburn-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-21T19:09:53.446Z",
-      "updated_at": "2021-12-08T21:04:11.762Z",
+      "updated_at": "2022-03-04T20:47:20.587Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -16420,7 +16420,7 @@
     {
       "id": "k0tcpxgc753t",
       "name": "MySQL Database Service",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-03-17T18:58:43.875Z",
       "updated_at": "2021-07-17T04:59:21.497Z",
       "position": 41,
@@ -16617,16 +16617,84 @@
     {
       "id": "mt5gvjbj58v4",
       "name": "Multiple Oracle Cloud Infrastructure services | US East (Ashburn) | CN-211241",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2022-03-04T19:04:51.587Z",
-      "updated_at": "2022-03-04T19:04:51.844Z",
-      "monitoring_at": null,
+      "updated_at": "2022-03-04T20:47:20.720Z",
+      "monitoring_at": "2022-03-04T20:47:20.702Z",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/4fvp8tfgm51l",
       "started_at": "2022-03-04T19:04:51.557Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "tb2l53ndfnhc",
+          "status": "monitoring",
+          "body": "We've applied a fix to mitigate the issue affecting multiple Oracle Cloud Infrastructure services in the US East (Ashburn) region. We're currently seeing significant improvements in our metrics, and we're continuing to monitor the issue to confirm full recovery.",
+          "incident_id": "mt5gvjbj58v4",
+          "created_at": "2022-03-04T20:47:20.702Z",
+          "updated_at": "2022-03-04T20:47:20.702Z",
+          "display_at": "2022-03-04T20:47:20.702Z",
+          "affected_components": [
+            {
+              "code": "9c7ckly20b88",
+              "name": "Compute - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1t8kwz3bvhl5",
+              "name": "Networking - Virtual Cloud Networks - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "w1mh8h0xljvl",
+              "name": "File Storage - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1f2cm69cj21q",
+              "name": "Block Storage - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lp82tkj1c0lq",
+              "name": "Developer Services - Container Clusters (OKE) - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "p672sfqr5d4z",
+              "name": "Functions - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jyymkz9mvn0d",
+              "name": "Cloud Shell - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "ss2r28hk890c",
+              "name": "Data Science - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "sw1s612g83b1",
+              "name": "MySQL Database Service - US East (Ashburn)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "42mlzpqdb1v4",
           "status": "identified",
@@ -16746,6 +16814,21 @@
           "only_show_if_degraded": false
         },
         {
+          "id": "lp82tkj1c0lq",
+          "name": "us-ashburn-1 region",
+          "status": "degraded_performance",
+          "created_at": "2018-08-21T19:09:53.446Z",
+          "updated_at": "2022-03-04T20:47:20.587Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "j534vmnnt3j4",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
           "id": "p672sfqr5d4z",
           "name": "US East (Ashburn)",
           "status": "degraded_performance",
@@ -16786,6 +16869,21 @@
           "showcase": false,
           "start_date": null,
           "group_id": "99h2c5hxp4dp",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "sw1s612g83b1",
+          "name": "US East (Ashburn)",
+          "status": "degraded_performance",
+          "created_at": "2020-03-17T18:59:00.560Z",
+          "updated_at": "2022-03-04T20:47:20.629Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "k0tcpxgc753t",
           "page_id": "2bsbdh54lcgq",
           "group": false,
           "only_show_if_degraded": false

@@ -4,7 +4,7 @@
     "name": "OCI",
     "url": "https://ocistatus.oraclecloud.com",
     "time_zone": "Etc/UTC",
-    "updated_at": "2022-03-14T07:50:56.902Z"
+    "updated_at": "2022-03-14T08:17:08.465Z"
   },
   "components": [
     {
@@ -12178,7 +12178,7 @@
     {
       "id": "j534vmnnt3j4",
       "name": "Developer Services - Container Clusters (OKE)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-21T19:09:53.437Z",
       "updated_at": "2021-07-17T04:59:21.268Z",
       "position": 18,
@@ -13846,9 +13846,9 @@
     {
       "id": "lp82tkj1c0lq",
       "name": "us-ashburn-1 region",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-08-21T19:09:53.446Z",
-      "updated_at": "2022-03-05T06:32:34.624Z",
+      "updated_at": "2022-03-14T08:17:08.358Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -14009,6 +14009,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "ss2r28hk890c",
+      "name": "US East (Ashburn)",
+      "status": "degraded_performance",
+      "created_at": "2020-02-11T21:51:16.173Z",
+      "updated_at": "2022-03-14T08:17:08.375Z",
+      "position": 20,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": "99h2c5hxp4dp",
+      "page_id": "2bsbdh54lcgq",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "jyymkz9mvn0d",
       "name": "US East (Ashburn)",
       "status": "operational",
@@ -14019,21 +14034,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "kgb3x2451pb6",
-      "page_id": "2bsbdh54lcgq",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "ss2r28hk890c",
-      "name": "US East (Ashburn)",
-      "status": "operational",
-      "created_at": "2020-02-11T21:51:16.173Z",
-      "updated_at": "2022-03-05T06:32:34.677Z",
-      "position": 20,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": "99h2c5hxp4dp",
       "page_id": "2bsbdh54lcgq",
       "group": false,
       "only_show_if_degraded": false
@@ -14245,9 +14245,9 @@
     {
       "id": "wdny85n1cg2p",
       "name": "US East (Ashburn)",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-02-09T04:16:37.864Z",
-      "updated_at": "2022-03-05T06:32:34.739Z",
+      "updated_at": "2022-03-14T08:17:08.389Z",
       "position": 20,
       "description": null,
       "showcase": false,
@@ -16186,7 +16186,7 @@
     {
       "id": "x7526fhpytvm",
       "name": "Data Flow",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-02-09T04:16:22.354Z",
       "updated_at": "2021-07-17T04:59:21.441Z",
       "position": 35,
@@ -16381,7 +16381,7 @@
     {
       "id": "99h2c5hxp4dp",
       "name": "Data Science",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2020-02-11T21:51:00.601Z",
       "updated_at": "2021-07-17T04:59:21.488Z",
       "position": 40,
@@ -16619,7 +16619,7 @@
       "name": "Multiple Oracle Cloud Infrastructure services | US East (Ashburn) | CN-218967",
       "status": "identified",
       "created_at": "2022-03-14T07:50:56.756Z",
-      "updated_at": "2022-03-14T07:50:56.899Z",
+      "updated_at": "2022-03-14T08:17:08.457Z",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -16627,6 +16627,50 @@
       "started_at": "2022-03-14T07:50:56.745Z",
       "page_id": "2bsbdh54lcgq",
       "incident_updates": [
+        {
+          "id": "hjzk9dvgc17z",
+          "status": "identified",
+          "body": "We've identified an issue affecting multiple Oracle Cloud Infrastructure services in the US East (Ashburn) region. Our engineers are actively working to mitigate the issue.\n\nCustomer Impact: Customers may be experiencing failures or latency performing operations that utilize virtual networking. This includes compute instance launches and VNIC attachments and detachments. Services that rely on these underlying actions may also experience an impact. \n\nService management operations as well for some services like Create and Delete might be failing. \n\nImpacted Services:\n\n- Virtual networking\n\n- Compute\n\n- Data Science\n\n- Data Flow\n\n- Container Engine for Kubernetes\n\nStart Time: March 14, 2022 07:02 UTC\n\nReference Number: CN-218967",
+          "incident_id": "cdp8htxc3hsy",
+          "created_at": "2022-03-14T08:17:08.454Z",
+          "updated_at": "2022-03-14T08:17:08.454Z",
+          "display_at": "2022-03-14T08:17:08.454Z",
+          "affected_components": [
+            {
+              "code": "9c7ckly20b88",
+              "name": "Compute - US East (Ashburn)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "1t8kwz3bvhl5",
+              "name": "Networking - Virtual Cloud Networks - us-ashburn-1 region",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "lp82tkj1c0lq",
+              "name": "Developer Services - Container Clusters (OKE) - us-ashburn-1 region",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "wdny85n1cg2p",
+              "name": "Data Flow - US East (Ashburn)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "ss2r28hk890c",
+              "name": "Data Science - US East (Ashburn)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wrbk32q39hs2",
           "status": "identified",
@@ -16681,6 +16725,51 @@
           "showcase": false,
           "start_date": null,
           "group_id": "f5ppqjqjq0sf",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lp82tkj1c0lq",
+          "name": "us-ashburn-1 region",
+          "status": "degraded_performance",
+          "created_at": "2018-08-21T19:09:53.446Z",
+          "updated_at": "2022-03-14T08:17:08.358Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "j534vmnnt3j4",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "wdny85n1cg2p",
+          "name": "US East (Ashburn)",
+          "status": "degraded_performance",
+          "created_at": "2020-02-09T04:16:37.864Z",
+          "updated_at": "2022-03-14T08:17:08.389Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "x7526fhpytvm",
+          "page_id": "2bsbdh54lcgq",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "ss2r28hk890c",
+          "name": "US East (Ashburn)",
+          "status": "degraded_performance",
+          "created_at": "2020-02-11T21:51:16.173Z",
+          "updated_at": "2022-03-14T08:17:08.375Z",
+          "position": 20,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": "99h2c5hxp4dp",
           "page_id": "2bsbdh54lcgq",
           "group": false,
           "only_show_if_degraded": false
